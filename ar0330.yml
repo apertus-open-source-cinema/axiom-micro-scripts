@@ -246,3 +246,6 @@ hispi_control_status:
 frame_status:
     address: 0x303c
     width: 2
+digital_test:
+    address: 0x30b0
+    width: 2

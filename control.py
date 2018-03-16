@@ -6,9 +6,10 @@ from pll import optimal_pll_config
 
 ar0330 = load(open("ar0330.yml"))
 
-extclk = 10000000
+# extclk = 10000000
+extclk = 24000000
 i2c_bus = "1"
-address = 0x10
+address = 0x18
 ar0330_gpio_addr = 0x41200000
 
 def gpio(addr, value=0xdeadbeef):
@@ -27,6 +28,8 @@ def i2ctransfer(cmd):
         print("i2ctransfer errored: ", output)
         exit(-1)
     else:
+        if output == '':
+            return 0
         value = 0
         for (i, x) in enumerate(reversed(list(map(lambda x: int(x, 16), output.strip().split(' '))))):
             value += x * 256**i
@@ -51,12 +54,13 @@ def write(register_name, value, cam = ar0330):
     addr_low = addr & 0xff
     write_value = []
 
-    for v in range(1, count):
+    for v in range(1, count + 1):
         write_value.append("0x%x" % (value & 0xff))
         value >>= 8
 
     values = " ".join(reversed(write_value))
     transfer_cmd = "w%d@%d %d %d %s" % (2 + count, address, addr_high, addr_low, values)
+    return(i2ctransfer(transfer_cmd))
     
 
 # init 
@@ -73,7 +77,7 @@ write("magic_init_config", 0xa114)
 write("magic_init_start", 0x0070)
 
 # reset
-write("reset", 1)
+# write("reset", 1)
 
 sleep(.1)
 
@@ -90,6 +94,7 @@ write("magic_patch3", 0xaa63)
 write("magic_patch4", 0x00a0)
 
 # pll config for 12bit, 4 lane hispi
+# vco_hispi_4lanes_12bit_clk = 588000000 # 588 MHz
 vco_hispi_4lanes_12bit_clk = 588000000 # 588 MHz
 pll_config = optimal_pll_config(extclk, vco_hispi_4lanes_12bit_clk)
 pre_pll_clk_div = pll_config["pre_pll_clk_div"] 
@@ -108,6 +113,9 @@ write("pll_multiplier", pll_multiplier)
 write("op_pix_clk_div", op_pix_clk_div)
 write("op_sys_clk_div", op_sys_clk_div)
 
+# test lolol
+# write("digital_test", 0x4000)
+
 # pll lock time
 sleep(.1)
 
@@ -122,23 +130,23 @@ write("datapath_select", 1 << 9);
 ## 0x0304 - 4 lane hispi
 
 
-write("frame_preamble", 36);
-write("line_preamble", 12);
-write("mipi_timing_0", 0X2643);
-write("mipi_timing_1", 0X114e);
-write("mipi_timing_2", 0X2048);
-write("mipi_timing_3", 0X0186);
-write("mipi_timing_4", 0X8005);
-write("mipi_config_status", 0x2003);
+# write("frame_preamble", 36);
+# write("line_preamble", 12);
+# write("mipi_timing_0", 0X2643);
+# write("mipi_timing_1", 0X114e);
+# write("mipi_timing_2", 0X2048);
+# write("mipi_timing_3", 0X0186);
+# write("mipi_timing_4", 0X8005);
+# write("mipi_config_status", 0x2003);
 
 # hispi enable, test pattern all ones 
 # write("hispi_control_status", int("0000 0001 1001 0100".replace(' ', ''), 2))
 # write("hispi_control_status", int("1000 0000 0000 0100".replace(' ', ''), 2))
 
-write("serial_format", 0x0202)
+write("serial_format", 0x0304)
 
-write("reset", 0)
-write("reset", int("0000 0000 0100 0000".replace(' ', ''), 2))
+# write("reset", 0)
+# write("reset", int("0000 0000 0100 0000".replace(' ', ''), 2))
 
 
 # set window
@@ -148,30 +156,33 @@ y_start = 6
 width = 2304
 height = 1296
 
-write("x_addr_start", x_start)
-write("x_addr_end", x_start + width)
-write("y_addr_start", y_start)
-write("y_addr_end", y_start + height)
-write("line_length_pck", max(width, 1242))
-write("frame_length_lines", height + 12)
+# write("x_addr_start", x_start)
+# write("x_addr_end", x_start + width)
+# write("y_addr_start", y_start)
+# write("y_addr_end", y_start + height)
+# write("line_length_pck", max(width, 1242))
+# write("frame_length_lines", height + 12)
 
 # walking one's
-write("test_pattern_mode", 256)
+# write("test_pattern_mode", 256)
 
 # enable streaming 
-write("reset", int("0000 1000 0000 0100".replace(' ', ''), 2))
+# write("reset", int("0000 0000 0000 0100".replace(' ', ''), 2))
 write("mode_select", 1)
 
+print("x_start", "%d" % read("x_addr_start"))
+print("x_end", "%d" % read("x_addr_end"))
+print("y_start", "%d" % read("y_addr_start"))
+print("y_end", "%d" % read("y_addr_end"))
+print("line_length_pck", "%d" % read("line_length_pck"))
+print("frame_length_lines", "%d" % read("frame_length_lines"))
+
 while 1:
-    print("reset", "0x%x" % read("reset"))
-    print("control_status", "0x%x" % read("hispi_control_status"))
-    print("frame_count", "0x%x" % read("frame_count"))
-    print("frame_status", "0x%x" % read("frame_status"))
-    print("x_start", "0x%x" % read("x_addr_start"))
-    print("x_end", "0x%x" % read("x_addr_end"))
-    print("y_start", "0x%x" % read("y_addr_start"))
-    print("y_end", "0x%x" % read("y_addr_end"))
-    sleep(.5)
+#    print("reset", "0x%x" % read("reset"))
+#    print("control_status", "0x%x" % read("hispi_control_status"))
+    print("frame_count", "%d" % read("frame_count"), end='\r')
+#    print("frame_status", "0x%x" % read("frame_status"))
+    sleep(1)
 
 
 #define AR0330_VT_PIX_CLK_DIV				0x302a

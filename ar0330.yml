@@ -76,7 +76,10 @@ lock_control:
     unlock: 0xbeef
 coarse_integration_time: 
     address: 0x3012
-    width: 1
+    width: 2
+fine_integration_time: 
+    address: 0x3014
+    width: 2
 reset: 
     address: 0x301a
     width: 2
@@ -148,7 +151,7 @@ global_gain:
     max: 15992
 analog_gain: 
     address: 0x3060
-    width: 1
+    width: 2
 smia_test: 
     address: 0x3064
     width: 2

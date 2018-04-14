@@ -356,13 +356,13 @@ int main(int argc, char** argv) {
 
     bool good_values[4][32] = { { 0 } };
 
-    delay.set(0, 16);
-    delay.set(1, 10);
-    delay.set(2, 2);
-    delay.set(3, 16);
+    delay.set(0, 5);
+    delay.set(1, 5);
+    delay.set(2, 5);
+    delay.set(3, 5);
     
 /*    
-    for(int lane = 3; lane < 4; lane++) {
+    for(int lane = 0; lane < 4; lane++) {
         for(int tap = 0; tap < 32; tap++) {
             delay.set(lane, tap); 
             auto raw_data = dma.transfer(data_size); 
@@ -372,6 +372,7 @@ int main(int argc, char** argv) {
         }
     }
 */
+
     for(int lane = 0; lane < 4; lane++) {
         for(int tap = 0; tap < 32; tap++) {
             printf("%d", good_values[lane][tap]);

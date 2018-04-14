@@ -126,6 +126,8 @@ write("data_format_bits", 0x0c0c)
 # serial output format
 ## select hivcm (1V8)
 write("datapath_select", 1 << 9);
+## lol ????
+write("mipi_config_status", 0xc00d);
 
 ## 0x0202 - 2 lane mipi
 ## 0x0304 - 4 lane hispi
@@ -181,21 +183,37 @@ height = 1296
 # write("test_data_greenb", 0b110010101111)
 # write("test_data_greenr", 0b101101010011)
 
-write("test_data_red",    0b101010101010)
-write("test_data_blue",   0b101010101010)
-write("test_data_greenb", 0b010101010101)
-write("test_data_greenr", 0b010101010101)
-write("test_pattern_mode", 1)
+write("test_data_red",    0b101000101010)
+write("test_data_blue",   0b101000101010)
+write("test_data_greenb", 0b010011010101)
+write("test_data_greenr", 0b010011010101)
+
+# test pattern mode
+## 0   - no test pattern
+## 1   - solid color
+## 2   - solid color bars
+## 3   - fade to gray color bars
+## 256 - walking 1s
+write("test_pattern_mode", 0)
 
 print("test_data_red", "%d" % read("test_data_red"))
 print("test_data_blue", "%d" % read("test_data_blue"))
 print("test_data_greenb", "%d" % read("test_data_greenb"))
 print("test_data_greenr", "%d" % read("test_data_greenr"))
 
+write("analog_gain", 0x003f)
+print("coarse_integration_time", "%d" % read("coarse_integration_time"))
+print("fine_integration_time", "%d" % read("fine_integration_time"))
+write("coarse_integration_time", 1500)
+write("fine_integration_time", 0)
+
+
+
 # enable streaming 
 # write("reset", int("0000 0000 0000 0100".replace(' ', ''), 2))
 #write("hispi_timing", int("1000 0000 0001 1001".replace(' ', ''), 2))
-write("hispi_timing", int("1 000 000 101 011 001".replace(' ', ''), 2))
+#write("hispi_timing", int("1 000 000 101 011 001".replace(' ', ''), 2))
+write("hispi_timing", int("1 000 000 000 000 000".replace(' ', ''), 2))
 sleep(.1)
 write("mode_select", 1)
 
@@ -209,13 +227,13 @@ print("hispi_control_status", "0x%x" % read("hispi_control_status"))
 print("hispi_timing", "0x%x" % read("hispi_timing"))
 print("hispi_sync_patt", "0x%x" % read("hispi_sync_patt"))
 
-#while 1:
+while 1:
 #    print("reset", "0x%x" % read("reset"))
 #    print("control_status", "0x%x" % read("hispi_control_status"))
 #    print("hispi_timing", "0x%x" % read("hispi_timing"))
-#    print("frame_count", "%d" % read("frame_count"), end='\r')
+    print("frame_count", "%d" % read("frame_count"), end='\r')
 #    print("frame_status", "0x%x" % read("frame_status"))
-#    sleep(1)
+    sleep(1)
 
 
 #define AR0330_VT_PIX_CLK_DIV				0x302a

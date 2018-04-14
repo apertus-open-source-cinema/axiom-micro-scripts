@@ -14,7 +14,7 @@ def optimal_pll_config(extclk, vco_target):
     mul_min = 32
     mul_max = 384
     
-    for vco in range(vco_max, vco_min, -1):
+    for vco in range(vco_max, vco_min - 1, -1):
         i = gcd(extclk, vco)
         div = extclk / i
         mul = vco / i

@@ -8,7 +8,6 @@ Of of concept offloaded memcopy using AXI Direct Memory Access v7.1
 #include <termios.h>
 #include <sys/mman.h>
 #include <string.h>
-#include <inttypes.h>
 
 #define S2MM_CONTROL_REGISTER 0x30
 #define S2MM_STATUS_REGISTER 0x34
@@ -38,7 +37,6 @@ void dma_s2mm_status(unsigned int* dma_virtual_address) {
     if (status & 0x00001000) printf(" IOC_Irq");
     if (status & 0x00002000) printf(" Dly_Irq");
     if (status & 0x00004000) printf(" Err_Irq");
-    printf(" length: %d", dma_get(dma_virtual_address, S2MM_LENGTH));
     printf("\n");
 }
 
@@ -52,7 +50,7 @@ void memdump(void* virtual_address, int byte_count) {
     printf("\n");
 }
 
-int dma_s2mm_sync(unsigned int* dma_virtual_address) {
+int dma_s2mm_sync(unsigned int* dma_virtual_address, unsigned int* dest) {
     unsigned int s2mm_status = dma_get(dma_virtual_address, S2MM_STATUS_REGISTER);
     while(!(s2mm_status & 0x2) && !(s2mm_status & 0x1)) {
 	// printf("%d\n", s2mm_status & 0x2);
@@ -62,50 +60,12 @@ int dma_s2mm_sync(unsigned int* dma_virtual_address) {
 
         s2mm_status = dma_get(dma_virtual_address, S2MM_STATUS_REGISTER);
     }
-    dma_s2mm_status(dma_virtual_address);
-}
-
-void transfer(unsigned int * virtual_address, size_t dest, size_t size) {
-    //  printf("Resetting DMA\n");
-//    dma_set(virtual_address, S2MM_CONTROL_REGISTER, 4);
-    dma_s2mm_status(virtual_address);
-//     memset(virtual_destination_address, 0, blksize); // Clear destination block
-    // printf("Halting DMA\n");
-    dma_set(virtual_address, S2MM_CONTROL_REGISTER, 0);
-    dma_s2mm_status(virtual_address);
-   
-//    printf("Destination memory block: "); memdump(virtual_destination_address, blksize);
-   
-    // printf("Writing destination address\n");
-    dma_set(virtual_address, S2MM_DESTINATION_ADDRESS, dest); // Write destination address
-//    dma_s2mm_status(virtual_address);
-   
-    // printf("Starting S2MM channel with all interrupts masked...\n");
-    dma_set(virtual_address, S2MM_CONTROL_REGISTER, 0x0001);
-    //dma_set(virtual_address, S2MM_CONTROL_REGISTER, 0xf001);
-    dma_s2mm_status(virtual_address);
-   
-    // printf("Writing S2MM transfer length...\n");
-//    tlast_gen[0] = 0;
-    dma_set(virtual_address, S2MM_LENGTH, size);
-    dma_s2mm_status(virtual_address);
-   
-    // printf("Waiting for S2MM sychronization...\n");
-    //
-    // printf("Destination memory block: "); memdump(virtual_destination_address, blksize);
-    // printf("Destination memory block: "); memdump(virtual_destination_address, blksize);
-    // printf("Destination memory block: "); memdump(virtual_destination_address, blksize);
-    // printf("sync\n");
-    
-    dma_s2mm_sync(virtual_address); // If this locks up make sure all memory ranges are assigned under Address Editor!
 }
 
 int main() {
-    int dest_base = 0x0f800000;
-//    int dest_base = 0x07800000;
+    int dest_base = 0x7800000;
     int dh = open("/dev/mem", O_RDWR | O_SYNC); // Open /dev/mem which represents the whole physical memory
     int outfile = open("dump.ram", O_RDWR | O_CREAT);
-//    size_t size = 1 << 27;
     size_t size = 1 << 27;
     lseek(outfile, size - 1, SEEK_SET);
     write(outfile, "", 1);
@@ -113,30 +73,44 @@ int main() {
 	
 
     unsigned int* virtual_address = mmap(NULL, 65535, PROT_READ | PROT_WRITE, MAP_SHARED, dh, 0x40400000); // Memory map AXI Lite register block
-    int32_t* tlast_gen = mmap(NULL, 65535, PROT_READ | PROT_WRITE, MAP_SHARED, dh, 0x41200000); // Memory map AXI Lite register block
-    unsigned int* virtual_destination_address = mmap(NULL, size, PROT_READ | PROT_WRITE, MAP_SHARED, dh, dest_base); // Memory map destination address
+    unsigned int* virtual_destination_address = mmap(NULL, 65535, PROT_READ | PROT_WRITE, MAP_SHARED, dh, dest_base); // Memory map destination address
 
-//    printf("0x%x\n", tlast_gen);
-
-    size_t blksize = 1 << 22;
-//    size_t blksize = 1 << 6;
+    size_t blksize = 1 << 16;
 
 
-    dma_set(virtual_address, S2MM_CONTROL_REGISTER, 4);
-
-    // memset(out_map, 0, size); // Clear destination file
-    memset(virtual_destination_address, 1, size); // Clear destination block
-//    memdump(virtual_destination_address, size);
-    tlast_gen[2] = blksize / 4;
-    sleep(1);
-
-
-    // single transfer to get clean pipeline state and shit
-    transfer(virtual_address, dest_base, blksize);
 
     for(int pos = 0; pos < size; pos = pos + blksize) {
 	int dest = dest_base + pos;
-	transfer(virtual_address, dest, blksize);
+//        printf("Resetting DMA\n");
+        dma_set(virtual_address, S2MM_CONTROL_REGISTER, 4);
+        dma_s2mm_status(virtual_address);
+        // memset(virtual_destination_address, 0, blksize); // Clear destination block
+        // printf("Halting DMA\n");
+        dma_set(virtual_address, S2MM_CONTROL_REGISTER, 0);
+        dma_s2mm_status(virtual_address);
+    
+        // printf("Destination memory block: "); memdump(virtual_destination_address, blksize);
+    
+        // printf("Writing destination address\n");
+        dma_set(virtual_address, S2MM_DESTINATION_ADDRESS, dest); // Write destination address
+        dma_s2mm_status(virtual_address);
+    
+        // printf("Starting S2MM channel with all interrupts masked...\n");
+        dma_set(virtual_address, S2MM_CONTROL_REGISTER, 0xf001);
+//        dma_s2mm_status(virtual_address);
+    
+        // printf("Writing S2MM transfer length...\n");
+        dma_set(virtual_address, S2MM_LENGTH, blksize);
+//        dma_s2mm_status(virtual_address);
+    
+        // printf("Waiting for S2MM sychronization...\n");
+	/*
+        printf("Destination memory block: "); memdump(virtual_destination_address, blksize);
+        printf("Destination memory block: "); memdump(virtual_destination_address, blksize);
+        printf("Destination memory block: "); memdump(virtual_destination_address, blksize);
+	printf("sync\n");
+	*/
+        dma_s2mm_sync(virtual_address, virtual_destination_address); // If this locks up make sure all memory ranges are assigned under Address Editor!
     } 
 
     memcpy(out_map, virtual_destination_address, size);

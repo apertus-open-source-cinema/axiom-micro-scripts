@@ -175,15 +175,27 @@ height = 1296
 # write("test_data_blue", 0b101010101010)
 # write("test_data_greenb", 0b000000000000)
 # write("test_data_greenr", 0b101010101010)
-write("test_data_red", 0b000111111000)
-write("test_data_blue", 0b001111110000)
-write("test_data_greenb", 0b011111100000)
-write("test_data_greenr", 0b111111000000)
+
+# write("test_data_red",    0b011110001001)
+# write("test_data_blue",   0b100100011111)
+# write("test_data_greenb", 0b110010101111)
+# write("test_data_greenr", 0b101101010011)
+
+write("test_data_red",    0b101010101010)
+write("test_data_blue",   0b101010101010)
+write("test_data_greenb", 0b010101010101)
+write("test_data_greenr", 0b010101010101)
 write("test_pattern_mode", 1)
+
+print("test_data_red", "%d" % read("test_data_red"))
+print("test_data_blue", "%d" % read("test_data_blue"))
+print("test_data_greenb", "%d" % read("test_data_greenb"))
+print("test_data_greenr", "%d" % read("test_data_greenr"))
 
 # enable streaming 
 # write("reset", int("0000 0000 0000 0100".replace(' ', ''), 2))
-write("hispi_timing", int("1000 0000 0001 1001".replace(' ', ''), 2))
+#write("hispi_timing", int("1000 0000 0001 1001".replace(' ', ''), 2))
+write("hispi_timing", int("1 000 000 101 011 001".replace(' ', ''), 2))
 sleep(.1)
 write("mode_select", 1)
 
@@ -197,13 +209,13 @@ print("hispi_control_status", "0x%x" % read("hispi_control_status"))
 print("hispi_timing", "0x%x" % read("hispi_timing"))
 print("hispi_sync_patt", "0x%x" % read("hispi_sync_patt"))
 
-while 1:
+#while 1:
 #    print("reset", "0x%x" % read("reset"))
 #    print("control_status", "0x%x" % read("hispi_control_status"))
-    print("hispi_timing", "0x%x" % read("hispi_timing"))
-    print("frame_count", "%d" % read("frame_count"), end='\r')
+#    print("hispi_timing", "0x%x" % read("hispi_timing"))
+#    print("frame_count", "%d" % read("frame_count"), end='\r')
 #    print("frame_status", "0x%x" % read("frame_status"))
-    sleep(1)
+#    sleep(1)
 
 
 #define AR0330_VT_PIX_CLK_DIV				0x302a

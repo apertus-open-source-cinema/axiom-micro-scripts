@@ -173,13 +173,13 @@ test_data_red:
     width: 2
 test_data_greenr: 
     address: 0x3074
-    width: 1
+    width: 2
 test_data_blue: 
     address: 0x3076
-    width: 1
+    width: 2
 test_data_greenb: 
     address: 0x3078
-    width: 1
+    width: 2
 seq_data_port: 
     address: 0x3086
     width: 1
@@ -231,7 +231,7 @@ mipi_timing_4:
     width: 1
 mipi_config_status: 
     address: 0x31be
-    width: 1
+    width: 2
 compression: 
     address: 0x31d0
     width: 1
@@ -242,6 +242,12 @@ poly_sc:
     enable_bit: 15
 hispi_control_status:
     address: 0x31c6
+    width: 2
+hispi_timing:
+    address: 0x31c0
+    width: 2
+hispi_sync_patt:
+    address: 0x31c4
     width: 2
 frame_status:
     address: 0x303c

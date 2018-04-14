@@ -20,8 +20,8 @@
 
 	memory {
 		device_type = "memory";
-//		reg = <0x0 0xf800000 >;
-		reg = <0x0 0x20000000>;
+		reg = <0x0 0xf800000 >;
+//		reg = <0x0 0x20000000>;
 	};
 
    	reserved-memory {
@@ -124,7 +124,7 @@
 			};
 		};
 */
-/*
+
 
 		i2c@41600000 {
 			#address-cells = <0x1>;
@@ -136,7 +136,6 @@
 			interrupts = <0x0 0x1d 0x4>;
 			reg = <0x41600000 0x10000>;
 		};
-*/
 
 
 		efuse@f800d000 {

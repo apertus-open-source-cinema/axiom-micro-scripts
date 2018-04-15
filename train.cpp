@@ -329,22 +329,36 @@ struct delay_control {
 };
 
 bool data_good(int lane_number, volatile uint32_t * data, size_t size) {
-    auto lane_data = hispi_decoder::get_aligned_lanes(data, size);
+    auto lane_data = hispi_decoder::get_aligned_lanes(data, size / 64);
     auto lane = lane_data[lane_number];
 
-    for(int i = 0; i < lane.size() - 4; i++) {
+    for(int i = 0; i < lane.size() - 8; i++) {
+        /*
+        if(lane[i].data == 0b101010101010) {
+            printf("good value %d = ", lane[i].data);
+            print_bits(lane[i]);
+            printf("\n");
+        }
+        */
+        // print_bits(lane[i]);
+
         if(lane[i + 0].data == 0xfff && lane[i + 1].data == 0x000
         && lane[i + 2].data == 0x000 && lane[i + 3].data == 0x001) {
-            if(lane[i + 4].data != 0 && lane[i + 4].data != 0xfff) {
-                printf("good value %d = ", lane[i + 4].data);
+            if(lane[i + 4].data == lane[i + 5].data 
+            && lane[i + 4].data == lane[i + 6].data
+            && lane[i + 5].data == lane[i + 7].data
+            && lane[i + 5].data == lane[i + 7].data) {
+//                printf("good value %d = ", lane[i + 4].data);
                 print_bits(lane[i + 4]);
-                printf("\n");
+                printf(" ");
                 return 1;
             } else {
                 printf("near fit %d\n", lane[i + 4].data);
             }
         }
     }
+
+    printf("             ");
 
     return 0;
 }
@@ -361,22 +375,35 @@ int main(int argc, char** argv) {
     delay.set(2, 5);
     delay.set(3, 5);
     
-/*    
-    for(int lane = 0; lane < 4; lane++) {
-        for(int tap = 0; tap < 32; tap++) {
-            delay.set(lane, tap); 
-            auto raw_data = dma.transfer(data_size); 
+    auto raw_data = dma.transfer(data_size); 
+    if(argc == 2) {
+        uint12_t d;
+        d.data = atoi(argv[1]);
+        print_bits(d);
+        printf(" ");
 
-            printf("lane %d, tap %d\n", lane, tap);
-            good_values[lane][tap] = data_good(lane, raw_data, data_size);
-        }
-    }
-*/
-
-    for(int lane = 0; lane < 4; lane++) {
-        for(int tap = 0; tap < 32; tap++) {
-            printf("%d", good_values[lane][tap]);
-        }
+        data_good(0, raw_data, data_size);
+        data_good(1, raw_data, data_size);
+        data_good(2, raw_data, data_size);
+        data_good(3, raw_data, data_size);
         printf("\n");
+    } else {
+        for(int lane = 0; lane < 4; lane++) {
+            for(int tap = 0; tap < 32; tap++) {
+                delay.set(lane, tap); 
+                auto raw_data = dma.transfer(data_size); 
+
+                printf("lane %d, tap %d\n", lane, tap);
+                good_values[lane][tap] = data_good(lane, raw_data, data_size);
+            }
+        }
+
+
+        for(int lane = 0; lane < 4; lane++) {
+            for(int tap = 0; tap < 32; tap++) {
+                printf("%d", good_values[lane][tap]);
+            }
+            printf("\n");
+        }
     }
 }

@@ -1,0 +1,5018 @@
+reserved_chiprev  0x1208
+version  0x8
+test_data_red 2730
+test_data_blue 2730
+test_data_greenb 2730
+test_data_greenr 2730
+coarse_integration_time 16
+fine_integration_time 0
+x_start 6
+x_end 2309
+y_start 124
+y_end 1419
+line_length_pck 1248
+frame_length_lines 1308
+hispi_control_status 0x400
+hispi_timing 0x8000
+hispi_sync_patt 0xf555
+clock 0 lane 0 dll 0
+lane 0, tap 0
+good value 2602 = 101000101010
+lane 0, tap 1
+good value 2602 = 101000101010
+lane 0, tap 2
+good value 2602 = 101000101010
+lane 0, tap 3
+good value 2602 = 101000101010
+lane 0, tap 4
+good value 2602 = 101000101010
+lane 0, tap 5
+good value 2602 = 101000101010
+lane 0, tap 6
+good value 2602 = 101000101010
+lane 0, tap 7
+good value 2602 = 101000101010
+lane 0, tap 8
+good value 2602 = 101000101010
+lane 0, tap 9
+good value 2602 = 101000101010
+lane 0, tap 10
+good value 2602 = 101000101010
+lane 0, tap 11
+good value 2602 = 101000101010
+lane 0, tap 12
+good value 2602 = 101000101010
+lane 0, tap 13
+lane 0, tap 14
+good value 2858 = 101100101010
+lane 0, tap 15
+good value 2602 = 101000101010
+lane 0, tap 16
+good value 2602 = 101000101010
+lane 0, tap 17
+good value 2602 = 101000101010
+lane 0, tap 18
+good value 2602 = 101000101010
+lane 0, tap 19
+good value 2602 = 101000101010
+lane 0, tap 20
+good value 2602 = 101000101010
+lane 0, tap 21
+good value 2602 = 101000101010
+lane 0, tap 22
+good value 2602 = 101000101010
+lane 0, tap 23
+good value 2602 = 101000101010
+lane 0, tap 24
+good value 2602 = 101000101010
+lane 0, tap 25
+good value 2602 = 101000101010
+lane 0, tap 26
+good value 2602 = 101000101010
+lane 0, tap 27
+good value 2602 = 101000101010
+lane 0, tap 28
+good value 2602 = 101000101010
+lane 0, tap 29
+good value 2602 = 101000101010
+lane 0, tap 30
+good value 2602 = 101000101010
+lane 0, tap 31
+good value 2602 = 101000101010
+lane 1, tap 0
+lane 1, tap 1
+good value 2602 = 101000101010
+lane 1, tap 2
+good value 2602 = 101000101010
+lane 1, tap 3
+good value 2602 = 101000101010
+lane 1, tap 4
+good value 2602 = 101000101010
+lane 1, tap 5
+good value 2602 = 101000101010
+lane 1, tap 6
+good value 2602 = 101000101010
+lane 1, tap 7
+good value 2602 = 101000101010
+lane 1, tap 8
+good value 2602 = 101000101010
+lane 1, tap 9
+good value 2602 = 101000101010
+lane 1, tap 10
+good value 2602 = 101000101010
+lane 1, tap 11
+good value 2602 = 101000101010
+lane 1, tap 12
+good value 2602 = 101000101010
+lane 1, tap 13
+good value 2602 = 101000101010
+lane 1, tap 14
+good value 2602 = 101000101010
+lane 1, tap 15
+good value 2602 = 101000101010
+lane 1, tap 16
+good value 2602 = 101000101010
+lane 1, tap 17
+good value 2602 = 101000101010
+lane 1, tap 18
+good value 2602 = 101000101010
+lane 1, tap 19
+good value 2602 = 101000101010
+lane 1, tap 20
+good value 2602 = 101000101010
+lane 1, tap 21
+good value 2602 = 101000101010
+lane 1, tap 22
+lane 1, tap 23
+good value 2578 = 101000010010
+lane 1, tap 24
+good value 2602 = 101000101010
+lane 1, tap 25
+good value 2602 = 101000101010
+lane 1, tap 26
+good value 2602 = 101000101010
+lane 1, tap 27
+good value 2602 = 101000101010
+lane 1, tap 28
+good value 2602 = 101000101010
+lane 1, tap 29
+good value 2602 = 101000101010
+lane 1, tap 30
+good value 2602 = 101000101010
+lane 1, tap 31
+good value 2602 = 101000101010
+lane 2, tap 0
+good value 2602 = 101000101010
+lane 2, tap 1
+good value 2602 = 101000101010
+lane 2, tap 2
+good value 2602 = 101000101010
+lane 2, tap 3
+good value 2602 = 101000101010
+lane 2, tap 4
+good value 2602 = 101000101010
+lane 2, tap 5
+good value 2602 = 101000101010
+lane 2, tap 6
+good value 2602 = 101000101010
+lane 2, tap 7
+good value 2602 = 101000101010
+lane 2, tap 8
+good value 2602 = 101000101010
+lane 2, tap 9
+good value 2602 = 101000101010
+lane 2, tap 10
+good value 2602 = 101000101010
+lane 2, tap 11
+good value 2602 = 101000101010
+lane 2, tap 12
+good value 2602 = 101000101010
+lane 2, tap 13
+good value 2602 = 101000101010
+lane 2, tap 14
+good value 2602 = 101000101010
+lane 2, tap 15
+good value 2602 = 101000101010
+lane 2, tap 16
+good value 2602 = 101000101010
+lane 2, tap 17
+good value 2602 = 101000101010
+lane 2, tap 18
+good value 2602 = 101000101010
+lane 2, tap 19
+good value 2602 = 101000101010
+lane 2, tap 20
+good value 2602 = 101000101010
+lane 2, tap 21
+good value 1556 = 011000010100
+lane 2, tap 22
+good value 2602 = 101000101010
+lane 2, tap 23
+good value 2602 = 101000101010
+lane 2, tap 24
+good value 2602 = 101000101010
+lane 2, tap 25
+good value 2602 = 101000101010
+lane 2, tap 26
+good value 2602 = 101000101010
+lane 2, tap 27
+good value 2602 = 101000101010
+lane 2, tap 28
+good value 2602 = 101000101010
+lane 2, tap 29
+good value 2602 = 101000101010
+lane 2, tap 30
+good value 2602 = 101000101010
+lane 2, tap 31
+good value 2602 = 101000101010
+lane 3, tap 0
+good value 2602 = 101000101010
+lane 3, tap 1
+good value 2602 = 101000101010
+lane 3, tap 2
+good value 2602 = 101000101010
+lane 3, tap 3
+good value 2602 = 101000101010
+lane 3, tap 4
+good value 2602 = 101000101010
+lane 3, tap 5
+good value 2602 = 101000101010
+lane 3, tap 6
+good value 2602 = 101000101010
+lane 3, tap 7
+good value 2602 = 101000101010
+lane 3, tap 8
+good value 2602 = 101000101010
+lane 3, tap 9
+good value 2602 = 101000101010
+lane 3, tap 10
+good value 2602 = 101000101010
+lane 3, tap 11
+good value 2602 = 101000101010
+lane 3, tap 12
+good value 2602 = 101000101010
+lane 3, tap 13
+good value 2602 = 101000101010
+lane 3, tap 14
+good value 2602 = 101000101010
+lane 3, tap 15
+good value 2602 = 101000101010
+lane 3, tap 16
+good value 2602 = 101000101010
+lane 3, tap 17
+good value 2602 = 101000101010
+lane 3, tap 18
+good value 2602 = 101000101010
+lane 3, tap 19
+good value 2602 = 101000101010
+lane 3, tap 20
+good value 1300 = 010100010100
+lane 3, tap 21
+good value 538 = 001000011010
+lane 3, tap 22
+good value 2602 = 101000101010
+lane 3, tap 23
+good value 2602 = 101000101010
+lane 3, tap 24
+good value 2602 = 101000101010
+lane 3, tap 25
+good value 2602 = 101000101010
+lane 3, tap 26
+good value 2602 = 101000101010
+lane 3, tap 27
+good value 2602 = 101000101010
+lane 3, tap 28
+good value 2602 = 101000101010
+lane 3, tap 29
+good value 2602 = 101000101010
+lane 3, tap 30
+good value 2602 = 101000101010
+lane 3, tap 31
+good value 2602 = 101000101010
+11111111111110111111111111111111
+01111111111111111111110111111111
+11111111111111111111111111111111
+11111111111111111111111111111111
+clock 1 lane 0 dll 0
+lane 0, tap 0
+good value 2602 = 101000101010
+lane 0, tap 1
+good value 2602 = 101000101010
+lane 0, tap 2
+good value 2602 = 101000101010
+lane 0, tap 3
+good value 2602 = 101000101010
+lane 0, tap 4
+good value 2602 = 101000101010
+lane 0, tap 5
+good value 2602 = 101000101010
+lane 0, tap 6
+good value 2602 = 101000101010
+lane 0, tap 7
+good value 2602 = 101000101010
+lane 0, tap 8
+good value 2602 = 101000101010
+lane 0, tap 9
+good value 2602 = 101000101010
+lane 0, tap 10
+good value 2602 = 101000101010
+lane 0, tap 11
+good value 2602 = 101000101010
+lane 0, tap 12
+good value 2602 = 101000101010
+lane 0, tap 13
+good value 2602 = 101000101010
+lane 0, tap 14
+good value 2602 = 101000101010
+lane 0, tap 15
+good value 2602 = 101000101010
+lane 0, tap 16
+good value 2602 = 101000101010
+lane 0, tap 17
+lane 0, tap 18
+good value 2858 = 101100101010
+lane 0, tap 19
+good value 2602 = 101000101010
+lane 0, tap 20
+good value 2602 = 101000101010
+lane 0, tap 21
+good value 2602 = 101000101010
+lane 0, tap 22
+good value 2602 = 101000101010
+lane 0, tap 23
+good value 2602 = 101000101010
+lane 0, tap 24
+good value 2602 = 101000101010
+lane 0, tap 25
+good value 2602 = 101000101010
+lane 0, tap 26
+good value 2602 = 101000101010
+lane 0, tap 27
+good value 2602 = 101000101010
+lane 0, tap 28
+good value 2602 = 101000101010
+lane 0, tap 29
+good value 2602 = 101000101010
+lane 0, tap 30
+good value 2602 = 101000101010
+lane 0, tap 31
+good value 2602 = 101000101010
+lane 1, tap 0
+good value 2602 = 101000101010
+lane 1, tap 1
+good value 2602 = 101000101010
+lane 1, tap 2
+good value 2602 = 101000101010
+lane 1, tap 3
+lane 1, tap 4
+lane 1, tap 5
+good value 2594 = 101000100010
+lane 1, tap 6
+good value 2602 = 101000101010
+lane 1, tap 7
+good value 2602 = 101000101010
+lane 1, tap 8
+good value 2602 = 101000101010
+lane 1, tap 9
+good value 2602 = 101000101010
+lane 1, tap 10
+good value 2602 = 101000101010
+lane 1, tap 11
+good value 2602 = 101000101010
+lane 1, tap 12
+good value 2602 = 101000101010
+lane 1, tap 13
+good value 2602 = 101000101010
+lane 1, tap 14
+good value 2602 = 101000101010
+lane 1, tap 15
+good value 2602 = 101000101010
+lane 1, tap 16
+good value 2602 = 101000101010
+lane 1, tap 17
+good value 2602 = 101000101010
+lane 1, tap 18
+good value 2602 = 101000101010
+lane 1, tap 19
+good value 2602 = 101000101010
+lane 1, tap 20
+good value 2602 = 101000101010
+lane 1, tap 21
+good value 2602 = 101000101010
+lane 1, tap 22
+good value 2602 = 101000101010
+lane 1, tap 23
+good value 2602 = 101000101010
+lane 1, tap 24
+good value 2602 = 101000101010
+lane 1, tap 25
+lane 1, tap 26
+lane 1, tap 27
+good value 2586 = 101000011010
+lane 1, tap 28
+good value 2602 = 101000101010
+lane 1, tap 29
+good value 2602 = 101000101010
+lane 1, tap 30
+good value 2602 = 101000101010
+lane 1, tap 31
+good value 2602 = 101000101010
+lane 2, tap 0
+good value 2602 = 101000101010
+lane 2, tap 1
+good value 2602 = 101000101010
+lane 2, tap 2
+lane 2, tap 3
+lane 2, tap 4
+good value 2602 = 101000101010
+lane 2, tap 5
+good value 2602 = 101000101010
+lane 2, tap 6
+good value 2602 = 101000101010
+lane 2, tap 7
+good value 2602 = 101000101010
+lane 2, tap 8
+good value 2602 = 101000101010
+lane 2, tap 9
+good value 2602 = 101000101010
+lane 2, tap 10
+good value 2602 = 101000101010
+lane 2, tap 11
+good value 2602 = 101000101010
+lane 2, tap 12
+good value 2602 = 101000101010
+lane 2, tap 13
+good value 2602 = 101000101010
+lane 2, tap 14
+good value 2602 = 101000101010
+lane 2, tap 15
+good value 2602 = 101000101010
+lane 2, tap 16
+good value 2602 = 101000101010
+lane 2, tap 17
+good value 2602 = 101000101010
+lane 2, tap 18
+good value 2602 = 101000101010
+lane 2, tap 19
+good value 2602 = 101000101010
+lane 2, tap 20
+good value 2602 = 101000101010
+lane 2, tap 21
+good value 2602 = 101000101010
+lane 2, tap 22
+good value 2602 = 101000101010
+lane 2, tap 23
+good value 2602 = 101000101010
+lane 2, tap 24
+lane 2, tap 25
+lane 2, tap 26
+good value 2570 = 101000001010
+lane 2, tap 27
+good value 2602 = 101000101010
+lane 2, tap 28
+good value 2602 = 101000101010
+lane 2, tap 29
+good value 2602 = 101000101010
+lane 2, tap 30
+good value 2602 = 101000101010
+lane 2, tap 31
+good value 2602 = 101000101010
+lane 3, tap 0
+good value 2602 = 101000101010
+lane 3, tap 1
+good value 2602 = 101000101010
+lane 3, tap 2
+lane 3, tap 3
+good value 2622 = 101000111110
+lane 3, tap 4
+good value 2602 = 101000101010
+lane 3, tap 5
+good value 2602 = 101000101010
+lane 3, tap 6
+good value 2602 = 101000101010
+lane 3, tap 7
+good value 2602 = 101000101010
+lane 3, tap 8
+good value 2602 = 101000101010
+lane 3, tap 9
+good value 2602 = 101000101010
+lane 3, tap 10
+good value 2602 = 101000101010
+lane 3, tap 11
+good value 2602 = 101000101010
+lane 3, tap 12
+good value 2602 = 101000101010
+lane 3, tap 13
+good value 2602 = 101000101010
+lane 3, tap 14
+good value 2602 = 101000101010
+lane 3, tap 15
+good value 2602 = 101000101010
+lane 3, tap 16
+good value 2602 = 101000101010
+lane 3, tap 17
+good value 2602 = 101000101010
+lane 3, tap 18
+good value 2602 = 101000101010
+lane 3, tap 19
+good value 2602 = 101000101010
+lane 3, tap 20
+good value 2602 = 101000101010
+lane 3, tap 21
+good value 2602 = 101000101010
+lane 3, tap 22
+good value 2602 = 101000101010
+lane 3, tap 23
+lane 3, tap 24
+lane 3, tap 25
+good value 2618 = 101000111010
+lane 3, tap 26
+good value 2602 = 101000101010
+lane 3, tap 27
+good value 2602 = 101000101010
+lane 3, tap 28
+good value 2602 = 101000101010
+lane 3, tap 29
+good value 2602 = 101000101010
+lane 3, tap 30
+good value 2602 = 101000101010
+lane 3, tap 31
+good value 2602 = 101000101010
+11111111111111111011111111111111
+11100111111111111111111110011111
+11001111111111111111111100111111
+11011111111111111111111001111111
+clock 2 lane 0 dll 0
+lane 0, tap 0
+good value 2602 = 101000101010
+lane 0, tap 1
+good value 2602 = 101000101010
+lane 0, tap 2
+good value 2602 = 101000101010
+lane 0, tap 3
+good value 2602 = 101000101010
+lane 0, tap 4
+good value 2602 = 101000101010
+lane 0, tap 5
+good value 2602 = 101000101010
+lane 0, tap 6
+good value 2602 = 101000101010
+lane 0, tap 7
+good value 2602 = 101000101010
+lane 0, tap 8
+good value 2602 = 101000101010
+lane 0, tap 9
+good value 2602 = 101000101010
+lane 0, tap 10
+good value 2602 = 101000101010
+lane 0, tap 11
+good value 2602 = 101000101010
+lane 0, tap 12
+good value 2602 = 101000101010
+lane 0, tap 13
+good value 2602 = 101000101010
+lane 0, tap 14
+good value 2602 = 101000101010
+lane 0, tap 15
+good value 2602 = 101000101010
+lane 0, tap 16
+good value 2602 = 101000101010
+lane 0, tap 17
+good value 546 = 001000100010
+lane 0, tap 18
+lane 0, tap 19
+lane 0, tap 20
+good value 2602 = 101000101010
+lane 0, tap 21
+good value 2602 = 101000101010
+lane 0, tap 22
+good value 2602 = 101000101010
+lane 0, tap 23
+good value 2602 = 101000101010
+lane 0, tap 24
+good value 2602 = 101000101010
+lane 0, tap 25
+good value 2602 = 101000101010
+lane 0, tap 26
+good value 2602 = 101000101010
+lane 0, tap 27
+good value 2602 = 101000101010
+lane 0, tap 28
+good value 2602 = 101000101010
+lane 0, tap 29
+good value 2602 = 101000101010
+lane 0, tap 30
+good value 2602 = 101000101010
+lane 0, tap 31
+good value 2602 = 101000101010
+lane 1, tap 0
+good value 2602 = 101000101010
+lane 1, tap 1
+good value 2602 = 101000101010
+lane 1, tap 2
+good value 2602 = 101000101010
+lane 1, tap 3
+good value 2602 = 101000101010
+lane 1, tap 4
+lane 1, tap 5
+lane 1, tap 6
+good value 2602 = 101000101010
+lane 1, tap 7
+good value 2602 = 101000101010
+lane 1, tap 8
+good value 2602 = 101000101010
+lane 1, tap 9
+good value 2602 = 101000101010
+lane 1, tap 10
+good value 2602 = 101000101010
+lane 1, tap 11
+good value 2602 = 101000101010
+lane 1, tap 12
+good value 2602 = 101000101010
+lane 1, tap 13
+good value 2602 = 101000101010
+lane 1, tap 14
+good value 2602 = 101000101010
+lane 1, tap 15
+good value 2602 = 101000101010
+lane 1, tap 16
+good value 2602 = 101000101010
+lane 1, tap 17
+good value 2602 = 101000101010
+lane 1, tap 18
+good value 2602 = 101000101010
+lane 1, tap 19
+good value 2602 = 101000101010
+lane 1, tap 20
+good value 2602 = 101000101010
+lane 1, tap 21
+good value 2602 = 101000101010
+lane 1, tap 22
+good value 2602 = 101000101010
+lane 1, tap 23
+good value 2602 = 101000101010
+lane 1, tap 24
+good value 2602 = 101000101010
+lane 1, tap 25
+good value 2602 = 101000101010
+lane 1, tap 26
+lane 1, tap 27
+lane 1, tap 28
+good value 2602 = 101000101010
+lane 1, tap 29
+good value 2602 = 101000101010
+lane 1, tap 30
+good value 2602 = 101000101010
+lane 1, tap 31
+good value 2602 = 101000101010
+lane 2, tap 0
+good value 2602 = 101000101010
+lane 2, tap 1
+good value 2602 = 101000101010
+lane 2, tap 2
+good value 2602 = 101000101010
+lane 2, tap 3
+lane 2, tap 4
+lane 2, tap 5
+good value 2602 = 101000101010
+lane 2, tap 6
+good value 2602 = 101000101010
+lane 2, tap 7
+good value 2602 = 101000101010
+lane 2, tap 8
+good value 2602 = 101000101010
+lane 2, tap 9
+good value 2602 = 101000101010
+lane 2, tap 10
+good value 2602 = 101000101010
+lane 2, tap 11
+good value 2602 = 101000101010
+lane 2, tap 12
+good value 2602 = 101000101010
+lane 2, tap 13
+good value 2602 = 101000101010
+lane 2, tap 14
+good value 2602 = 101000101010
+lane 2, tap 15
+good value 2602 = 101000101010
+lane 2, tap 16
+good value 2602 = 101000101010
+lane 2, tap 17
+good value 2602 = 101000101010
+lane 2, tap 18
+good value 2602 = 101000101010
+lane 2, tap 19
+good value 2602 = 101000101010
+lane 2, tap 20
+good value 2602 = 101000101010
+lane 2, tap 21
+good value 2602 = 101000101010
+lane 2, tap 22
+good value 2602 = 101000101010
+lane 2, tap 23
+good value 2602 = 101000101010
+lane 2, tap 24
+good value 2602 = 101000101010
+lane 2, tap 25
+lane 2, tap 26
+lane 2, tap 27
+good value 2602 = 101000101010
+lane 2, tap 28
+good value 2602 = 101000101010
+lane 2, tap 29
+good value 2602 = 101000101010
+lane 2, tap 30
+good value 2602 = 101000101010
+lane 2, tap 31
+good value 2602 = 101000101010
+lane 3, tap 0
+good value 2602 = 101000101010
+lane 3, tap 1
+good value 2602 = 101000101010
+lane 3, tap 2
+lane 3, tap 3
+lane 3, tap 4
+good value 2602 = 101000101010
+lane 3, tap 5
+good value 2602 = 101000101010
+lane 3, tap 6
+good value 2602 = 101000101010
+lane 3, tap 7
+good value 2602 = 101000101010
+lane 3, tap 8
+good value 2602 = 101000101010
+lane 3, tap 9
+good value 2602 = 101000101010
+lane 3, tap 10
+good value 2602 = 101000101010
+lane 3, tap 11
+good value 2602 = 101000101010
+lane 3, tap 12
+good value 2602 = 101000101010
+lane 3, tap 13
+good value 2602 = 101000101010
+lane 3, tap 14
+good value 2602 = 101000101010
+lane 3, tap 15
+good value 2602 = 101000101010
+lane 3, tap 16
+good value 2602 = 101000101010
+lane 3, tap 17
+good value 2602 = 101000101010
+lane 3, tap 18
+good value 2602 = 101000101010
+lane 3, tap 19
+good value 2602 = 101000101010
+lane 3, tap 20
+good value 2602 = 101000101010
+lane 3, tap 21
+good value 2602 = 101000101010
+lane 3, tap 22
+good value 2602 = 101000101010
+lane 3, tap 23
+good value 2602 = 101000101010
+lane 3, tap 24
+lane 3, tap 25
+good value 1558 = 011000010110
+lane 3, tap 26
+good value 2602 = 101000101010
+lane 3, tap 27
+good value 2602 = 101000101010
+lane 3, tap 28
+good value 2602 = 101000101010
+lane 3, tap 29
+good value 2602 = 101000101010
+lane 3, tap 30
+good value 2602 = 101000101010
+lane 3, tap 31
+good value 2602 = 101000101010
+11111111111111111100111111111111
+11110011111111111111111111001111
+11100111111111111111111110011111
+11001111111111111111111101111111
+clock 3 lane 0 dll 0
+lane 0, tap 0
+lane 0, tap 1
+lane 0, tap 2
+good value 315 = 000100111011
+lane 0, tap 3
+good value 2602 = 101000101010
+lane 0, tap 4
+good value 2602 = 101000101010
+lane 0, tap 5
+good value 2602 = 101000101010
+lane 0, tap 6
+good value 2602 = 101000101010
+lane 0, tap 7
+good value 2602 = 101000101010
+lane 0, tap 8
+good value 2602 = 101000101010
+lane 0, tap 9
+good value 2602 = 101000101010
+lane 0, tap 10
+good value 2602 = 101000101010
+lane 0, tap 11
+good value 2602 = 101000101010
+lane 0, tap 12
+good value 2602 = 101000101010
+lane 0, tap 13
+good value 2602 = 101000101010
+lane 0, tap 14
+good value 2602 = 101000101010
+lane 0, tap 15
+good value 2602 = 101000101010
+lane 0, tap 16
+good value 2602 = 101000101010
+lane 0, tap 17
+good value 2602 = 101000101010
+lane 0, tap 18
+good value 2602 = 101000101010
+lane 0, tap 19
+good value 2602 = 101000101010
+lane 0, tap 20
+good value 2602 = 101000101010
+lane 0, tap 21
+lane 0, tap 22
+lane 0, tap 23
+lane 0, tap 24
+lane 0, tap 25
+good value 2602 = 101000101010
+lane 0, tap 26
+good value 2602 = 101000101010
+lane 0, tap 27
+good value 2602 = 101000101010
+lane 0, tap 28
+good value 2602 = 101000101010
+lane 0, tap 29
+good value 2602 = 101000101010
+lane 0, tap 30
+good value 2602 = 101000101010
+lane 0, tap 31
+good value 2602 = 101000101010
+lane 1, tap 0
+good value 2602 = 101000101010
+lane 1, tap 1
+good value 2602 = 101000101010
+lane 1, tap 2
+good value 2602 = 101000101010
+lane 1, tap 3
+good value 2602 = 101000101010
+lane 1, tap 4
+good value 2602 = 101000101010
+lane 1, tap 5
+good value 2602 = 101000101010
+lane 1, tap 6
+good value 2602 = 101000101010
+lane 1, tap 7
+lane 1, tap 8
+lane 1, tap 9
+lane 1, tap 10
+lane 1, tap 11
+good value 2602 = 101000101010
+lane 1, tap 12
+good value 2602 = 101000101010
+lane 1, tap 13
+good value 2602 = 101000101010
+lane 1, tap 14
+good value 2602 = 101000101010
+lane 1, tap 15
+good value 2602 = 101000101010
+lane 1, tap 16
+good value 2602 = 101000101010
+lane 1, tap 17
+good value 2602 = 101000101010
+lane 1, tap 18
+good value 2602 = 101000101010
+lane 1, tap 19
+good value 2602 = 101000101010
+lane 1, tap 20
+good value 2602 = 101000101010
+lane 1, tap 21
+good value 2602 = 101000101010
+lane 1, tap 22
+good value 2602 = 101000101010
+lane 1, tap 23
+good value 2602 = 101000101010
+lane 1, tap 24
+good value 2602 = 101000101010
+lane 1, tap 25
+good value 2602 = 101000101010
+lane 1, tap 26
+good value 2602 = 101000101010
+lane 1, tap 27
+good value 2602 = 101000101010
+lane 1, tap 28
+good value 2602 = 101000101010
+lane 1, tap 29
+lane 1, tap 30
+lane 1, tap 31
+lane 2, tap 0
+good value 2602 = 101000101010
+lane 2, tap 1
+good value 2602 = 101000101010
+lane 2, tap 2
+good value 2602 = 101000101010
+lane 2, tap 3
+good value 2602 = 101000101010
+lane 2, tap 4
+good value 2602 = 101000101010
+lane 2, tap 5
+good value 2602 = 101000101010
+lane 2, tap 6
+lane 2, tap 7
+lane 2, tap 8
+lane 2, tap 9
+lane 2, tap 10
+good value 2602 = 101000101010
+lane 2, tap 11
+good value 2602 = 101000101010
+lane 2, tap 12
+good value 2602 = 101000101010
+lane 2, tap 13
+good value 2602 = 101000101010
+lane 2, tap 14
+good value 2602 = 101000101010
+lane 2, tap 15
+good value 2602 = 101000101010
+lane 2, tap 16
+good value 2602 = 101000101010
+lane 2, tap 17
+good value 2602 = 101000101010
+lane 2, tap 18
+good value 2602 = 101000101010
+lane 2, tap 19
+good value 2602 = 101000101010
+lane 2, tap 20
+good value 2602 = 101000101010
+lane 2, tap 21
+good value 2602 = 101000101010
+lane 2, tap 22
+good value 2602 = 101000101010
+lane 2, tap 23
+good value 2602 = 101000101010
+lane 2, tap 24
+good value 2602 = 101000101010
+lane 2, tap 25
+good value 2602 = 101000101010
+lane 2, tap 26
+good value 2602 = 101000101010
+lane 2, tap 27
+good value 2602 = 101000101010
+lane 2, tap 28
+lane 2, tap 29
+lane 2, tap 30
+lane 2, tap 31
+lane 3, tap 0
+good value 2602 = 101000101010
+lane 3, tap 1
+good value 2602 = 101000101010
+lane 3, tap 2
+good value 2602 = 101000101010
+lane 3, tap 3
+good value 2602 = 101000101010
+lane 3, tap 4
+good value 2602 = 101000101010
+lane 3, tap 5
+lane 3, tap 6
+lane 3, tap 7
+lane 3, tap 8
+lane 3, tap 9
+good value 2602 = 101000101010
+lane 3, tap 10
+good value 2602 = 101000101010
+lane 3, tap 11
+good value 2602 = 101000101010
+lane 3, tap 12
+good value 2602 = 101000101010
+lane 3, tap 13
+good value 2602 = 101000101010
+lane 3, tap 14
+good value 2602 = 101000101010
+lane 3, tap 15
+good value 2602 = 101000101010
+lane 3, tap 16
+good value 2602 = 101000101010
+lane 3, tap 17
+good value 2602 = 101000101010
+lane 3, tap 18
+good value 2602 = 101000101010
+lane 3, tap 19
+good value 2602 = 101000101010
+lane 3, tap 20
+good value 2602 = 101000101010
+lane 3, tap 21
+good value 2602 = 101000101010
+lane 3, tap 22
+good value 2602 = 101000101010
+lane 3, tap 23
+good value 2602 = 101000101010
+lane 3, tap 24
+good value 2602 = 101000101010
+lane 3, tap 25
+good value 2602 = 101000101010
+lane 3, tap 26
+good value 2602 = 101000101010
+lane 3, tap 27
+lane 3, tap 28
+lane 3, tap 29
+lane 3, tap 30
+lane 3, tap 31
+good value 2602 = 101000101010
+00111111111111111111100001111111
+11111110000111111111111111111000
+11111100001111111111111111110000
+11111000011111111111111111100001
+clock 4 lane 0 dll 0
+lane 0, tap 0
+lane 0, tap 1
+good value 315 = 000100111011
+lane 0, tap 2
+lane 0, tap 3
+good value 2602 = 101000101010
+lane 0, tap 4
+good value 2602 = 101000101010
+lane 0, tap 5
+good value 2602 = 101000101010
+lane 0, tap 6
+good value 2602 = 101000101010
+lane 0, tap 7
+good value 2602 = 101000101010
+lane 0, tap 8
+good value 2602 = 101000101010
+lane 0, tap 9
+good value 2602 = 101000101010
+lane 0, tap 10
+good value 2602 = 101000101010
+lane 0, tap 11
+good value 2602 = 101000101010
+lane 0, tap 12
+good value 2602 = 101000101010
+lane 0, tap 13
+good value 2602 = 101000101010
+lane 0, tap 14
+good value 2602 = 101000101010
+lane 0, tap 15
+good value 2602 = 101000101010
+lane 0, tap 16
+good value 2602 = 101000101010
+lane 0, tap 17
+good value 2602 = 101000101010
+lane 0, tap 18
+good value 2602 = 101000101010
+lane 0, tap 19
+good value 2602 = 101000101010
+lane 0, tap 20
+good value 2602 = 101000101010
+lane 0, tap 21
+lane 0, tap 22
+lane 0, tap 23
+lane 0, tap 24
+lane 0, tap 25
+good value 2602 = 101000101010
+lane 0, tap 26
+good value 2602 = 101000101010
+lane 0, tap 27
+good value 2602 = 101000101010
+lane 0, tap 28
+good value 2602 = 101000101010
+lane 0, tap 29
+good value 2602 = 101000101010
+lane 0, tap 30
+good value 2602 = 101000101010
+lane 0, tap 31
+good value 2602 = 101000101010
+lane 1, tap 0
+good value 2602 = 101000101010
+lane 1, tap 1
+good value 2602 = 101000101010
+lane 1, tap 2
+good value 2602 = 101000101010
+lane 1, tap 3
+good value 2602 = 101000101010
+lane 1, tap 4
+good value 2602 = 101000101010
+lane 1, tap 5
+good value 2602 = 101000101010
+lane 1, tap 6
+good value 2602 = 101000101010
+lane 1, tap 7
+lane 1, tap 8
+lane 1, tap 9
+lane 1, tap 10
+lane 1, tap 11
+good value 2602 = 101000101010
+lane 1, tap 12
+good value 2602 = 101000101010
+lane 1, tap 13
+good value 2602 = 101000101010
+lane 1, tap 14
+good value 2602 = 101000101010
+lane 1, tap 15
+good value 2602 = 101000101010
+lane 1, tap 16
+good value 2602 = 101000101010
+lane 1, tap 17
+good value 2602 = 101000101010
+lane 1, tap 18
+good value 2602 = 101000101010
+lane 1, tap 19
+good value 2602 = 101000101010
+lane 1, tap 20
+good value 2602 = 101000101010
+lane 1, tap 21
+good value 2602 = 101000101010
+lane 1, tap 22
+good value 2602 = 101000101010
+lane 1, tap 23
+good value 2602 = 101000101010
+lane 1, tap 24
+good value 2602 = 101000101010
+lane 1, tap 25
+good value 2602 = 101000101010
+lane 1, tap 26
+good value 2602 = 101000101010
+lane 1, tap 27
+good value 2602 = 101000101010
+lane 1, tap 28
+good value 2602 = 101000101010
+lane 1, tap 29
+lane 1, tap 30
+lane 1, tap 31
+lane 2, tap 0
+good value 2602 = 101000101010
+lane 2, tap 1
+good value 2602 = 101000101010
+lane 2, tap 2
+good value 2602 = 101000101010
+lane 2, tap 3
+good value 2602 = 101000101010
+lane 2, tap 4
+good value 2602 = 101000101010
+lane 2, tap 5
+good value 2602 = 101000101010
+lane 2, tap 6
+lane 2, tap 7
+lane 2, tap 8
+lane 2, tap 9
+lane 2, tap 10
+good value 2602 = 101000101010
+lane 2, tap 11
+good value 2602 = 101000101010
+lane 2, tap 12
+good value 2602 = 101000101010
+lane 2, tap 13
+good value 2602 = 101000101010
+lane 2, tap 14
+good value 2602 = 101000101010
+lane 2, tap 15
+good value 2602 = 101000101010
+lane 2, tap 16
+good value 2602 = 101000101010
+lane 2, tap 17
+good value 2602 = 101000101010
+lane 2, tap 18
+good value 2602 = 101000101010
+lane 2, tap 19
+good value 2602 = 101000101010
+lane 2, tap 20
+good value 2602 = 101000101010
+lane 2, tap 21
+good value 2602 = 101000101010
+lane 2, tap 22
+good value 2602 = 101000101010
+lane 2, tap 23
+good value 2602 = 101000101010
+lane 2, tap 24
+good value 2602 = 101000101010
+lane 2, tap 25
+good value 2602 = 101000101010
+lane 2, tap 26
+good value 2602 = 101000101010
+lane 2, tap 27
+good value 2602 = 101000101010
+lane 2, tap 28
+lane 2, tap 29
+lane 2, tap 30
+lane 2, tap 31
+good value 1562 = 011000011010
+lane 3, tap 0
+good value 2602 = 101000101010
+lane 3, tap 1
+good value 2602 = 101000101010
+lane 3, tap 2
+good value 2602 = 101000101010
+lane 3, tap 3
+good value 2602 = 101000101010
+lane 3, tap 4
+good value 2602 = 101000101010
+lane 3, tap 5
+good value 2602 = 101000101010
+lane 3, tap 6
+lane 3, tap 7
+lane 3, tap 8
+lane 3, tap 9
+good value 2602 = 101000101010
+lane 3, tap 10
+good value 2602 = 101000101010
+lane 3, tap 11
+good value 2602 = 101000101010
+lane 3, tap 12
+good value 2602 = 101000101010
+lane 3, tap 13
+good value 2602 = 101000101010
+lane 3, tap 14
+good value 2602 = 101000101010
+lane 3, tap 15
+good value 2602 = 101000101010
+lane 3, tap 16
+good value 2602 = 101000101010
+lane 3, tap 17
+good value 2602 = 101000101010
+lane 3, tap 18
+good value 2602 = 101000101010
+lane 3, tap 19
+good value 2602 = 101000101010
+lane 3, tap 20
+good value 2602 = 101000101010
+lane 3, tap 21
+good value 2602 = 101000101010
+lane 3, tap 22
+good value 2602 = 101000101010
+lane 3, tap 23
+good value 2602 = 101000101010
+lane 3, tap 24
+good value 2602 = 101000101010
+lane 3, tap 25
+good value 2602 = 101000101010
+lane 3, tap 26
+good value 2602 = 101000101010
+lane 3, tap 27
+lane 3, tap 28
+lane 3, tap 29
+lane 3, tap 30
+good value 1566 = 011000011110
+lane 3, tap 31
+good value 2602 = 101000101010
+01011111111111111111100001111111
+11111110000111111111111111111000
+11111100001111111111111111110001
+11111100011111111111111111100011
+clock 5 lane 0 dll 0
+lane 0, tap 0
+good value 2602 = 101000101010
+lane 0, tap 1
+good value 2602 = 101000101010
+lane 0, tap 2
+lane 0, tap 3
+lane 0, tap 4
+lane 0, tap 5
+lane 0, tap 6
+lane 0, tap 7
+lane 0, tap 8
+lane 0, tap 9
+good value 2602 = 101000101010
+lane 0, tap 10
+good value 2602 = 101000101010
+lane 0, tap 11
+good value 2602 = 101000101010
+lane 0, tap 12
+good value 2602 = 101000101010
+lane 0, tap 13
+good value 2602 = 101000101010
+lane 0, tap 14
+good value 2602 = 101000101010
+lane 0, tap 15
+good value 2602 = 101000101010
+lane 0, tap 16
+good value 2602 = 101000101010
+lane 0, tap 17
+good value 2602 = 101000101010
+lane 0, tap 18
+good value 2602 = 101000101010
+lane 0, tap 19
+good value 2602 = 101000101010
+lane 0, tap 20
+good value 2602 = 101000101010
+lane 0, tap 21
+good value 2602 = 101000101010
+lane 0, tap 22
+good value 2602 = 101000101010
+lane 0, tap 23
+good value 2602 = 101000101010
+lane 0, tap 24
+good value 2602 = 101000101010
+lane 0, tap 25
+lane 0, tap 26
+lane 0, tap 27
+lane 0, tap 28
+lane 0, tap 29
+lane 0, tap 30
+lane 0, tap 31
+lane 1, tap 0
+good value 2602 = 101000101010
+lane 1, tap 1
+good value 2602 = 101000101010
+lane 1, tap 2
+good value 2602 = 101000101010
+lane 1, tap 3
+good value 2602 = 101000101010
+lane 1, tap 4
+good value 2602 = 101000101010
+lane 1, tap 5
+good value 2602 = 101000101010
+lane 1, tap 6
+good value 2602 = 101000101010
+lane 1, tap 7
+good value 2602 = 101000101010
+lane 1, tap 8
+good value 2602 = 101000101010
+lane 1, tap 9
+good value 2602 = 101000101010
+lane 1, tap 10
+lane 1, tap 11
+lane 1, tap 12
+lane 1, tap 13
+lane 1, tap 14
+lane 1, tap 15
+lane 1, tap 16
+lane 1, tap 17
+good value 2602 = 101000101010
+lane 1, tap 18
+good value 2602 = 101000101010
+lane 1, tap 19
+good value 2602 = 101000101010
+lane 1, tap 20
+good value 2602 = 101000101010
+lane 1, tap 21
+good value 2602 = 101000101010
+lane 1, tap 22
+good value 2602 = 101000101010
+lane 1, tap 23
+good value 2602 = 101000101010
+lane 1, tap 24
+good value 2602 = 101000101010
+lane 1, tap 25
+good value 2602 = 101000101010
+lane 1, tap 26
+good value 2602 = 101000101010
+lane 1, tap 27
+good value 2602 = 101000101010
+lane 1, tap 28
+good value 2602 = 101000101010
+lane 1, tap 29
+good value 2602 = 101000101010
+lane 1, tap 30
+good value 2602 = 101000101010
+lane 1, tap 31
+good value 2602 = 101000101010
+lane 2, tap 0
+good value 2602 = 101000101010
+lane 2, tap 1
+good value 2602 = 101000101010
+lane 2, tap 2
+good value 2602 = 101000101010
+lane 2, tap 3
+good value 2602 = 101000101010
+lane 2, tap 4
+good value 2602 = 101000101010
+lane 2, tap 5
+good value 2602 = 101000101010
+lane 2, tap 6
+good value 2602 = 101000101010
+lane 2, tap 7
+good value 2602 = 101000101010
+lane 2, tap 8
+good value 2602 = 101000101010
+lane 2, tap 9
+lane 2, tap 10
+lane 2, tap 11
+lane 2, tap 12
+lane 2, tap 13
+lane 2, tap 14
+lane 2, tap 15
+lane 2, tap 16
+good value 2602 = 101000101010
+lane 2, tap 17
+good value 2602 = 101000101010
+lane 2, tap 18
+good value 2602 = 101000101010
+lane 2, tap 19
+good value 2602 = 101000101010
+lane 2, tap 20
+good value 2602 = 101000101010
+lane 2, tap 21
+good value 2602 = 101000101010
+lane 2, tap 22
+good value 2602 = 101000101010
+lane 2, tap 23
+good value 2602 = 101000101010
+lane 2, tap 24
+good value 2602 = 101000101010
+lane 2, tap 25
+good value 2602 = 101000101010
+lane 2, tap 26
+good value 2602 = 101000101010
+lane 2, tap 27
+good value 2602 = 101000101010
+lane 2, tap 28
+good value 2602 = 101000101010
+lane 2, tap 29
+good value 2602 = 101000101010
+lane 2, tap 30
+good value 2602 = 101000101010
+lane 2, tap 31
+lane 3, tap 0
+good value 2602 = 101000101010
+lane 3, tap 1
+good value 2602 = 101000101010
+lane 3, tap 2
+good value 2602 = 101000101010
+lane 3, tap 3
+good value 2602 = 101000101010
+lane 3, tap 4
+good value 2602 = 101000101010
+lane 3, tap 5
+good value 2602 = 101000101010
+lane 3, tap 6
+good value 2602 = 101000101010
+lane 3, tap 7
+good value 2602 = 101000101010
+lane 3, tap 8
+lane 3, tap 9
+lane 3, tap 10
+lane 3, tap 11
+lane 3, tap 12
+lane 3, tap 13
+lane 3, tap 14
+lane 3, tap 15
+good value 2602 = 101000101010
+lane 3, tap 16
+good value 2602 = 101000101010
+lane 3, tap 17
+good value 2602 = 101000101010
+lane 3, tap 18
+good value 2602 = 101000101010
+lane 3, tap 19
+good value 2602 = 101000101010
+lane 3, tap 20
+good value 2602 = 101000101010
+lane 3, tap 21
+good value 2602 = 101000101010
+lane 3, tap 22
+good value 2602 = 101000101010
+lane 3, tap 23
+good value 2602 = 101000101010
+lane 3, tap 24
+good value 2602 = 101000101010
+lane 3, tap 25
+good value 2602 = 101000101010
+lane 3, tap 26
+good value 2602 = 101000101010
+lane 3, tap 27
+good value 2602 = 101000101010
+lane 3, tap 28
+good value 2602 = 101000101010
+lane 3, tap 29
+good value 2602 = 101000101010
+lane 3, tap 30
+lane 3, tap 31
+11000000011111111111111110000000
+11111111110000000111111111111111
+11111111100000001111111111111110
+11111111000000011111111111111100
+clock 6 lane 0 dll 0
+lane 0, tap 0
+good value 2602 = 101000101010
+lane 0, tap 1
+good value 2602 = 101000101010
+lane 0, tap 2
+good value 2602 = 101000101010
+lane 0, tap 3
+lane 0, tap 4
+lane 0, tap 5
+lane 0, tap 6
+lane 0, tap 7
+good value 315 = 000100111011
+lane 0, tap 8
+good value 2602 = 101000101010
+lane 0, tap 9
+good value 2602 = 101000101010
+lane 0, tap 10
+good value 2602 = 101000101010
+lane 0, tap 11
+good value 2602 = 101000101010
+lane 0, tap 12
+good value 2602 = 101000101010
+lane 0, tap 13
+good value 2602 = 101000101010
+lane 0, tap 14
+good value 2602 = 101000101010
+lane 0, tap 15
+good value 2602 = 101000101010
+lane 0, tap 16
+good value 2602 = 101000101010
+lane 0, tap 17
+good value 2602 = 101000101010
+lane 0, tap 18
+good value 2602 = 101000101010
+lane 0, tap 19
+good value 2602 = 101000101010
+lane 0, tap 20
+good value 2602 = 101000101010
+lane 0, tap 21
+good value 2602 = 101000101010
+lane 0, tap 22
+good value 2602 = 101000101010
+lane 0, tap 23
+good value 2602 = 101000101010
+lane 0, tap 24
+good value 2602 = 101000101010
+lane 0, tap 25
+lane 0, tap 26
+lane 0, tap 27
+lane 0, tap 28
+lane 0, tap 29
+lane 0, tap 30
+good value 2602 = 101000101010
+lane 0, tap 31
+good value 2602 = 101000101010
+lane 1, tap 0
+good value 2602 = 101000101010
+lane 1, tap 1
+good value 2602 = 101000101010
+lane 1, tap 2
+good value 2602 = 101000101010
+lane 1, tap 3
+good value 2602 = 101000101010
+lane 1, tap 4
+good value 2602 = 101000101010
+lane 1, tap 5
+good value 2602 = 101000101010
+lane 1, tap 6
+good value 2602 = 101000101010
+lane 1, tap 7
+good value 2602 = 101000101010
+lane 1, tap 8
+good value 2602 = 101000101010
+lane 1, tap 9
+good value 2602 = 101000101010
+lane 1, tap 10
+lane 1, tap 11
+lane 1, tap 12
+lane 1, tap 13
+lane 1, tap 14
+lane 1, tap 15
+lane 1, tap 16
+good value 2602 = 101000101010
+lane 1, tap 17
+good value 2602 = 101000101010
+lane 1, tap 18
+good value 2602 = 101000101010
+lane 1, tap 19
+good value 2602 = 101000101010
+lane 1, tap 20
+good value 2602 = 101000101010
+lane 1, tap 21
+good value 2602 = 101000101010
+lane 1, tap 22
+good value 2602 = 101000101010
+lane 1, tap 23
+good value 2602 = 101000101010
+lane 1, tap 24
+good value 2602 = 101000101010
+lane 1, tap 25
+good value 2602 = 101000101010
+lane 1, tap 26
+good value 2602 = 101000101010
+lane 1, tap 27
+good value 2602 = 101000101010
+lane 1, tap 28
+good value 2602 = 101000101010
+lane 1, tap 29
+good value 2602 = 101000101010
+lane 1, tap 30
+good value 2602 = 101000101010
+lane 1, tap 31
+good value 2602 = 101000101010
+lane 2, tap 0
+good value 2602 = 101000101010
+lane 2, tap 1
+good value 2602 = 101000101010
+lane 2, tap 2
+good value 2602 = 101000101010
+lane 2, tap 3
+good value 2602 = 101000101010
+lane 2, tap 4
+good value 2602 = 101000101010
+lane 2, tap 5
+good value 2602 = 101000101010
+lane 2, tap 6
+good value 2602 = 101000101010
+lane 2, tap 7
+good value 2602 = 101000101010
+lane 2, tap 8
+good value 2602 = 101000101010
+lane 2, tap 9
+good value 2602 = 101000101010
+lane 2, tap 10
+lane 2, tap 11
+lane 2, tap 12
+lane 2, tap 13
+lane 2, tap 14
+lane 2, tap 15
+good value 2602 = 101000101010
+lane 2, tap 16
+good value 2602 = 101000101010
+lane 2, tap 17
+good value 2602 = 101000101010
+lane 2, tap 18
+good value 2602 = 101000101010
+lane 2, tap 19
+good value 2602 = 101000101010
+lane 2, tap 20
+good value 2602 = 101000101010
+lane 2, tap 21
+good value 2602 = 101000101010
+lane 2, tap 22
+good value 2602 = 101000101010
+lane 2, tap 23
+good value 2602 = 101000101010
+lane 2, tap 24
+good value 2602 = 101000101010
+lane 2, tap 25
+good value 2602 = 101000101010
+lane 2, tap 26
+good value 2602 = 101000101010
+lane 2, tap 27
+good value 2602 = 101000101010
+lane 2, tap 28
+good value 2602 = 101000101010
+lane 2, tap 29
+good value 2602 = 101000101010
+lane 2, tap 30
+good value 2602 = 101000101010
+lane 2, tap 31
+good value 2602 = 101000101010
+lane 3, tap 0
+good value 2602 = 101000101010
+lane 3, tap 1
+good value 2602 = 101000101010
+lane 3, tap 2
+good value 2602 = 101000101010
+lane 3, tap 3
+good value 2602 = 101000101010
+lane 3, tap 4
+good value 2602 = 101000101010
+lane 3, tap 5
+good value 2602 = 101000101010
+lane 3, tap 6
+good value 2602 = 101000101010
+lane 3, tap 7
+good value 2602 = 101000101010
+lane 3, tap 8
+good value 2602 = 101000101010
+lane 3, tap 9
+lane 3, tap 10
+lane 3, tap 11
+lane 3, tap 12
+lane 3, tap 13
+lane 3, tap 14
+good value 2602 = 101000101010
+lane 3, tap 15
+good value 2602 = 101000101010
+lane 3, tap 16
+good value 2602 = 101000101010
+lane 3, tap 17
+good value 2602 = 101000101010
+lane 3, tap 18
+good value 2602 = 101000101010
+lane 3, tap 19
+good value 2602 = 101000101010
+lane 3, tap 20
+good value 2602 = 101000101010
+lane 3, tap 21
+good value 2602 = 101000101010
+lane 3, tap 22
+good value 2602 = 101000101010
+lane 3, tap 23
+good value 2602 = 101000101010
+lane 3, tap 24
+good value 2602 = 101000101010
+lane 3, tap 25
+good value 2602 = 101000101010
+lane 3, tap 26
+good value 2602 = 101000101010
+lane 3, tap 27
+good value 2602 = 101000101010
+lane 3, tap 28
+good value 2602 = 101000101010
+lane 3, tap 29
+good value 2602 = 101000101010
+lane 3, tap 30
+good value 2602 = 101000101010
+lane 3, tap 31
+11100001111111111111111110000011
+11111111110000001111111111111111
+11111111110000011111111111111111
+11111111100000111111111111111110
+clock 7 lane 0 dll 0
+lane 0, tap 0
+good value 2602 = 101000101010
+lane 0, tap 1
+good value 2602 = 101000101010
+lane 0, tap 2
+good value 2602 = 101000101010
+lane 0, tap 3
+good value 2602 = 101000101010
+lane 0, tap 4
+good value 2602 = 101000101010
+lane 0, tap 5
+good value 2602 = 101000101010
+lane 0, tap 6
+lane 0, tap 7
+lane 0, tap 8
+lane 0, tap 9
+lane 0, tap 10
+lane 0, tap 11
+lane 0, tap 12
+lane 0, tap 13
+lane 0, tap 14
+lane 0, tap 15
+good value 2602 = 101000101010
+lane 0, tap 16
+good value 2602 = 101000101010
+lane 0, tap 17
+good value 2602 = 101000101010
+lane 0, tap 18
+good value 2602 = 101000101010
+lane 0, tap 19
+good value 2602 = 101000101010
+lane 0, tap 20
+good value 2602 = 101000101010
+lane 0, tap 21
+good value 2602 = 101000101010
+lane 0, tap 22
+good value 2602 = 101000101010
+lane 0, tap 23
+good value 2602 = 101000101010
+lane 0, tap 24
+good value 2602 = 101000101010
+lane 0, tap 25
+good value 2602 = 101000101010
+lane 0, tap 26
+good value 2602 = 101000101010
+lane 0, tap 27
+good value 2602 = 101000101010
+lane 0, tap 28
+lane 0, tap 29
+lane 0, tap 30
+lane 0, tap 31
+lane 1, tap 0
+lane 1, tap 1
+lane 1, tap 2
+good value 2602 = 101000101010
+lane 1, tap 3
+good value 2602 = 101000101010
+lane 1, tap 4
+good value 2602 = 101000101010
+lane 1, tap 5
+good value 2602 = 101000101010
+lane 1, tap 6
+good value 2602 = 101000101010
+lane 1, tap 7
+good value 2602 = 101000101010
+lane 1, tap 8
+good value 2602 = 101000101010
+lane 1, tap 9
+good value 2602 = 101000101010
+lane 1, tap 10
+good value 2602 = 101000101010
+lane 1, tap 11
+good value 2602 = 101000101010
+lane 1, tap 12
+good value 2602 = 101000101010
+lane 1, tap 13
+good value 2602 = 101000101010
+lane 1, tap 14
+lane 1, tap 15
+lane 1, tap 16
+lane 1, tap 17
+lane 1, tap 18
+lane 1, tap 19
+lane 1, tap 20
+lane 1, tap 21
+lane 1, tap 22
+lane 1, tap 23
+good value 2602 = 101000101010
+lane 1, tap 24
+good value 2602 = 101000101010
+lane 1, tap 25
+good value 2602 = 101000101010
+lane 1, tap 26
+good value 2602 = 101000101010
+lane 1, tap 27
+good value 2602 = 101000101010
+lane 1, tap 28
+good value 2602 = 101000101010
+lane 1, tap 29
+good value 2602 = 101000101010
+lane 1, tap 30
+good value 2602 = 101000101010
+lane 1, tap 31
+good value 2602 = 101000101010
+lane 2, tap 0
+lane 2, tap 1
+good value 2602 = 101000101010
+lane 2, tap 2
+good value 2602 = 101000101010
+lane 2, tap 3
+good value 2602 = 101000101010
+lane 2, tap 4
+good value 2602 = 101000101010
+lane 2, tap 5
+good value 2602 = 101000101010
+lane 2, tap 6
+good value 2602 = 101000101010
+lane 2, tap 7
+good value 2602 = 101000101010
+lane 2, tap 8
+good value 2602 = 101000101010
+lane 2, tap 9
+good value 2602 = 101000101010
+lane 2, tap 10
+good value 2602 = 101000101010
+lane 2, tap 11
+good value 2602 = 101000101010
+lane 2, tap 12
+good value 2602 = 101000101010
+lane 2, tap 13
+lane 2, tap 14
+lane 2, tap 15
+lane 2, tap 16
+lane 2, tap 17
+lane 2, tap 18
+lane 2, tap 19
+lane 2, tap 20
+lane 2, tap 21
+lane 2, tap 22
+good value 2602 = 101000101010
+lane 2, tap 23
+good value 2602 = 101000101010
+lane 2, tap 24
+good value 2602 = 101000101010
+lane 2, tap 25
+good value 2602 = 101000101010
+lane 2, tap 26
+good value 2602 = 101000101010
+lane 2, tap 27
+good value 2602 = 101000101010
+lane 2, tap 28
+good value 2602 = 101000101010
+lane 2, tap 29
+good value 2602 = 101000101010
+lane 2, tap 30
+good value 2602 = 101000101010
+lane 2, tap 31
+good value 2602 = 101000101010
+lane 3, tap 0
+good value 2602 = 101000101010
+lane 3, tap 1
+good value 2602 = 101000101010
+lane 3, tap 2
+good value 2602 = 101000101010
+lane 3, tap 3
+good value 2602 = 101000101010
+lane 3, tap 4
+good value 2602 = 101000101010
+lane 3, tap 5
+good value 2602 = 101000101010
+lane 3, tap 6
+good value 2602 = 101000101010
+lane 3, tap 7
+good value 2602 = 101000101010
+lane 3, tap 8
+good value 2602 = 101000101010
+lane 3, tap 9
+good value 2602 = 101000101010
+lane 3, tap 10
+good value 2602 = 101000101010
+lane 3, tap 11
+good value 2602 = 101000101010
+lane 3, tap 12
+lane 3, tap 13
+lane 3, tap 14
+lane 3, tap 15
+lane 3, tap 16
+lane 3, tap 17
+lane 3, tap 18
+lane 3, tap 19
+lane 3, tap 20
+lane 3, tap 21
+good value 2602 = 101000101010
+lane 3, tap 22
+good value 2602 = 101000101010
+lane 3, tap 23
+good value 2602 = 101000101010
+lane 3, tap 24
+good value 2602 = 101000101010
+lane 3, tap 25
+good value 2602 = 101000101010
+lane 3, tap 26
+good value 2602 = 101000101010
+lane 3, tap 27
+good value 2602 = 101000101010
+lane 3, tap 28
+good value 2602 = 101000101010
+lane 3, tap 29
+good value 2602 = 101000101010
+lane 3, tap 30
+good value 2602 = 101000101010
+lane 3, tap 31
+good value 2602 = 101000101010
+11111100000000011111111111110000
+00111111111111000000000111111111
+01111111111110000000001111111111
+11111111111100000000011111111111
+clock 0 lane 0 dll 1
+lane 0, tap 0
+good value 2602 = 101000101010
+lane 0, tap 1
+good value 2602 = 101000101010
+lane 0, tap 2
+good value 2602 = 101000101010
+lane 0, tap 3
+good value 2602 = 101000101010
+lane 0, tap 4
+good value 2602 = 101000101010
+lane 0, tap 5
+good value 2602 = 101000101010
+lane 0, tap 6
+good value 2602 = 101000101010
+lane 0, tap 7
+good value 2602 = 101000101010
+lane 0, tap 8
+good value 2602 = 101000101010
+lane 0, tap 9
+lane 0, tap 10
+lane 0, tap 11
+lane 0, tap 12
+good value 2602 = 101000101010
+lane 0, tap 13
+good value 2602 = 101000101010
+lane 0, tap 14
+good value 2602 = 101000101010
+lane 0, tap 15
+good value 2602 = 101000101010
+lane 0, tap 16
+good value 2602 = 101000101010
+lane 0, tap 17
+good value 2602 = 101000101010
+lane 0, tap 18
+good value 2602 = 101000101010
+lane 0, tap 19
+good value 2602 = 101000101010
+lane 0, tap 20
+good value 2602 = 101000101010
+lane 0, tap 21
+good value 2602 = 101000101010
+lane 0, tap 22
+good value 2602 = 101000101010
+lane 0, tap 23
+good value 2602 = 101000101010
+lane 0, tap 24
+good value 2602 = 101000101010
+lane 0, tap 25
+good value 2602 = 101000101010
+lane 0, tap 26
+good value 2602 = 101000101010
+lane 0, tap 27
+good value 2602 = 101000101010
+lane 0, tap 28
+good value 2602 = 101000101010
+lane 0, tap 29
+good value 2602 = 101000101010
+lane 0, tap 30
+good value 2602 = 101000101010
+lane 0, tap 31
+good value 2598 = 101000100110
+lane 1, tap 0
+lane 1, tap 1
+good value 2602 = 101000101010
+lane 1, tap 2
+good value 2602 = 101000101010
+lane 1, tap 3
+good value 2602 = 101000101010
+lane 1, tap 4
+good value 2602 = 101000101010
+lane 1, tap 5
+good value 2602 = 101000101010
+lane 1, tap 6
+good value 2602 = 101000101010
+lane 1, tap 7
+good value 2602 = 101000101010
+lane 1, tap 8
+good value 2602 = 101000101010
+lane 1, tap 9
+good value 2602 = 101000101010
+lane 1, tap 10
+good value 2602 = 101000101010
+lane 1, tap 11
+good value 2602 = 101000101010
+lane 1, tap 12
+good value 2602 = 101000101010
+lane 1, tap 13
+good value 2602 = 101000101010
+lane 1, tap 14
+good value 2602 = 101000101010
+lane 1, tap 15
+good value 2602 = 101000101010
+lane 1, tap 16
+good value 2602 = 101000101010
+lane 1, tap 17
+good value 2602 = 101000101010
+lane 1, tap 18
+good value 2602 = 101000101010
+lane 1, tap 19
+good value 2602 = 101000101010
+lane 1, tap 20
+good value 2602 = 101000101010
+lane 1, tap 21
+good value 2602 = 101000101010
+lane 1, tap 22
+lane 1, tap 23
+good value 530 = 001000010010
+lane 1, tap 24
+good value 2602 = 101000101010
+lane 1, tap 25
+good value 2602 = 101000101010
+lane 1, tap 26
+good value 2602 = 101000101010
+lane 1, tap 27
+good value 2602 = 101000101010
+lane 1, tap 28
+good value 2602 = 101000101010
+lane 1, tap 29
+good value 2602 = 101000101010
+lane 1, tap 30
+good value 2602 = 101000101010
+lane 1, tap 31
+good value 2602 = 101000101010
+lane 2, tap 0
+good value 2602 = 101000101010
+lane 2, tap 1
+good value 2602 = 101000101010
+lane 2, tap 2
+good value 2602 = 101000101010
+lane 2, tap 3
+good value 2602 = 101000101010
+lane 2, tap 4
+good value 2602 = 101000101010
+lane 2, tap 5
+good value 2602 = 101000101010
+lane 2, tap 6
+good value 2602 = 101000101010
+lane 2, tap 7
+good value 2602 = 101000101010
+lane 2, tap 8
+good value 2602 = 101000101010
+lane 2, tap 9
+good value 2602 = 101000101010
+lane 2, tap 10
+good value 2602 = 101000101010
+lane 2, tap 11
+good value 2602 = 101000101010
+lane 2, tap 12
+good value 2602 = 101000101010
+lane 2, tap 13
+good value 2602 = 101000101010
+lane 2, tap 14
+good value 2602 = 101000101010
+lane 2, tap 15
+good value 2602 = 101000101010
+lane 2, tap 16
+good value 2602 = 101000101010
+lane 2, tap 17
+good value 2602 = 101000101010
+lane 2, tap 18
+good value 2602 = 101000101010
+lane 2, tap 19
+good value 2602 = 101000101010
+lane 2, tap 20
+good value 2602 = 101000101010
+lane 2, tap 21
+good value 1558 = 011000010110
+lane 2, tap 22
+good value 2602 = 101000101010
+lane 2, tap 23
+good value 2602 = 101000101010
+lane 2, tap 24
+good value 2602 = 101000101010
+lane 2, tap 25
+good value 2602 = 101000101010
+lane 2, tap 26
+good value 2602 = 101000101010
+lane 2, tap 27
+good value 2602 = 101000101010
+lane 2, tap 28
+good value 2602 = 101000101010
+lane 2, tap 29
+good value 2602 = 101000101010
+lane 2, tap 30
+good value 2602 = 101000101010
+lane 2, tap 31
+good value 2602 = 101000101010
+lane 3, tap 0
+good value 2602 = 101000101010
+lane 3, tap 1
+good value 2602 = 101000101010
+lane 3, tap 2
+good value 2602 = 101000101010
+lane 3, tap 3
+good value 2602 = 101000101010
+lane 3, tap 4
+good value 2602 = 101000101010
+lane 3, tap 5
+good value 2602 = 101000101010
+lane 3, tap 6
+good value 2602 = 101000101010
+lane 3, tap 7
+good value 2602 = 101000101010
+lane 3, tap 8
+good value 2602 = 101000101010
+lane 3, tap 9
+good value 2602 = 101000101010
+lane 3, tap 10
+good value 2602 = 101000101010
+lane 3, tap 11
+good value 2602 = 101000101010
+lane 3, tap 12
+good value 2602 = 101000101010
+lane 3, tap 13
+good value 2602 = 101000101010
+lane 3, tap 14
+good value 2602 = 101000101010
+lane 3, tap 15
+good value 2602 = 101000101010
+lane 3, tap 16
+good value 2602 = 101000101010
+lane 3, tap 17
+good value 2602 = 101000101010
+lane 3, tap 18
+good value 2602 = 101000101010
+lane 3, tap 19
+good value 2602 = 101000101010
+lane 3, tap 20
+lane 3, tap 21
+good value 522 = 001000001010
+lane 3, tap 22
+good value 2602 = 101000101010
+lane 3, tap 23
+good value 2602 = 101000101010
+lane 3, tap 24
+good value 2602 = 101000101010
+lane 3, tap 25
+good value 2602 = 101000101010
+lane 3, tap 26
+good value 2602 = 101000101010
+lane 3, tap 27
+good value 2602 = 101000101010
+lane 3, tap 28
+good value 2602 = 101000101010
+lane 3, tap 29
+good value 2602 = 101000101010
+lane 3, tap 30
+good value 2602 = 101000101010
+lane 3, tap 31
+good value 2602 = 101000101010
+11111111100011111111111111111111
+01111111111111111111110111111111
+11111111111111111111111111111111
+11111111111111111111011111111111
+clock 1 lane 0 dll 1
+lane 0, tap 0
+good value 2602 = 101000101010
+lane 0, tap 1
+good value 2602 = 101000101010
+lane 0, tap 2
+good value 2602 = 101000101010
+lane 0, tap 3
+good value 2602 = 101000101010
+lane 0, tap 4
+good value 2602 = 101000101010
+lane 0, tap 5
+good value 2602 = 101000101010
+lane 0, tap 6
+good value 2602 = 101000101010
+lane 0, tap 7
+good value 2602 = 101000101010
+lane 0, tap 8
+good value 2602 = 101000101010
+lane 0, tap 9
+good value 2602 = 101000101010
+lane 0, tap 10
+good value 2602 = 101000101010
+lane 0, tap 11
+good value 2602 = 101000101010
+lane 0, tap 12
+good value 2602 = 101000101010
+lane 0, tap 13
+lane 0, tap 14
+lane 0, tap 15
+good value 2602 = 101000101010
+lane 0, tap 16
+good value 2602 = 101000101010
+lane 0, tap 17
+good value 2602 = 101000101010
+lane 0, tap 18
+good value 2602 = 101000101010
+lane 0, tap 19
+good value 2602 = 101000101010
+lane 0, tap 20
+good value 2602 = 101000101010
+lane 0, tap 21
+good value 2602 = 101000101010
+lane 0, tap 22
+good value 2602 = 101000101010
+lane 0, tap 23
+good value 2602 = 101000101010
+lane 0, tap 24
+good value 2602 = 101000101010
+lane 0, tap 25
+good value 2602 = 101000101010
+lane 0, tap 26
+good value 2602 = 101000101010
+lane 0, tap 27
+good value 2602 = 101000101010
+lane 0, tap 28
+good value 2602 = 101000101010
+lane 0, tap 29
+good value 2602 = 101000101010
+lane 0, tap 30
+good value 2602 = 101000101010
+lane 0, tap 31
+good value 2602 = 101000101010
+lane 1, tap 0
+good value 2602 = 101000101010
+lane 1, tap 1
+good value 2602 = 101000101010
+lane 1, tap 2
+good value 2602 = 101000101010
+lane 1, tap 3
+lane 1, tap 4
+lane 1, tap 5
+good value 2602 = 101000101010
+lane 1, tap 6
+good value 2602 = 101000101010
+lane 1, tap 7
+good value 2602 = 101000101010
+lane 1, tap 8
+good value 2602 = 101000101010
+lane 1, tap 9
+good value 2602 = 101000101010
+lane 1, tap 10
+good value 2602 = 101000101010
+lane 1, tap 11
+good value 2602 = 101000101010
+lane 1, tap 12
+good value 2602 = 101000101010
+lane 1, tap 13
+good value 2602 = 101000101010
+lane 1, tap 14
+good value 2602 = 101000101010
+lane 1, tap 15
+good value 2602 = 101000101010
+lane 1, tap 16
+good value 2602 = 101000101010
+lane 1, tap 17
+good value 2602 = 101000101010
+lane 1, tap 18
+good value 2602 = 101000101010
+lane 1, tap 19
+good value 2602 = 101000101010
+lane 1, tap 20
+good value 2602 = 101000101010
+lane 1, tap 21
+good value 2602 = 101000101010
+lane 1, tap 22
+good value 2602 = 101000101010
+lane 1, tap 23
+good value 2602 = 101000101010
+lane 1, tap 24
+good value 2602 = 101000101010
+lane 1, tap 25
+lane 1, tap 26
+lane 1, tap 27
+good value 530 = 001000010010
+lane 1, tap 28
+good value 2602 = 101000101010
+lane 1, tap 29
+good value 2602 = 101000101010
+lane 1, tap 30
+good value 2602 = 101000101010
+lane 1, tap 31
+good value 2602 = 101000101010
+lane 2, tap 0
+good value 2602 = 101000101010
+lane 2, tap 1
+good value 2602 = 101000101010
+lane 2, tap 2
+lane 2, tap 3
+lane 2, tap 4
+good value 2602 = 101000101010
+lane 2, tap 5
+good value 2602 = 101000101010
+lane 2, tap 6
+good value 2602 = 101000101010
+lane 2, tap 7
+good value 2602 = 101000101010
+lane 2, tap 8
+good value 2602 = 101000101010
+lane 2, tap 9
+good value 2602 = 101000101010
+lane 2, tap 10
+good value 2602 = 101000101010
+lane 2, tap 11
+good value 2602 = 101000101010
+lane 2, tap 12
+good value 2602 = 101000101010
+lane 2, tap 13
+good value 2602 = 101000101010
+lane 2, tap 14
+good value 2602 = 101000101010
+lane 2, tap 15
+good value 2602 = 101000101010
+lane 2, tap 16
+good value 2602 = 101000101010
+lane 2, tap 17
+good value 2602 = 101000101010
+lane 2, tap 18
+good value 2602 = 101000101010
+lane 2, tap 19
+good value 2602 = 101000101010
+lane 2, tap 20
+good value 2602 = 101000101010
+lane 2, tap 21
+good value 2602 = 101000101010
+lane 2, tap 22
+good value 2602 = 101000101010
+lane 2, tap 23
+good value 2602 = 101000101010
+lane 2, tap 24
+lane 2, tap 25
+lane 2, tap 26
+good value 2570 = 101000001010
+lane 2, tap 27
+good value 2602 = 101000101010
+lane 2, tap 28
+good value 2602 = 101000101010
+lane 2, tap 29
+good value 2602 = 101000101010
+lane 2, tap 30
+good value 2602 = 101000101010
+lane 2, tap 31
+good value 2602 = 101000101010
+lane 3, tap 0
+good value 2602 = 101000101010
+lane 3, tap 1
+lane 3, tap 2
+lane 3, tap 3
+good value 2614 = 101000110110
+lane 3, tap 4
+good value 2602 = 101000101010
+lane 3, tap 5
+good value 2602 = 101000101010
+lane 3, tap 6
+good value 2602 = 101000101010
+lane 3, tap 7
+good value 2602 = 101000101010
+lane 3, tap 8
+good value 2602 = 101000101010
+lane 3, tap 9
+good value 2602 = 101000101010
+lane 3, tap 10
+good value 2602 = 101000101010
+lane 3, tap 11
+good value 2602 = 101000101010
+lane 3, tap 12
+good value 2602 = 101000101010
+lane 3, tap 13
+good value 2602 = 101000101010
+lane 3, tap 14
+good value 2602 = 101000101010
+lane 3, tap 15
+good value 2602 = 101000101010
+lane 3, tap 16
+good value 2602 = 101000101010
+lane 3, tap 17
+good value 2602 = 101000101010
+lane 3, tap 18
+good value 2602 = 101000101010
+lane 3, tap 19
+good value 2602 = 101000101010
+lane 3, tap 20
+good value 2602 = 101000101010
+lane 3, tap 21
+good value 2602 = 101000101010
+lane 3, tap 22
+good value 2602 = 101000101010
+lane 3, tap 23
+lane 3, tap 24
+lane 3, tap 25
+good value 2602 = 101000101010
+lane 3, tap 26
+good value 2602 = 101000101010
+lane 3, tap 27
+good value 2602 = 101000101010
+lane 3, tap 28
+good value 2602 = 101000101010
+lane 3, tap 29
+good value 2602 = 101000101010
+lane 3, tap 30
+good value 2602 = 101000101010
+lane 3, tap 31
+good value 2602 = 101000101010
+11111111111110011111111111111111
+11100111111111111111111110011111
+11001111111111111111111100111111
+10011111111111111111111001111111
+clock 2 lane 0 dll 1
+lane 0, tap 0
+good value 2602 = 101000101010
+lane 0, tap 1
+good value 2602 = 101000101010
+lane 0, tap 2
+good value 2602 = 101000101010
+lane 0, tap 3
+good value 2602 = 101000101010
+lane 0, tap 4
+good value 2602 = 101000101010
+lane 0, tap 5
+good value 2602 = 101000101010
+lane 0, tap 6
+good value 2602 = 101000101010
+lane 0, tap 7
+good value 2602 = 101000101010
+lane 0, tap 8
+good value 2602 = 101000101010
+lane 0, tap 9
+good value 2602 = 101000101010
+lane 0, tap 10
+good value 2602 = 101000101010
+lane 0, tap 11
+good value 2602 = 101000101010
+lane 0, tap 12
+good value 2602 = 101000101010
+lane 0, tap 13
+good value 2602 = 101000101010
+lane 0, tap 14
+lane 0, tap 15
+lane 0, tap 16
+good value 2602 = 101000101010
+lane 0, tap 17
+good value 2602 = 101000101010
+lane 0, tap 18
+good value 2602 = 101000101010
+lane 0, tap 19
+good value 2602 = 101000101010
+lane 0, tap 20
+good value 2602 = 101000101010
+lane 0, tap 21
+good value 2602 = 101000101010
+lane 0, tap 22
+good value 2602 = 101000101010
+lane 0, tap 23
+good value 2602 = 101000101010
+lane 0, tap 24
+good value 2602 = 101000101010
+lane 0, tap 25
+good value 2602 = 101000101010
+lane 0, tap 26
+good value 2602 = 101000101010
+lane 0, tap 27
+good value 2602 = 101000101010
+lane 0, tap 28
+good value 2602 = 101000101010
+lane 0, tap 29
+good value 2602 = 101000101010
+lane 0, tap 30
+good value 2602 = 101000101010
+lane 0, tap 31
+good value 2602 = 101000101010
+lane 1, tap 0
+good value 2602 = 101000101010
+lane 1, tap 1
+good value 2602 = 101000101010
+lane 1, tap 2
+good value 2602 = 101000101010
+lane 1, tap 3
+good value 2602 = 101000101010
+lane 1, tap 4
+lane 1, tap 5
+lane 1, tap 6
+good value 2602 = 101000101010
+lane 1, tap 7
+good value 2602 = 101000101010
+lane 1, tap 8
+good value 2602 = 101000101010
+lane 1, tap 9
+good value 2602 = 101000101010
+lane 1, tap 10
+good value 2602 = 101000101010
+lane 1, tap 11
+good value 2602 = 101000101010
+lane 1, tap 12
+good value 2602 = 101000101010
+lane 1, tap 13
+good value 2602 = 101000101010
+lane 1, tap 14
+good value 2602 = 101000101010
+lane 1, tap 15
+good value 2602 = 101000101010
+lane 1, tap 16
+good value 2602 = 101000101010
+lane 1, tap 17
+good value 2602 = 101000101010
+lane 1, tap 18
+good value 2602 = 101000101010
+lane 1, tap 19
+good value 2602 = 101000101010
+lane 1, tap 20
+good value 2602 = 101000101010
+lane 1, tap 21
+good value 2602 = 101000101010
+lane 1, tap 22
+good value 2602 = 101000101010
+lane 1, tap 23
+good value 2602 = 101000101010
+lane 1, tap 24
+good value 2602 = 101000101010
+lane 1, tap 25
+lane 1, tap 26
+lane 1, tap 27
+lane 1, tap 28
+good value 2602 = 101000101010
+lane 1, tap 29
+good value 2602 = 101000101010
+lane 1, tap 30
+good value 2602 = 101000101010
+lane 1, tap 31
+good value 2602 = 101000101010
+lane 2, tap 0
+good value 2602 = 101000101010
+lane 2, tap 1
+good value 2602 = 101000101010
+lane 2, tap 2
+lane 2, tap 3
+lane 2, tap 4
+lane 2, tap 5
+good value 2602 = 101000101010
+lane 2, tap 6
+good value 2602 = 101000101010
+lane 2, tap 7
+good value 2602 = 101000101010
+lane 2, tap 8
+good value 2602 = 101000101010
+lane 2, tap 9
+good value 2602 = 101000101010
+lane 2, tap 10
+good value 2602 = 101000101010
+lane 2, tap 11
+good value 2602 = 101000101010
+lane 2, tap 12
+good value 2602 = 101000101010
+lane 2, tap 13
+good value 2602 = 101000101010
+lane 2, tap 14
+good value 2602 = 101000101010
+lane 2, tap 15
+good value 2602 = 101000101010
+lane 2, tap 16
+good value 2602 = 101000101010
+lane 2, tap 17
+good value 2602 = 101000101010
+lane 2, tap 18
+good value 2602 = 101000101010
+lane 2, tap 19
+good value 2602 = 101000101010
+lane 2, tap 20
+good value 2602 = 101000101010
+lane 2, tap 21
+good value 2602 = 101000101010
+lane 2, tap 22
+good value 2602 = 101000101010
+lane 2, tap 23
+good value 2602 = 101000101010
+lane 2, tap 24
+lane 2, tap 25
+lane 2, tap 26
+lane 2, tap 27
+good value 2602 = 101000101010
+lane 2, tap 28
+good value 2602 = 101000101010
+lane 2, tap 29
+good value 2602 = 101000101010
+lane 2, tap 30
+good value 2602 = 101000101010
+lane 2, tap 31
+good value 2602 = 101000101010
+lane 3, tap 0
+good value 2602 = 101000101010
+lane 3, tap 1
+good value 2602 = 101000101010
+lane 3, tap 2
+lane 3, tap 3
+lane 3, tap 4
+good value 2602 = 101000101010
+lane 3, tap 5
+good value 2602 = 101000101010
+lane 3, tap 6
+good value 2602 = 101000101010
+lane 3, tap 7
+good value 2602 = 101000101010
+lane 3, tap 8
+good value 2602 = 101000101010
+lane 3, tap 9
+good value 2602 = 101000101010
+lane 3, tap 10
+good value 2602 = 101000101010
+lane 3, tap 11
+good value 2602 = 101000101010
+lane 3, tap 12
+good value 2602 = 101000101010
+lane 3, tap 13
+good value 2602 = 101000101010
+lane 3, tap 14
+good value 2602 = 101000101010
+lane 3, tap 15
+good value 2602 = 101000101010
+lane 3, tap 16
+good value 2602 = 101000101010
+lane 3, tap 17
+good value 2602 = 101000101010
+lane 3, tap 18
+good value 2602 = 101000101010
+lane 3, tap 19
+good value 2602 = 101000101010
+lane 3, tap 20
+good value 2602 = 101000101010
+lane 3, tap 21
+good value 2602 = 101000101010
+lane 3, tap 22
+good value 2602 = 101000101010
+lane 3, tap 23
+lane 3, tap 24
+lane 3, tap 25
+good value 1558 = 011000010110
+lane 3, tap 26
+good value 2602 = 101000101010
+lane 3, tap 27
+good value 2602 = 101000101010
+lane 3, tap 28
+good value 2602 = 101000101010
+lane 3, tap 29
+good value 2602 = 101000101010
+lane 3, tap 30
+good value 2602 = 101000101010
+lane 3, tap 31
+good value 2602 = 101000101010
+11111111111111001111111111111111
+11110011111111111111111110001111
+11000111111111111111111100011111
+11001111111111111111111001111111
+clock 3 lane 0 dll 1
+lane 0, tap 0
+good value 2602 = 101000101010
+lane 0, tap 1
+good value 2602 = 101000101010
+lane 0, tap 2
+good value 2602 = 101000101010
+lane 0, tap 3
+good value 2602 = 101000101010
+lane 0, tap 4
+good value 2602 = 101000101010
+lane 0, tap 5
+good value 2602 = 101000101010
+lane 0, tap 6
+good value 2602 = 101000101010
+lane 0, tap 7
+good value 2602 = 101000101010
+lane 0, tap 8
+good value 2602 = 101000101010
+lane 0, tap 9
+good value 2602 = 101000101010
+lane 0, tap 10
+good value 2602 = 101000101010
+lane 0, tap 11
+good value 2602 = 101000101010
+lane 0, tap 12
+good value 2602 = 101000101010
+lane 0, tap 13
+good value 2602 = 101000101010
+lane 0, tap 14
+good value 2602 = 101000101010
+lane 0, tap 15
+good value 2602 = 101000101010
+lane 0, tap 16
+good value 2602 = 101000101010
+lane 0, tap 17
+good value 2602 = 101000101010
+lane 0, tap 18
+good value 2602 = 101000101010
+lane 0, tap 19
+lane 0, tap 20
+good value 2602 = 101000101010
+lane 0, tap 21
+good value 2602 = 101000101010
+lane 0, tap 22
+good value 2602 = 101000101010
+lane 0, tap 23
+good value 2602 = 101000101010
+lane 0, tap 24
+good value 2602 = 101000101010
+lane 0, tap 25
+good value 2602 = 101000101010
+lane 0, tap 26
+good value 2602 = 101000101010
+lane 0, tap 27
+good value 2602 = 101000101010
+lane 0, tap 28
+good value 2602 = 101000101010
+lane 0, tap 29
+good value 2602 = 101000101010
+lane 0, tap 30
+good value 2602 = 101000101010
+lane 0, tap 31
+good value 2602 = 101000101010
+lane 1, tap 0
+good value 2602 = 101000101010
+lane 1, tap 1
+good value 2602 = 101000101010
+lane 1, tap 2
+good value 2602 = 101000101010
+lane 1, tap 3
+good value 2602 = 101000101010
+lane 1, tap 4
+good value 2602 = 101000101010
+lane 1, tap 5
+good value 2602 = 101000101010
+lane 1, tap 6
+lane 1, tap 7
+lane 1, tap 8
+lane 1, tap 9
+lane 1, tap 10
+lane 1, tap 11
+lane 1, tap 12
+good value 2602 = 101000101010
+lane 1, tap 13
+good value 2602 = 101000101010
+lane 1, tap 14
+good value 2602 = 101000101010
+lane 1, tap 15
+good value 2602 = 101000101010
+lane 1, tap 16
+good value 2602 = 101000101010
+lane 1, tap 17
+good value 2602 = 101000101010
+lane 1, tap 18
+good value 2602 = 101000101010
+lane 1, tap 19
+good value 2602 = 101000101010
+lane 1, tap 20
+good value 2602 = 101000101010
+lane 1, tap 21
+good value 2602 = 101000101010
+lane 1, tap 22
+good value 2602 = 101000101010
+lane 1, tap 23
+good value 2602 = 101000101010
+lane 1, tap 24
+good value 2602 = 101000101010
+lane 1, tap 25
+good value 2602 = 101000101010
+lane 1, tap 26
+good value 2602 = 101000101010
+lane 1, tap 27
+good value 2602 = 101000101010
+lane 1, tap 28
+lane 1, tap 29
+lane 1, tap 30
+lane 1, tap 31
+lane 2, tap 0
+good value 2602 = 101000101010
+lane 2, tap 1
+good value 2602 = 101000101010
+lane 2, tap 2
+good value 2602 = 101000101010
+lane 2, tap 3
+good value 2602 = 101000101010
+lane 2, tap 4
+good value 2602 = 101000101010
+lane 2, tap 5
+lane 2, tap 6
+lane 2, tap 7
+lane 2, tap 8
+lane 2, tap 9
+lane 2, tap 10
+good value 2602 = 101000101010
+lane 2, tap 11
+good value 2602 = 101000101010
+lane 2, tap 12
+good value 2602 = 101000101010
+lane 2, tap 13
+good value 2602 = 101000101010
+lane 2, tap 14
+good value 2602 = 101000101010
+lane 2, tap 15
+good value 2602 = 101000101010
+lane 2, tap 16
+good value 2602 = 101000101010
+lane 2, tap 17
+good value 2602 = 101000101010
+lane 2, tap 18
+good value 2602 = 101000101010
+lane 2, tap 19
+good value 2602 = 101000101010
+lane 2, tap 20
+good value 2602 = 101000101010
+lane 2, tap 21
+good value 2602 = 101000101010
+lane 2, tap 22
+good value 2602 = 101000101010
+lane 2, tap 23
+good value 2602 = 101000101010
+lane 2, tap 24
+good value 2602 = 101000101010
+lane 2, tap 25
+good value 2602 = 101000101010
+lane 2, tap 26
+good value 2602 = 101000101010
+lane 2, tap 27
+lane 2, tap 28
+lane 2, tap 29
+lane 2, tap 30
+lane 2, tap 31
+lane 3, tap 0
+good value 2602 = 101000101010
+lane 3, tap 1
+good value 2602 = 101000101010
+lane 3, tap 2
+good value 2602 = 101000101010
+lane 3, tap 3
+good value 2602 = 101000101010
+lane 3, tap 4
+good value 2602 = 101000101010
+lane 3, tap 5
+lane 3, tap 6
+lane 3, tap 7
+lane 3, tap 8
+lane 3, tap 9
+lane 3, tap 10
+good value 2602 = 101000101010
+lane 3, tap 11
+good value 2602 = 101000101010
+lane 3, tap 12
+good value 2602 = 101000101010
+lane 3, tap 13
+good value 2602 = 101000101010
+lane 3, tap 14
+good value 2602 = 101000101010
+lane 3, tap 15
+good value 2602 = 101000101010
+lane 3, tap 16
+good value 2602 = 101000101010
+lane 3, tap 17
+good value 2602 = 101000101010
+lane 3, tap 18
+good value 2602 = 101000101010
+lane 3, tap 19
+good value 2602 = 101000101010
+lane 3, tap 20
+good value 2602 = 101000101010
+lane 3, tap 21
+good value 2602 = 101000101010
+lane 3, tap 22
+good value 2602 = 101000101010
+lane 3, tap 23
+good value 2602 = 101000101010
+lane 3, tap 24
+good value 2602 = 101000101010
+lane 3, tap 25
+good value 2602 = 101000101010
+lane 3, tap 26
+lane 3, tap 27
+lane 3, tap 28
+lane 3, tap 29
+lane 3, tap 30
+lane 3, tap 31
+good value 2602 = 101000101010
+11111111111111111110111111111111
+11111100000011111111111111110000
+11111000001111111111111111100000
+11111000001111111111111111000001
+clock 4 lane 0 dll 1
+lane 0, tap 0
+good value 2602 = 101000101010
+lane 0, tap 1
+good value 2602 = 101000101010
+lane 0, tap 2
+good value 2602 = 101000101010
+lane 0, tap 3
+good value 2602 = 101000101010
+lane 0, tap 4
+good value 2602 = 101000101010
+lane 0, tap 5
+good value 2602 = 101000101010
+lane 0, tap 6
+good value 2602 = 101000101010
+lane 0, tap 7
+good value 2602 = 101000101010
+lane 0, tap 8
+good value 2602 = 101000101010
+lane 0, tap 9
+good value 2602 = 101000101010
+lane 0, tap 10
+good value 2602 = 101000101010
+lane 0, tap 11
+good value 2602 = 101000101010
+lane 0, tap 12
+good value 2602 = 101000101010
+lane 0, tap 13
+good value 2602 = 101000101010
+lane 0, tap 14
+good value 2602 = 101000101010
+lane 0, tap 15
+good value 2602 = 101000101010
+lane 0, tap 16
+good value 2602 = 101000101010
+lane 0, tap 17
+good value 2602 = 101000101010
+lane 0, tap 18
+good value 2602 = 101000101010
+lane 0, tap 19
+lane 0, tap 20
+lane 0, tap 21
+good value 2602 = 101000101010
+lane 0, tap 22
+good value 2602 = 101000101010
+lane 0, tap 23
+good value 2602 = 101000101010
+lane 0, tap 24
+good value 2602 = 101000101010
+lane 0, tap 25
+good value 2602 = 101000101010
+lane 0, tap 26
+good value 2602 = 101000101010
+lane 0, tap 27
+good value 2602 = 101000101010
+lane 0, tap 28
+good value 2602 = 101000101010
+lane 0, tap 29
+good value 2602 = 101000101010
+lane 0, tap 30
+good value 2602 = 101000101010
+lane 0, tap 31
+good value 2602 = 101000101010
+lane 1, tap 0
+good value 2602 = 101000101010
+lane 1, tap 1
+good value 2602 = 101000101010
+lane 1, tap 2
+good value 2602 = 101000101010
+lane 1, tap 3
+good value 2602 = 101000101010
+lane 1, tap 4
+good value 2602 = 101000101010
+lane 1, tap 5
+good value 2602 = 101000101010
+lane 1, tap 6
+good value 2602 = 101000101010
+lane 1, tap 7
+lane 1, tap 8
+lane 1, tap 9
+lane 1, tap 10
+lane 1, tap 11
+good value 2602 = 101000101010
+lane 1, tap 12
+good value 2602 = 101000101010
+lane 1, tap 13
+good value 2602 = 101000101010
+lane 1, tap 14
+good value 2602 = 101000101010
+lane 1, tap 15
+good value 2602 = 101000101010
+lane 1, tap 16
+good value 2602 = 101000101010
+lane 1, tap 17
+good value 2602 = 101000101010
+lane 1, tap 18
+good value 2602 = 101000101010
+lane 1, tap 19
+good value 2602 = 101000101010
+lane 1, tap 20
+good value 2602 = 101000101010
+lane 1, tap 21
+good value 2602 = 101000101010
+lane 1, tap 22
+good value 2602 = 101000101010
+lane 1, tap 23
+good value 2602 = 101000101010
+lane 1, tap 24
+good value 2602 = 101000101010
+lane 1, tap 25
+good value 2602 = 101000101010
+lane 1, tap 26
+good value 2602 = 101000101010
+lane 1, tap 27
+good value 2602 = 101000101010
+lane 1, tap 28
+good value 2602 = 101000101010
+lane 1, tap 29
+lane 1, tap 30
+lane 1, tap 31
+lane 2, tap 0
+good value 2602 = 101000101010
+lane 2, tap 1
+good value 2602 = 101000101010
+lane 2, tap 2
+good value 2602 = 101000101010
+lane 2, tap 3
+good value 2602 = 101000101010
+lane 2, tap 4
+good value 2602 = 101000101010
+lane 2, tap 5
+good value 2602 = 101000101010
+lane 2, tap 6
+lane 2, tap 7
+lane 2, tap 8
+lane 2, tap 9
+lane 2, tap 10
+good value 2602 = 101000101010
+lane 2, tap 11
+good value 2602 = 101000101010
+lane 2, tap 12
+good value 2602 = 101000101010
+lane 2, tap 13
+good value 2602 = 101000101010
+lane 2, tap 14
+good value 2602 = 101000101010
+lane 2, tap 15
+good value 2602 = 101000101010
+lane 2, tap 16
+good value 2602 = 101000101010
+lane 2, tap 17
+good value 2602 = 101000101010
+lane 2, tap 18
+good value 2602 = 101000101010
+lane 2, tap 19
+good value 2602 = 101000101010
+lane 2, tap 20
+good value 2602 = 101000101010
+lane 2, tap 21
+good value 2602 = 101000101010
+lane 2, tap 22
+good value 2602 = 101000101010
+lane 2, tap 23
+good value 2602 = 101000101010
+lane 2, tap 24
+good value 2602 = 101000101010
+lane 2, tap 25
+good value 2602 = 101000101010
+lane 2, tap 26
+good value 2602 = 101000101010
+lane 2, tap 27
+good value 2602 = 101000101010
+lane 2, tap 28
+good value 2602 = 101000101010
+lane 2, tap 29
+good value 2602 = 101000101010
+lane 2, tap 30
+good value 2602 = 101000101010
+lane 2, tap 31
+good value 2602 = 101000101010
+lane 3, tap 0
+good value 2602 = 101000101010
+lane 3, tap 1
+good value 2602 = 101000101010
+lane 3, tap 2
+good value 2602 = 101000101010
+lane 3, tap 3
+good value 2602 = 101000101010
+lane 3, tap 4
+good value 2602 = 101000101010
+lane 3, tap 5
+good value 2602 = 101000101010
+lane 3, tap 6
+good value 2602 = 101000101010
+lane 3, tap 7
+good value 2602 = 101000101010
+lane 3, tap 8
+good value 2602 = 101000101010
+lane 3, tap 9
+good value 1815 = 011100010111
+lane 3, tap 10
+good value 2602 = 101000101010
+lane 3, tap 11
+good value 2602 = 101000101010
+lane 3, tap 12
+good value 2602 = 101000101010
+lane 3, tap 13
+good value 2602 = 101000101010
+lane 3, tap 14
+good value 2602 = 101000101010
+lane 3, tap 15
+good value 2602 = 101000101010
+lane 3, tap 16
+good value 2602 = 101000101010
+lane 3, tap 17
+good value 2602 = 101000101010
+lane 3, tap 18
+good value 2602 = 101000101010
+lane 3, tap 19
+good value 2602 = 101000101010
+lane 3, tap 20
+good value 2602 = 101000101010
+lane 3, tap 21
+good value 2602 = 101000101010
+lane 3, tap 22
+good value 2602 = 101000101010
+lane 3, tap 23
+good value 2602 = 101000101010
+lane 3, tap 24
+good value 2602 = 101000101010
+lane 3, tap 25
+good value 2602 = 101000101010
+lane 3, tap 26
+good value 2602 = 101000101010
+lane 3, tap 27
+good value 2602 = 101000101010
+lane 3, tap 28
+good value 2602 = 101000101010
+lane 3, tap 29
+good value 2602 = 101000101010
+lane 3, tap 30
+lane 3, tap 31
+good value 1556 = 011000010100
+11111111111111111110011111111111
+11111110000111111111111111111000
+11111100001111111111111111111111
+11111111111111111111111111111101
+clock 5 lane 0 dll 1
+lane 0, tap 0
+lane 0, tap 1
+lane 0, tap 2
+lane 0, tap 3
+lane 0, tap 4
+lane 0, tap 5
+good value 2602 = 101000101010
+lane 0, tap 6
+good value 2602 = 101000101010
+lane 0, tap 7
+good value 2602 = 101000101010
+lane 0, tap 8
+good value 2602 = 101000101010
+lane 0, tap 9
+good value 2602 = 101000101010
+lane 0, tap 10
+good value 2602 = 101000101010
+lane 0, tap 11
+good value 2602 = 101000101010
+lane 0, tap 12
+good value 2602 = 101000101010
+lane 0, tap 13
+good value 2602 = 101000101010
+lane 0, tap 14
+good value 2602 = 101000101010
+lane 0, tap 15
+good value 2602 = 101000101010
+lane 0, tap 16
+good value 2602 = 101000101010
+lane 0, tap 17
+good value 2602 = 101000101010
+lane 0, tap 18
+good value 2602 = 101000101010
+lane 0, tap 19
+good value 2602 = 101000101010
+lane 0, tap 20
+good value 2602 = 101000101010
+lane 0, tap 21
+good value 2602 = 101000101010
+lane 0, tap 22
+lane 0, tap 23
+lane 0, tap 24
+lane 0, tap 25
+lane 0, tap 26
+good value 2602 = 101000101010
+lane 0, tap 27
+good value 2602 = 101000101010
+lane 0, tap 28
+good value 2602 = 101000101010
+lane 0, tap 29
+good value 2602 = 101000101010
+lane 0, tap 30
+good value 2602 = 101000101010
+lane 0, tap 31
+good value 2602 = 101000101010
+lane 1, tap 0
+good value 2602 = 101000101010
+lane 1, tap 1
+good value 2602 = 101000101010
+lane 1, tap 2
+good value 2602 = 101000101010
+lane 1, tap 3
+good value 2602 = 101000101010
+lane 1, tap 4
+good value 2602 = 101000101010
+lane 1, tap 5
+good value 2602 = 101000101010
+lane 1, tap 6
+good value 2602 = 101000101010
+lane 1, tap 7
+good value 2602 = 101000101010
+lane 1, tap 8
+good value 2602 = 101000101010
+lane 1, tap 9
+lane 1, tap 10
+lane 1, tap 11
+lane 1, tap 12
+lane 1, tap 13
+lane 1, tap 14
+lane 1, tap 15
+lane 1, tap 16
+lane 1, tap 17
+lane 1, tap 18
+good value 2602 = 101000101010
+lane 1, tap 19
+good value 2602 = 101000101010
+lane 1, tap 20
+good value 2602 = 101000101010
+lane 1, tap 21
+good value 2602 = 101000101010
+lane 1, tap 22
+good value 2602 = 101000101010
+lane 1, tap 23
+good value 2602 = 101000101010
+lane 1, tap 24
+good value 2602 = 101000101010
+lane 1, tap 25
+good value 2602 = 101000101010
+lane 1, tap 26
+good value 2602 = 101000101010
+lane 1, tap 27
+good value 2602 = 101000101010
+lane 1, tap 28
+good value 2602 = 101000101010
+lane 1, tap 29
+good value 2602 = 101000101010
+lane 1, tap 30
+good value 2602 = 101000101010
+lane 1, tap 31
+lane 2, tap 0
+good value 2602 = 101000101010
+lane 2, tap 1
+good value 2602 = 101000101010
+lane 2, tap 2
+good value 2602 = 101000101010
+lane 2, tap 3
+good value 2602 = 101000101010
+lane 2, tap 4
+good value 2602 = 101000101010
+lane 2, tap 5
+good value 2602 = 101000101010
+lane 2, tap 6
+good value 2602 = 101000101010
+lane 2, tap 7
+good value 2602 = 101000101010
+lane 2, tap 8
+lane 2, tap 9
+lane 2, tap 10
+lane 2, tap 11
+lane 2, tap 12
+lane 2, tap 13
+lane 2, tap 14
+lane 2, tap 15
+lane 2, tap 16
+good value 2602 = 101000101010
+lane 2, tap 17
+good value 2602 = 101000101010
+lane 2, tap 18
+good value 2602 = 101000101010
+lane 2, tap 19
+good value 2602 = 101000101010
+lane 2, tap 20
+good value 2602 = 101000101010
+lane 2, tap 21
+good value 2602 = 101000101010
+lane 2, tap 22
+good value 2602 = 101000101010
+lane 2, tap 23
+good value 2602 = 101000101010
+lane 2, tap 24
+good value 2602 = 101000101010
+lane 2, tap 25
+good value 2602 = 101000101010
+lane 2, tap 26
+good value 2602 = 101000101010
+lane 2, tap 27
+good value 2602 = 101000101010
+lane 2, tap 28
+good value 2602 = 101000101010
+lane 2, tap 29
+good value 2602 = 101000101010
+lane 2, tap 30
+lane 2, tap 31
+lane 3, tap 0
+good value 2602 = 101000101010
+lane 3, tap 1
+good value 2602 = 101000101010
+lane 3, tap 2
+good value 2602 = 101000101010
+lane 3, tap 3
+good value 2602 = 101000101010
+lane 3, tap 4
+good value 2602 = 101000101010
+lane 3, tap 5
+good value 2602 = 101000101010
+lane 3, tap 6
+good value 2602 = 101000101010
+lane 3, tap 7
+good value 2602 = 101000101010
+lane 3, tap 8
+lane 3, tap 9
+lane 3, tap 10
+lane 3, tap 11
+lane 3, tap 12
+lane 3, tap 13
+lane 3, tap 14
+lane 3, tap 15
+lane 3, tap 16
+good value 2602 = 101000101010
+lane 3, tap 17
+good value 2602 = 101000101010
+lane 3, tap 18
+good value 2602 = 101000101010
+lane 3, tap 19
+good value 2602 = 101000101010
+lane 3, tap 20
+good value 2602 = 101000101010
+lane 3, tap 21
+good value 2602 = 101000101010
+lane 3, tap 22
+good value 2602 = 101000101010
+lane 3, tap 23
+good value 2602 = 101000101010
+lane 3, tap 24
+good value 2602 = 101000101010
+lane 3, tap 25
+good value 2602 = 101000101010
+lane 3, tap 26
+good value 2602 = 101000101010
+lane 3, tap 27
+good value 2602 = 101000101010
+lane 3, tap 28
+good value 2602 = 101000101010
+lane 3, tap 29
+lane 3, tap 30
+lane 3, tap 31
+00000111111111111111110000111111
+11111111100000000011111111111110
+11111111000000001111111111111100
+11111111000000001111111111111000
+clock 6 lane 0 dll 1
+lane 0, tap 0
+lane 0, tap 1
+lane 0, tap 2
+good value 315 = 000100111011
+lane 0, tap 3
+lane 0, tap 4
+good value 2602 = 101000101010
+lane 0, tap 5
+good value 2602 = 101000101010
+lane 0, tap 6
+good value 2602 = 101000101010
+lane 0, tap 7
+good value 2602 = 101000101010
+lane 0, tap 8
+good value 2602 = 101000101010
+lane 0, tap 9
+good value 2602 = 101000101010
+lane 0, tap 10
+good value 2602 = 101000101010
+lane 0, tap 11
+good value 2602 = 101000101010
+lane 0, tap 12
+good value 2602 = 101000101010
+lane 0, tap 13
+good value 2602 = 101000101010
+lane 0, tap 14
+good value 2602 = 101000101010
+lane 0, tap 15
+good value 2602 = 101000101010
+lane 0, tap 16
+good value 2602 = 101000101010
+lane 0, tap 17
+good value 2602 = 101000101010
+lane 0, tap 18
+good value 2602 = 101000101010
+lane 0, tap 19
+good value 2602 = 101000101010
+lane 0, tap 20
+good value 2602 = 101000101010
+lane 0, tap 21
+good value 2602 = 101000101010
+lane 0, tap 22
+lane 0, tap 23
+lane 0, tap 24
+lane 0, tap 25
+lane 0, tap 26
+good value 2602 = 101000101010
+lane 0, tap 27
+good value 2602 = 101000101010
+lane 0, tap 28
+good value 2602 = 101000101010
+lane 0, tap 29
+good value 2602 = 101000101010
+lane 0, tap 30
+good value 2602 = 101000101010
+lane 0, tap 31
+good value 2602 = 101000101010
+lane 1, tap 0
+good value 2602 = 101000101010
+lane 1, tap 1
+good value 2602 = 101000101010
+lane 1, tap 2
+good value 2602 = 101000101010
+lane 1, tap 3
+good value 2602 = 101000101010
+lane 1, tap 4
+good value 2602 = 101000101010
+lane 1, tap 5
+good value 2602 = 101000101010
+lane 1, tap 6
+good value 2602 = 101000101010
+lane 1, tap 7
+good value 2602 = 101000101010
+lane 1, tap 8
+good value 2602 = 101000101010
+lane 1, tap 9
+good value 2602 = 101000101010
+lane 1, tap 10
+lane 1, tap 11
+lane 1, tap 12
+lane 1, tap 13
+lane 1, tap 14
+lane 1, tap 15
+lane 1, tap 16
+good value 2602 = 101000101010
+lane 1, tap 17
+good value 2602 = 101000101010
+lane 1, tap 18
+good value 2602 = 101000101010
+lane 1, tap 19
+good value 2602 = 101000101010
+lane 1, tap 20
+good value 2602 = 101000101010
+lane 1, tap 21
+good value 2602 = 101000101010
+lane 1, tap 22
+good value 2602 = 101000101010
+lane 1, tap 23
+good value 2602 = 101000101010
+lane 1, tap 24
+good value 2602 = 101000101010
+lane 1, tap 25
+good value 2602 = 101000101010
+lane 1, tap 26
+good value 2602 = 101000101010
+lane 1, tap 27
+good value 2602 = 101000101010
+lane 1, tap 28
+good value 2602 = 101000101010
+lane 1, tap 29
+good value 2602 = 101000101010
+lane 1, tap 30
+good value 2602 = 101000101010
+lane 1, tap 31
+good value 2602 = 101000101010
+lane 2, tap 0
+good value 2602 = 101000101010
+lane 2, tap 1
+good value 2602 = 101000101010
+lane 2, tap 2
+good value 2602 = 101000101010
+lane 2, tap 3
+good value 2602 = 101000101010
+lane 2, tap 4
+good value 2602 = 101000101010
+lane 2, tap 5
+good value 2602 = 101000101010
+lane 2, tap 6
+good value 2602 = 101000101010
+lane 2, tap 7
+good value 2602 = 101000101010
+lane 2, tap 8
+good value 2602 = 101000101010
+lane 2, tap 9
+lane 2, tap 10
+lane 2, tap 11
+lane 2, tap 12
+lane 2, tap 13
+lane 2, tap 14
+lane 2, tap 15
+good value 2602 = 101000101010
+lane 2, tap 16
+good value 2602 = 101000101010
+lane 2, tap 17
+good value 2602 = 101000101010
+lane 2, tap 18
+good value 2602 = 101000101010
+lane 2, tap 19
+good value 2602 = 101000101010
+lane 2, tap 20
+good value 2602 = 101000101010
+lane 2, tap 21
+good value 2602 = 101000101010
+lane 2, tap 22
+good value 2602 = 101000101010
+lane 2, tap 23
+good value 2602 = 101000101010
+lane 2, tap 24
+good value 2602 = 101000101010
+lane 2, tap 25
+good value 2602 = 101000101010
+lane 2, tap 26
+good value 2602 = 101000101010
+lane 2, tap 27
+good value 2602 = 101000101010
+lane 2, tap 28
+good value 2602 = 101000101010
+lane 2, tap 29
+good value 2602 = 101000101010
+lane 2, tap 30
+good value 2602 = 101000101010
+lane 2, tap 31
+lane 3, tap 0
+good value 2602 = 101000101010
+lane 3, tap 1
+good value 2602 = 101000101010
+lane 3, tap 2
+good value 2602 = 101000101010
+lane 3, tap 3
+good value 2602 = 101000101010
+lane 3, tap 4
+good value 2602 = 101000101010
+lane 3, tap 5
+good value 2602 = 101000101010
+lane 3, tap 6
+good value 2602 = 101000101010
+lane 3, tap 7
+good value 2602 = 101000101010
+lane 3, tap 8
+lane 3, tap 9
+lane 3, tap 10
+lane 3, tap 11
+lane 3, tap 12
+lane 3, tap 13
+lane 3, tap 14
+good value 2602 = 101000101010
+lane 3, tap 15
+good value 2602 = 101000101010
+lane 3, tap 16
+good value 2602 = 101000101010
+lane 3, tap 17
+good value 2602 = 101000101010
+lane 3, tap 18
+good value 2602 = 101000101010
+lane 3, tap 19
+good value 2602 = 101000101010
+lane 3, tap 20
+good value 2602 = 101000101010
+lane 3, tap 21
+good value 2602 = 101000101010
+lane 3, tap 22
+good value 2602 = 101000101010
+lane 3, tap 23
+good value 2602 = 101000101010
+lane 3, tap 24
+good value 2602 = 101000101010
+lane 3, tap 25
+good value 2602 = 101000101010
+lane 3, tap 26
+good value 2602 = 101000101010
+lane 3, tap 27
+good value 2602 = 101000101010
+lane 3, tap 28
+good value 2602 = 101000101010
+lane 3, tap 29
+good value 2602 = 101000101010
+lane 3, tap 30
+lane 3, tap 31
+00101111111111111111110000111111
+11111111110000001111111111111111
+11111111100000011111111111111110
+11111111000000111111111111111100
+clock 7 lane 0 dll 1
+lane 0, tap 0
+good value 2602 = 101000101010
+lane 0, tap 1
+good value 2602 = 101000101010
+lane 0, tap 2
+good value 2602 = 101000101010
+lane 0, tap 3
+lane 0, tap 4
+lane 0, tap 5
+lane 0, tap 6
+lane 0, tap 7
+lane 0, tap 8
+lane 0, tap 9
+lane 0, tap 10
+lane 0, tap 11
+good value 2602 = 101000101010
+lane 0, tap 12
+good value 2602 = 101000101010
+lane 0, tap 13
+good value 2602 = 101000101010
+lane 0, tap 14
+good value 2602 = 101000101010
+lane 0, tap 15
+good value 2602 = 101000101010
+lane 0, tap 16
+good value 2602 = 101000101010
+lane 0, tap 17
+good value 2602 = 101000101010
+lane 0, tap 18
+good value 2602 = 101000101010
+lane 0, tap 19
+good value 2602 = 101000101010
+lane 0, tap 20
+good value 2602 = 101000101010
+lane 0, tap 21
+good value 2602 = 101000101010
+lane 0, tap 22
+good value 2602 = 101000101010
+lane 0, tap 23
+good value 2602 = 101000101010
+lane 0, tap 24
+good value 2602 = 101000101010
+lane 0, tap 25
+lane 0, tap 26
+lane 0, tap 27
+lane 0, tap 28
+lane 0, tap 29
+lane 0, tap 30
+lane 0, tap 31
+lane 1, tap 0
+lane 1, tap 1
+lane 1, tap 2
+good value 2602 = 101000101010
+lane 1, tap 3
+good value 2602 = 101000101010
+lane 1, tap 4
+good value 2602 = 101000101010
+lane 1, tap 5
+good value 2602 = 101000101010
+lane 1, tap 6
+good value 2602 = 101000101010
+lane 1, tap 7
+good value 2602 = 101000101010
+lane 1, tap 8
+good value 2602 = 101000101010
+lane 1, tap 9
+good value 2602 = 101000101010
+lane 1, tap 10
+good value 2602 = 101000101010
+lane 1, tap 11
+good value 2602 = 101000101010
+lane 1, tap 12
+good value 2602 = 101000101010
+lane 1, tap 13
+lane 1, tap 14
+lane 1, tap 15
+lane 1, tap 16
+lane 1, tap 17
+lane 1, tap 18
+lane 1, tap 19
+lane 1, tap 20
+lane 1, tap 21
+lane 1, tap 22
+lane 1, tap 23
+lane 1, tap 24
+good value 2602 = 101000101010
+lane 1, tap 25
+good value 2602 = 101000101010
+lane 1, tap 26
+good value 2602 = 101000101010
+lane 1, tap 27
+good value 2602 = 101000101010
+lane 1, tap 28
+good value 2602 = 101000101010
+lane 1, tap 29
+good value 2602 = 101000101010
+lane 1, tap 30
+good value 2602 = 101000101010
+lane 1, tap 31
+good value 2602 = 101000101010
+lane 2, tap 0
+lane 2, tap 1
+good value 2602 = 101000101010
+lane 2, tap 2
+good value 2602 = 101000101010
+lane 2, tap 3
+good value 2602 = 101000101010
+lane 2, tap 4
+good value 2602 = 101000101010
+lane 2, tap 5
+good value 2602 = 101000101010
+lane 2, tap 6
+good value 2602 = 101000101010
+lane 2, tap 7
+good value 2602 = 101000101010
+lane 2, tap 8
+good value 2602 = 101000101010
+lane 2, tap 9
+good value 2602 = 101000101010
+lane 2, tap 10
+good value 2602 = 101000101010
+lane 2, tap 11
+good value 2602 = 101000101010
+lane 2, tap 12
+lane 2, tap 13
+lane 2, tap 14
+lane 2, tap 15
+lane 2, tap 16
+lane 2, tap 17
+lane 2, tap 18
+lane 2, tap 19
+lane 2, tap 20
+lane 2, tap 21
+lane 2, tap 22
+lane 2, tap 23
+good value 2602 = 101000101010
+lane 2, tap 24
+good value 2602 = 101000101010
+lane 2, tap 25
+good value 2602 = 101000101010
+lane 2, tap 26
+good value 2602 = 101000101010
+lane 2, tap 27
+good value 2602 = 101000101010
+lane 2, tap 28
+good value 2602 = 101000101010
+lane 2, tap 29
+good value 2602 = 101000101010
+lane 2, tap 30
+good value 2602 = 101000101010
+lane 2, tap 31
+good value 2602 = 101000101010
+lane 3, tap 0
+lane 3, tap 1
+good value 2602 = 101000101010
+lane 3, tap 2
+good value 2602 = 101000101010
+lane 3, tap 3
+good value 2602 = 101000101010
+lane 3, tap 4
+good value 2602 = 101000101010
+lane 3, tap 5
+good value 2602 = 101000101010
+lane 3, tap 6
+good value 2602 = 101000101010
+lane 3, tap 7
+good value 2602 = 101000101010
+lane 3, tap 8
+good value 2602 = 101000101010
+lane 3, tap 9
+good value 2602 = 101000101010
+lane 3, tap 10
+good value 2602 = 101000101010
+lane 3, tap 11
+lane 3, tap 12
+lane 3, tap 13
+lane 3, tap 14
+lane 3, tap 15
+lane 3, tap 16
+lane 3, tap 17
+lane 3, tap 18
+lane 3, tap 19
+lane 3, tap 20
+lane 3, tap 21
+lane 3, tap 22
+good value 2602 = 101000101010
+lane 3, tap 23
+good value 2602 = 101000101010
+lane 3, tap 24
+good value 2602 = 101000101010
+lane 3, tap 25
+good value 2602 = 101000101010
+lane 3, tap 26
+good value 2602 = 101000101010
+lane 3, tap 27
+good value 2602 = 101000101010
+lane 3, tap 28
+good value 2602 = 101000101010
+lane 3, tap 29
+good value 2602 = 101000101010
+lane 3, tap 30
+good value 2602 = 101000101010
+lane 3, tap 31
+good value 2602 = 101000101010
+11100000000111111111111110000000
+00111111111110000000000011111111
+01111111111100000000000111111111
+01111111111000000000001111111111
+clock 0 lane 0 dll 2
+lane 0, tap 0
+good value 2602 = 101000101010
+lane 0, tap 1
+good value 2602 = 101000101010
+lane 0, tap 2
+good value 2602 = 101000101010
+lane 0, tap 3
+good value 2602 = 101000101010
+lane 0, tap 4
+good value 2602 = 101000101010
+lane 0, tap 5
+good value 2602 = 101000101010
+lane 0, tap 6
+good value 2602 = 101000101010
+lane 0, tap 7
+good value 2602 = 101000101010
+lane 0, tap 8
+lane 0, tap 9
+lane 0, tap 10
+lane 0, tap 11
+good value 2602 = 101000101010
+lane 0, tap 12
+good value 2602 = 101000101010
+lane 0, tap 13
+good value 2602 = 101000101010
+lane 0, tap 14
+good value 2602 = 101000101010
+lane 0, tap 15
+good value 2602 = 101000101010
+lane 0, tap 16
+good value 2602 = 101000101010
+lane 0, tap 17
+good value 2602 = 101000101010
+lane 0, tap 18
+good value 2602 = 101000101010
+lane 0, tap 19
+good value 2602 = 101000101010
+lane 0, tap 20
+good value 2602 = 101000101010
+lane 0, tap 21
+good value 2602 = 101000101010
+lane 0, tap 22
+good value 2602 = 101000101010
+lane 0, tap 23
+good value 2602 = 101000101010
+lane 0, tap 24
+good value 2602 = 101000101010
+lane 0, tap 25
+good value 2602 = 101000101010
+lane 0, tap 26
+good value 2602 = 101000101010
+lane 0, tap 27
+good value 2602 = 101000101010
+lane 0, tap 28
+good value 2602 = 101000101010
+lane 0, tap 29
+good value 2602 = 101000101010
+lane 0, tap 30
+good value 2606 = 101000101110
+lane 0, tap 31
+lane 1, tap 0
+lane 1, tap 1
+good value 2602 = 101000101010
+lane 1, tap 2
+good value 2602 = 101000101010
+lane 1, tap 3
+good value 2602 = 101000101010
+lane 1, tap 4
+good value 2602 = 101000101010
+lane 1, tap 5
+good value 2602 = 101000101010
+lane 1, tap 6
+good value 2602 = 101000101010
+lane 1, tap 7
+good value 2602 = 101000101010
+lane 1, tap 8
+good value 2602 = 101000101010
+lane 1, tap 9
+good value 2602 = 101000101010
+lane 1, tap 10
+good value 2602 = 101000101010
+lane 1, tap 11
+good value 2602 = 101000101010
+lane 1, tap 12
+good value 2602 = 101000101010
+lane 1, tap 13
+good value 2602 = 101000101010
+lane 1, tap 14
+good value 2602 = 101000101010
+lane 1, tap 15
+good value 2602 = 101000101010
+lane 1, tap 16
+good value 2602 = 101000101010
+lane 1, tap 17
+good value 2602 = 101000101010
+lane 1, tap 18
+good value 2602 = 101000101010
+lane 1, tap 19
+good value 2602 = 101000101010
+lane 1, tap 20
+good value 2602 = 101000101010
+lane 1, tap 21
+good value 2602 = 101000101010
+lane 1, tap 22
+lane 1, tap 23
+good value 530 = 001000010010
+lane 1, tap 24
+good value 2602 = 101000101010
+lane 1, tap 25
+good value 2602 = 101000101010
+lane 1, tap 26
+good value 2602 = 101000101010
+lane 1, tap 27
+good value 2602 = 101000101010
+lane 1, tap 28
+good value 2602 = 101000101010
+lane 1, tap 29
+good value 2602 = 101000101010
+lane 1, tap 30
+good value 2602 = 101000101010
+lane 1, tap 31
+good value 2602 = 101000101010
+lane 2, tap 0
+good value 2602 = 101000101010
+lane 2, tap 1
+good value 2602 = 101000101010
+lane 2, tap 2
+good value 2602 = 101000101010
+lane 2, tap 3
+good value 2602 = 101000101010
+lane 2, tap 4
+good value 2602 = 101000101010
+lane 2, tap 5
+good value 2602 = 101000101010
+lane 2, tap 6
+good value 2602 = 101000101010
+lane 2, tap 7
+good value 2602 = 101000101010
+lane 2, tap 8
+good value 2602 = 101000101010
+lane 2, tap 9
+good value 2602 = 101000101010
+lane 2, tap 10
+good value 2602 = 101000101010
+lane 2, tap 11
+good value 2602 = 101000101010
+lane 2, tap 12
+good value 2602 = 101000101010
+lane 2, tap 13
+good value 2602 = 101000101010
+lane 2, tap 14
+good value 2602 = 101000101010
+lane 2, tap 15
+good value 2602 = 101000101010
+lane 2, tap 16
+good value 2602 = 101000101010
+lane 2, tap 17
+good value 2602 = 101000101010
+lane 2, tap 18
+good value 2602 = 101000101010
+lane 2, tap 19
+good value 2602 = 101000101010
+lane 2, tap 20
+good value 2602 = 101000101010
+lane 2, tap 21
+good value 1044 = 010000010100
+lane 2, tap 22
+good value 2570 = 101000001010
+lane 2, tap 23
+good value 2602 = 101000101010
+lane 2, tap 24
+good value 2602 = 101000101010
+lane 2, tap 25
+good value 2602 = 101000101010
+lane 2, tap 26
+good value 2602 = 101000101010
+lane 2, tap 27
+good value 2602 = 101000101010
+lane 2, tap 28
+good value 2602 = 101000101010
+lane 2, tap 29
+good value 2602 = 101000101010
+lane 2, tap 30
+good value 2602 = 101000101010
+lane 2, tap 31
+good value 2602 = 101000101010
+lane 3, tap 0
+good value 2602 = 101000101010
+lane 3, tap 1
+good value 2602 = 101000101010
+lane 3, tap 2
+good value 2602 = 101000101010
+lane 3, tap 3
+good value 2602 = 101000101010
+lane 3, tap 4
+good value 2602 = 101000101010
+lane 3, tap 5
+good value 2602 = 101000101010
+lane 3, tap 6
+good value 2602 = 101000101010
+lane 3, tap 7
+good value 2602 = 101000101010
+lane 3, tap 8
+good value 2602 = 101000101010
+lane 3, tap 9
+good value 2602 = 101000101010
+lane 3, tap 10
+good value 2602 = 101000101010
+lane 3, tap 11
+good value 2602 = 101000101010
+lane 3, tap 12
+good value 2602 = 101000101010
+lane 3, tap 13
+good value 2602 = 101000101010
+lane 3, tap 14
+good value 2602 = 101000101010
+lane 3, tap 15
+good value 2602 = 101000101010
+lane 3, tap 16
+good value 2602 = 101000101010
+lane 3, tap 17
+good value 2602 = 101000101010
+lane 3, tap 18
+good value 2602 = 101000101010
+lane 3, tap 19
+good value 2602 = 101000101010
+lane 3, tap 20
+good value 1300 = 010100010100
+lane 3, tap 21
+good value 530 = 001000010010
+lane 3, tap 22
+good value 2602 = 101000101010
+lane 3, tap 23
+good value 2602 = 101000101010
+lane 3, tap 24
+good value 2602 = 101000101010
+lane 3, tap 25
+good value 2602 = 101000101010
+lane 3, tap 26
+good value 2602 = 101000101010
+lane 3, tap 27
+good value 2602 = 101000101010
+lane 3, tap 28
+good value 2602 = 101000101010
+lane 3, tap 29
+good value 2602 = 101000101010
+lane 3, tap 30
+good value 2602 = 101000101010
+lane 3, tap 31
+good value 2602 = 101000101010
+11111111000111111111111111111110
+01111111111111111111110111111111
+11111111111111111111111111111111
+11111111111111111111111111111111
+clock 1 lane 0 dll 2
+lane 0, tap 0
+good value 2602 = 101000101010
+lane 0, tap 1
+good value 2602 = 101000101010
+lane 0, tap 2
+good value 2602 = 101000101010
+lane 0, tap 3
+good value 2602 = 101000101010
+lane 0, tap 4
+good value 2602 = 101000101010
+lane 0, tap 5
+good value 2602 = 101000101010
+lane 0, tap 6
+good value 2602 = 101000101010
+lane 0, tap 7
+good value 2602 = 101000101010
+lane 0, tap 8
+good value 2602 = 101000101010
+lane 0, tap 9
+good value 2602 = 101000101010
+lane 0, tap 10
+good value 2602 = 101000101010
+lane 0, tap 11
+good value 2602 = 101000101010
+lane 0, tap 12
+lane 0, tap 13
+lane 0, tap 14
+good value 2602 = 101000101010
+lane 0, tap 15
+good value 2602 = 101000101010
+lane 0, tap 16
+good value 2602 = 101000101010
+lane 0, tap 17
+good value 2602 = 101000101010
+lane 0, tap 18
+good value 2602 = 101000101010
+lane 0, tap 19
+good value 2602 = 101000101010
+lane 0, tap 20
+good value 2602 = 101000101010
+lane 0, tap 21
+good value 2602 = 101000101010
+lane 0, tap 22
+good value 2602 = 101000101010
+lane 0, tap 23
+good value 2602 = 101000101010
+lane 0, tap 24
+good value 2602 = 101000101010
+lane 0, tap 25
+good value 2602 = 101000101010
+lane 0, tap 26
+good value 2602 = 101000101010
+lane 0, tap 27
+good value 2602 = 101000101010
+lane 0, tap 28
+good value 2602 = 101000101010
+lane 0, tap 29
+good value 2602 = 101000101010
+lane 0, tap 30
+good value 2602 = 101000101010
+lane 0, tap 31
+good value 2602 = 101000101010
+lane 1, tap 0
+good value 2602 = 101000101010
+lane 1, tap 1
+good value 2602 = 101000101010
+lane 1, tap 2
+good value 2602 = 101000101010
+lane 1, tap 3
+lane 1, tap 4
+lane 1, tap 5
+good value 2602 = 101000101010
+lane 1, tap 6
+good value 2602 = 101000101010
+lane 1, tap 7
+good value 2602 = 101000101010
+lane 1, tap 8
+good value 2602 = 101000101010
+lane 1, tap 9
+good value 2602 = 101000101010
+lane 1, tap 10
+good value 2602 = 101000101010
+lane 1, tap 11
+good value 2602 = 101000101010
+lane 1, tap 12
+good value 2602 = 101000101010
+lane 1, tap 13
+good value 2602 = 101000101010
+lane 1, tap 14
+good value 2602 = 101000101010
+lane 1, tap 15
+good value 2602 = 101000101010
+lane 1, tap 16
+good value 2602 = 101000101010
+lane 1, tap 17
+good value 2602 = 101000101010
+lane 1, tap 18
+good value 2602 = 101000101010
+lane 1, tap 19
+good value 2602 = 101000101010
+lane 1, tap 20
+good value 2602 = 101000101010
+lane 1, tap 21
+good value 2602 = 101000101010
+lane 1, tap 22
+good value 2602 = 101000101010
+lane 1, tap 23
+good value 2602 = 101000101010
+lane 1, tap 24
+good value 2602 = 101000101010
+lane 1, tap 25
+lane 1, tap 26
+lane 1, tap 27
+good value 530 = 001000010010
+lane 1, tap 28
+good value 2602 = 101000101010
+lane 1, tap 29
+good value 2602 = 101000101010
+lane 1, tap 30
+good value 2602 = 101000101010
+lane 1, tap 31
+good value 2602 = 101000101010
+lane 2, tap 0
+good value 2602 = 101000101010
+lane 2, tap 1
+good value 2602 = 101000101010
+lane 2, tap 2
+lane 2, tap 3
+lane 2, tap 4
+good value 2602 = 101000101010
+lane 2, tap 5
+good value 2602 = 101000101010
+lane 2, tap 6
+good value 2602 = 101000101010
+lane 2, tap 7
+good value 2602 = 101000101010
+lane 2, tap 8
+good value 2602 = 101000101010
+lane 2, tap 9
+good value 2602 = 101000101010
+lane 2, tap 10
+good value 2602 = 101000101010
+lane 2, tap 11
+good value 2602 = 101000101010
+lane 2, tap 12
+good value 2602 = 101000101010
+lane 2, tap 13
+good value 2602 = 101000101010
+lane 2, tap 14
+good value 2602 = 101000101010
+lane 2, tap 15
+good value 2602 = 101000101010
+lane 2, tap 16
+good value 2602 = 101000101010
+lane 2, tap 17
+good value 2602 = 101000101010
+lane 2, tap 18
+good value 2602 = 101000101010
+lane 2, tap 19
+good value 2602 = 101000101010
+lane 2, tap 20
+good value 2602 = 101000101010
+lane 2, tap 21
+good value 2602 = 101000101010
+lane 2, tap 22
+good value 2602 = 101000101010
+lane 2, tap 23
+good value 2602 = 101000101010
+lane 2, tap 24
+lane 2, tap 25
+lane 2, tap 26
+good value 2570 = 101000001010
+lane 2, tap 27
+good value 2602 = 101000101010
+lane 2, tap 28
+good value 2602 = 101000101010
+lane 2, tap 29
+good value 2602 = 101000101010
+lane 2, tap 30
+good value 2602 = 101000101010
+lane 2, tap 31
+good value 2602 = 101000101010
+lane 3, tap 0
+good value 2602 = 101000101010
+lane 3, tap 1
+lane 3, tap 2
+lane 3, tap 3
+good value 2622 = 101000111110
+lane 3, tap 4
+good value 2602 = 101000101010
+lane 3, tap 5
+good value 2602 = 101000101010
+lane 3, tap 6
+good value 2602 = 101000101010
+lane 3, tap 7
+good value 2602 = 101000101010
+lane 3, tap 8
+good value 2602 = 101000101010
+lane 3, tap 9
+good value 2602 = 101000101010
+lane 3, tap 10
+good value 2602 = 101000101010
+lane 3, tap 11
+good value 2602 = 101000101010
+lane 3, tap 12
+good value 2602 = 101000101010
+lane 3, tap 13
+good value 2602 = 101000101010
+lane 3, tap 14
+good value 2602 = 101000101010
+lane 3, tap 15
+good value 2602 = 101000101010
+lane 3, tap 16
+good value 2602 = 101000101010
+lane 3, tap 17
+good value 2602 = 101000101010
+lane 3, tap 18
+good value 2602 = 101000101010
+lane 3, tap 19
+good value 2602 = 101000101010
+lane 3, tap 20
+good value 2602 = 101000101010
+lane 3, tap 21
+good value 2602 = 101000101010
+lane 3, tap 22
+good value 2602 = 101000101010
+lane 3, tap 23
+lane 3, tap 24
+lane 3, tap 25
+good value 2618 = 101000111010
+lane 3, tap 26
+good value 2602 = 101000101010
+lane 3, tap 27
+good value 2602 = 101000101010
+lane 3, tap 28
+good value 2602 = 101000101010
+lane 3, tap 29
+good value 2602 = 101000101010
+lane 3, tap 30
+good value 2602 = 101000101010
+lane 3, tap 31
+good value 2602 = 101000101010
+11111111111100111111111111111111
+11100111111111111111111110011111
+11001111111111111111111100111111
+10011111111111111111111001111111
+clock 2 lane 0 dll 2
+lane 0, tap 0
+good value 2602 = 101000101010
+lane 0, tap 1
+good value 2602 = 101000101010
+lane 0, tap 2
+good value 2602 = 101000101010
+lane 0, tap 3
+good value 2602 = 101000101010
+lane 0, tap 4
+good value 2602 = 101000101010
+lane 0, tap 5
+good value 2602 = 101000101010
+lane 0, tap 6
+good value 2602 = 101000101010
+lane 0, tap 7
+good value 2602 = 101000101010
+lane 0, tap 8
+good value 2602 = 101000101010
+lane 0, tap 9
+good value 2602 = 101000101010
+lane 0, tap 10
+good value 2602 = 101000101010
+lane 0, tap 11
+good value 2602 = 101000101010
+lane 0, tap 12
+good value 2602 = 101000101010
+lane 0, tap 13
+lane 0, tap 14
+good value 2859 = 101100101011
+lane 0, tap 15
+good value 2602 = 101000101010
+lane 0, tap 16
+good value 2602 = 101000101010
+lane 0, tap 17
+good value 2602 = 101000101010
+lane 0, tap 18
+good value 2602 = 101000101010
+lane 0, tap 19
+good value 2602 = 101000101010
+lane 0, tap 20
+good value 2602 = 101000101010
+lane 0, tap 21
+good value 2602 = 101000101010
+lane 0, tap 22
+good value 2602 = 101000101010
+lane 0, tap 23
+good value 2602 = 101000101010
+lane 0, tap 24
+good value 2602 = 101000101010
+lane 0, tap 25
+good value 2602 = 101000101010
+lane 0, tap 26
+good value 2602 = 101000101010
+lane 0, tap 27
+good value 2602 = 101000101010
+lane 0, tap 28
+good value 2602 = 101000101010
+lane 0, tap 29
+good value 2602 = 101000101010
+lane 0, tap 30
+good value 2602 = 101000101010
+lane 0, tap 31
+good value 2602 = 101000101010
+lane 1, tap 0
+good value 2602 = 101000101010
+lane 1, tap 1
+good value 2602 = 101000101010
+lane 1, tap 2
+good value 2602 = 101000101010
+lane 1, tap 3
+good value 2602 = 101000101010
+lane 1, tap 4
+lane 1, tap 5
+lane 1, tap 6
+good value 2602 = 101000101010
+lane 1, tap 7
+good value 2602 = 101000101010
+lane 1, tap 8
+good value 2602 = 101000101010
+lane 1, tap 9
+good value 2602 = 101000101010
+lane 1, tap 10
+good value 2602 = 101000101010
+lane 1, tap 11
+good value 2602 = 101000101010
+lane 1, tap 12
+good value 2602 = 101000101010
+lane 1, tap 13
+good value 2602 = 101000101010
+lane 1, tap 14
+good value 2602 = 101000101010
+lane 1, tap 15
+good value 2602 = 101000101010
+lane 1, tap 16
+good value 2602 = 101000101010
+lane 1, tap 17
+good value 2602 = 101000101010
+lane 1, tap 18
+good value 2602 = 101000101010
+lane 1, tap 19
+good value 2602 = 101000101010
+lane 1, tap 20
+good value 2602 = 101000101010
+lane 1, tap 21
+good value 2602 = 101000101010
+lane 1, tap 22
+good value 2602 = 101000101010
+lane 1, tap 23
+good value 2602 = 101000101010
+lane 1, tap 24
+good value 2602 = 101000101010
+lane 1, tap 25
+lane 1, tap 26
+lane 1, tap 27
+lane 1, tap 28
+good value 2602 = 101000101010
+lane 1, tap 29
+good value 2602 = 101000101010
+lane 1, tap 30
+good value 2602 = 101000101010
+lane 1, tap 31
+good value 2602 = 101000101010
+lane 2, tap 0
+good value 2602 = 101000101010
+lane 2, tap 1
+good value 2602 = 101000101010
+lane 2, tap 2
+good value 2602 = 101000101010
+lane 2, tap 3
+lane 2, tap 4
+lane 2, tap 5
+good value 2602 = 101000101010
+lane 2, tap 6
+good value 2602 = 101000101010
+lane 2, tap 7
+good value 2602 = 101000101010
+lane 2, tap 8
+good value 2602 = 101000101010
+lane 2, tap 9
+good value 2602 = 101000101010
+lane 2, tap 10
+good value 2602 = 101000101010
+lane 2, tap 11
+good value 2602 = 101000101010
+lane 2, tap 12
+good value 2602 = 101000101010
+lane 2, tap 13
+good value 2602 = 101000101010
+lane 2, tap 14
+good value 2602 = 101000101010
+lane 2, tap 15
+good value 2602 = 101000101010
+lane 2, tap 16
+good value 2602 = 101000101010
+lane 2, tap 17
+good value 2602 = 101000101010
+lane 2, tap 18
+good value 2602 = 101000101010
+lane 2, tap 19
+good value 2602 = 101000101010
+lane 2, tap 20
+good value 2602 = 101000101010
+lane 2, tap 21
+good value 2602 = 101000101010
+lane 2, tap 22
+good value 2602 = 101000101010
+lane 2, tap 23
+good value 2602 = 101000101010
+lane 2, tap 24
+lane 2, tap 25
+lane 2, tap 26
+lane 2, tap 27
+good value 2602 = 101000101010
+lane 2, tap 28
+good value 2602 = 101000101010
+lane 2, tap 29
+good value 2602 = 101000101010
+lane 2, tap 30
+good value 2602 = 101000101010
+lane 2, tap 31
+good value 2602 = 101000101010
+lane 3, tap 0
+good value 2602 = 101000101010
+lane 3, tap 1
+good value 2602 = 101000101010
+lane 3, tap 2
+lane 3, tap 3
+lane 3, tap 4
+good value 2602 = 101000101010
+lane 3, tap 5
+good value 2602 = 101000101010
+lane 3, tap 6
+good value 2602 = 101000101010
+lane 3, tap 7
+good value 2602 = 101000101010
+lane 3, tap 8
+good value 2602 = 101000101010
+lane 3, tap 9
+good value 2602 = 101000101010
+lane 3, tap 10
+good value 2602 = 101000101010
+lane 3, tap 11
+good value 2602 = 101000101010
+lane 3, tap 12
+good value 2602 = 101000101010
+lane 3, tap 13
+good value 2602 = 101000101010
+lane 3, tap 14
+good value 2602 = 101000101010
+lane 3, tap 15
+good value 2602 = 101000101010
+lane 3, tap 16
+good value 2602 = 101000101010
+lane 3, tap 17
+good value 2602 = 101000101010
+lane 3, tap 18
+good value 2602 = 101000101010
+lane 3, tap 19
+good value 2602 = 101000101010
+lane 3, tap 20
+good value 2602 = 101000101010
+lane 3, tap 21
+good value 2602 = 101000101010
+lane 3, tap 22
+good value 2602 = 101000101010
+lane 3, tap 23
+lane 3, tap 24
+lane 3, tap 25
+good value 1558 = 011000010110
+lane 3, tap 26
+good value 2602 = 101000101010
+lane 3, tap 27
+good value 2602 = 101000101010
+lane 3, tap 28
+good value 2602 = 101000101010
+lane 3, tap 29
+good value 2602 = 101000101010
+lane 3, tap 30
+good value 2602 = 101000101010
+lane 3, tap 31
+good value 2602 = 101000101010
+11111111111110111111111111111111
+11110011111111111111111110001111
+11100111111111111111111100011111
+11001111111111111111111001111111
+clock 3 lane 0 dll 2
+lane 0, tap 0
+good value 2602 = 101000101010
+lane 0, tap 1
+good value 2602 = 101000101010
+lane 0, tap 2
+good value 2602 = 101000101010
+lane 0, tap 3
+good value 2602 = 101000101010
+lane 0, tap 4
+good value 2602 = 101000101010
+lane 0, tap 5
+good value 2602 = 101000101010
+lane 0, tap 6
+good value 2602 = 101000101010
+lane 0, tap 7
+good value 2602 = 101000101010
+lane 0, tap 8
+good value 2602 = 101000101010
+lane 0, tap 9
+good value 2602 = 101000101010
+lane 0, tap 10
+good value 2602 = 101000101010
+lane 0, tap 11
+good value 2602 = 101000101010
+lane 0, tap 12
+good value 2602 = 101000101010
+lane 0, tap 13
+good value 2602 = 101000101010
+lane 0, tap 14
+good value 2602 = 101000101010
+lane 0, tap 15
+good value 2602 = 101000101010
+lane 0, tap 16
+good value 2602 = 101000101010
+lane 0, tap 17
+lane 0, tap 18
+lane 0, tap 19
+good value 2602 = 101000101010
+lane 0, tap 20
+good value 2602 = 101000101010
+lane 0, tap 21
+good value 2602 = 101000101010
+lane 0, tap 22
+good value 2602 = 101000101010
+lane 0, tap 23
+good value 2602 = 101000101010
+lane 0, tap 24
+good value 2602 = 101000101010
+lane 0, tap 25
+good value 2602 = 101000101010
+lane 0, tap 26
+good value 2602 = 101000101010
+lane 0, tap 27
+good value 2602 = 101000101010
+lane 0, tap 28
+good value 2602 = 101000101010
+lane 0, tap 29
+good value 2602 = 101000101010
+lane 0, tap 30
+good value 2602 = 101000101010
+lane 0, tap 31
+good value 2602 = 101000101010
+lane 1, tap 0
+good value 2602 = 101000101010
+lane 1, tap 1
+good value 2602 = 101000101010
+lane 1, tap 2
+good value 2602 = 101000101010
+lane 1, tap 3
+good value 2602 = 101000101010
+lane 1, tap 4
+good value 2602 = 101000101010
+lane 1, tap 5
+good value 2602 = 101000101010
+lane 1, tap 6
+lane 1, tap 7
+lane 1, tap 8
+lane 1, tap 9
+lane 1, tap 10
+lane 1, tap 11
+good value 2602 = 101000101010
+lane 1, tap 12
+good value 2602 = 101000101010
+lane 1, tap 13
+good value 2602 = 101000101010
+lane 1, tap 14
+good value 2602 = 101000101010
+lane 1, tap 15
+good value 2602 = 101000101010
+lane 1, tap 16
+good value 2602 = 101000101010
+lane 1, tap 17
+good value 2602 = 101000101010
+lane 1, tap 18
+good value 2602 = 101000101010
+lane 1, tap 19
+good value 2602 = 101000101010
+lane 1, tap 20
+good value 2602 = 101000101010
+lane 1, tap 21
+good value 2602 = 101000101010
+lane 1, tap 22
+good value 2602 = 101000101010
+lane 1, tap 23
+good value 2602 = 101000101010
+lane 1, tap 24
+good value 2602 = 101000101010
+lane 1, tap 25
+good value 2602 = 101000101010
+lane 1, tap 26
+good value 2602 = 101000101010
+lane 1, tap 27
+good value 2602 = 101000101010
+lane 1, tap 28
+lane 1, tap 29
+lane 1, tap 30
+lane 1, tap 31
+lane 2, tap 0
+good value 2602 = 101000101010
+lane 2, tap 1
+good value 2602 = 101000101010
+lane 2, tap 2
+good value 2602 = 101000101010
+lane 2, tap 3
+good value 2602 = 101000101010
+lane 2, tap 4
+good value 2602 = 101000101010
+lane 2, tap 5
+lane 2, tap 6
+lane 2, tap 7
+lane 2, tap 8
+lane 2, tap 9
+lane 2, tap 10
+good value 2602 = 101000101010
+lane 2, tap 11
+good value 2602 = 101000101010
+lane 2, tap 12
+good value 2602 = 101000101010
+lane 2, tap 13
+good value 2602 = 101000101010
+lane 2, tap 14
+good value 2602 = 101000101010
+lane 2, tap 15
+good value 2602 = 101000101010
+lane 2, tap 16
+good value 2602 = 101000101010
+lane 2, tap 17
+good value 2602 = 101000101010
+lane 2, tap 18
+good value 2602 = 101000101010
+lane 2, tap 19
+good value 2602 = 101000101010
+lane 2, tap 20
+good value 2602 = 101000101010
+lane 2, tap 21
+good value 2602 = 101000101010
+lane 2, tap 22
+good value 2602 = 101000101010
+lane 2, tap 23
+good value 2602 = 101000101010
+lane 2, tap 24
+good value 2602 = 101000101010
+lane 2, tap 25
+good value 2602 = 101000101010
+lane 2, tap 26
+good value 2602 = 101000101010
+lane 2, tap 27
+lane 2, tap 28
+lane 2, tap 29
+lane 2, tap 30
+lane 2, tap 31
+lane 3, tap 0
+good value 2602 = 101000101010
+lane 3, tap 1
+good value 2602 = 101000101010
+lane 3, tap 2
+good value 2602 = 101000101010
+lane 3, tap 3
+good value 2602 = 101000101010
+lane 3, tap 4
+good value 2602 = 101000101010
+lane 3, tap 5
+lane 3, tap 6
+lane 3, tap 7
+lane 3, tap 8
+lane 3, tap 9
+lane 3, tap 10
+good value 2602 = 101000101010
+lane 3, tap 11
+good value 2602 = 101000101010
+lane 3, tap 12
+good value 2602 = 101000101010
+lane 3, tap 13
+good value 2602 = 101000101010
+lane 3, tap 14
+good value 2602 = 101000101010
+lane 3, tap 15
+good value 2602 = 101000101010
+lane 3, tap 16
+good value 2602 = 101000101010
+lane 3, tap 17
+good value 2602 = 101000101010
+lane 3, tap 18
+good value 2602 = 101000101010
+lane 3, tap 19
+good value 2602 = 101000101010
+lane 3, tap 20
+good value 2602 = 101000101010
+lane 3, tap 21
+good value 2602 = 101000101010
+lane 3, tap 22
+good value 2602 = 101000101010
+lane 3, tap 23
+good value 2602 = 101000101010
+lane 3, tap 24
+good value 2602 = 101000101010
+lane 3, tap 25
+good value 2602 = 101000101010
+lane 3, tap 26
+lane 3, tap 27
+lane 3, tap 28
+lane 3, tap 29
+lane 3, tap 30
+lane 3, tap 31
+good value 2602 = 101000101010
+11111111111111111001111111111111
+11111100000111111111111111110000
+11111000001111111111111111100000
+11111000001111111111111111000001
+clock 4 lane 0 dll 2
+lane 0, tap 0
+good value 2602 = 101000101010
+lane 0, tap 1
+good value 2602 = 101000101010
+lane 0, tap 2
+good value 2602 = 101000101010
+lane 0, tap 3
+good value 2602 = 101000101010
+lane 0, tap 4
+good value 2602 = 101000101010
+lane 0, tap 5
+good value 2602 = 101000101010
+lane 0, tap 6
+good value 2602 = 101000101010
+lane 0, tap 7
+good value 2602 = 101000101010
+lane 0, tap 8
+good value 2602 = 101000101010
+lane 0, tap 9
+good value 2602 = 101000101010
+lane 0, tap 10
+good value 2602 = 101000101010
+lane 0, tap 11
+good value 2602 = 101000101010
+lane 0, tap 12
+good value 2602 = 101000101010
+lane 0, tap 13
+good value 2602 = 101000101010
+lane 0, tap 14
+good value 2602 = 101000101010
+lane 0, tap 15
+good value 2602 = 101000101010
+lane 0, tap 16
+good value 2602 = 101000101010
+lane 0, tap 17
+lane 0, tap 18
+lane 0, tap 19
+good value 2859 = 101100101011
+lane 0, tap 20
+good value 2602 = 101000101010
+lane 0, tap 21
+good value 2602 = 101000101010
+lane 0, tap 22
+good value 2602 = 101000101010
+lane 0, tap 23
+good value 2602 = 101000101010
+lane 0, tap 24
+good value 2602 = 101000101010
+lane 0, tap 25
+good value 2602 = 101000101010
+lane 0, tap 26
+good value 2602 = 101000101010
+lane 0, tap 27
+good value 2602 = 101000101010
+lane 0, tap 28
+good value 2602 = 101000101010
+lane 0, tap 29
+good value 2602 = 101000101010
+lane 0, tap 30
+good value 2602 = 101000101010
+lane 0, tap 31
+good value 2602 = 101000101010
+lane 1, tap 0
+good value 2602 = 101000101010
+lane 1, tap 1
+good value 2602 = 101000101010
+lane 1, tap 2
+good value 2602 = 101000101010
+lane 1, tap 3
+good value 2602 = 101000101010
+lane 1, tap 4
+good value 2602 = 101000101010
+lane 1, tap 5
+good value 2602 = 101000101010
+lane 1, tap 6
+good value 2602 = 101000101010
+lane 1, tap 7
+lane 1, tap 8
+lane 1, tap 9
+lane 1, tap 10
+lane 1, tap 11
+good value 2602 = 101000101010
+lane 1, tap 12
+good value 2602 = 101000101010
+lane 1, tap 13
+good value 2602 = 101000101010
+lane 1, tap 14
+good value 2602 = 101000101010
+lane 1, tap 15
+good value 2602 = 101000101010
+lane 1, tap 16
+good value 2602 = 101000101010
+lane 1, tap 17
+good value 2602 = 101000101010
+lane 1, tap 18
+good value 2602 = 101000101010
+lane 1, tap 19
+good value 2602 = 101000101010
+lane 1, tap 20
+good value 2602 = 101000101010
+lane 1, tap 21
+good value 2602 = 101000101010
+lane 1, tap 22
+good value 2602 = 101000101010
+lane 1, tap 23
+good value 2602 = 101000101010
+lane 1, tap 24
+good value 2602 = 101000101010
+lane 1, tap 25
+good value 2602 = 101000101010
+lane 1, tap 26
+good value 2602 = 101000101010
+lane 1, tap 27
+good value 2602 = 101000101010
+lane 1, tap 28
+good value 2602 = 101000101010
+lane 1, tap 29
+lane 1, tap 30
+lane 1, tap 31
+lane 2, tap 0
+good value 2602 = 101000101010
+lane 2, tap 1
+good value 2602 = 101000101010
+lane 2, tap 2
+good value 2602 = 101000101010
+lane 2, tap 3
+good value 2602 = 101000101010
+lane 2, tap 4
+good value 2602 = 101000101010
+lane 2, tap 5
+good value 2602 = 101000101010
+lane 2, tap 6
+lane 2, tap 7
+lane 2, tap 8
+lane 2, tap 9
+lane 2, tap 10
+good value 2602 = 101000101010
+lane 2, tap 11
+good value 2602 = 101000101010
+lane 2, tap 12
+good value 2602 = 101000101010
+lane 2, tap 13
+good value 2602 = 101000101010
+lane 2, tap 14
+good value 2602 = 101000101010
+lane 2, tap 15
+good value 2602 = 101000101010
+lane 2, tap 16
+good value 2602 = 101000101010
+lane 2, tap 17
+good value 2602 = 101000101010
+lane 2, tap 18
+good value 2602 = 101000101010
+lane 2, tap 19
+good value 2602 = 101000101010
+lane 2, tap 20
+good value 2602 = 101000101010
+lane 2, tap 21
+good value 2602 = 101000101010
+lane 2, tap 22
+good value 2602 = 101000101010
+lane 2, tap 23
+good value 2602 = 101000101010
+lane 2, tap 24
+good value 2602 = 101000101010
+lane 2, tap 25
+good value 2602 = 101000101010
+lane 2, tap 26
+good value 2602 = 101000101010
+lane 2, tap 27
+good value 2602 = 101000101010
+lane 2, tap 28
+lane 2, tap 29
+lane 2, tap 30
+lane 2, tap 31
+good value 1566 = 011000011110
+lane 3, tap 0
+good value 2602 = 101000101010
+lane 3, tap 1
+good value 2602 = 101000101010
+lane 3, tap 2
+good value 2602 = 101000101010
+lane 3, tap 3
+good value 2602 = 101000101010
+lane 3, tap 4
+good value 2602 = 101000101010
+lane 3, tap 5
+lane 3, tap 6
+lane 3, tap 7
+lane 3, tap 8
+lane 3, tap 9
+good value 2602 = 101000101010
+lane 3, tap 10
+good value 2602 = 101000101010
+lane 3, tap 11
+good value 2602 = 101000101010
+lane 3, tap 12
+good value 2602 = 101000101010
+lane 3, tap 13
+good value 2602 = 101000101010
+lane 3, tap 14
+good value 2602 = 101000101010
+lane 3, tap 15
+good value 2602 = 101000101010
+lane 3, tap 16
+good value 2602 = 101000101010
+lane 3, tap 17
+good value 2602 = 101000101010
+lane 3, tap 18
+good value 2602 = 101000101010
+lane 3, tap 19
+good value 2602 = 101000101010
+lane 3, tap 20
+good value 2602 = 101000101010
+lane 3, tap 21
+good value 2602 = 101000101010
+lane 3, tap 22
+good value 2602 = 101000101010
+lane 3, tap 23
+good value 2602 = 101000101010
+lane 3, tap 24
+good value 2602 = 101000101010
+lane 3, tap 25
+good value 2602 = 101000101010
+lane 3, tap 26
+good value 2602 = 101000101010
+lane 3, tap 27
+lane 3, tap 28
+lane 3, tap 29
+lane 3, tap 30
+good value 1566 = 011000011110
+lane 3, tap 31
+good value 2602 = 101000101010
+11111111111111111001111111111111
+11111110000111111111111111111000
+11111100001111111111111111110001
+11111000011111111111111111100011
+clock 5 lane 0 dll 2

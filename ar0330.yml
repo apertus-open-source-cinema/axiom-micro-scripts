@@ -145,7 +145,7 @@ green2_gain:
     width: 1
 global_gain: 
     address: 0x305e
-    width: 1
+    width: 2
     min: 0
     def: 1000
     max: 15992
@@ -156,6 +156,9 @@ smia_test:
     address: 0x3064
     width: 2
     embedded_data_bit: 8
+data_pedestal:
+    address: 0x301e
+    width: 2
 datapath_select: 
     address: 0x306e
     width: 2
@@ -257,4 +260,16 @@ frame_status:
     width: 2
 digital_test:
     address: 0x30b0
+    width: 2
+test_raw_mode:
+    address: 0x307a
+    width: 2
+dark_control:
+    address: 0x3180
+    width: 2
+dark_control:
+    address: 0x3044
+    width: 2
+column_correction:
+    address: 0x30d4
     width: 2

@@ -9,7 +9,7 @@ ar0330 = load(open("ar0330.yml"))
 # extclk = 10000000
 extclk = 24000000
 i2c_bus = "1"
-address = 0x18
+address = 0x10
 ar0330_gpio_addr = 0x41200000
 
 def gpio(addr, value=0xdeadbeef):
@@ -96,7 +96,8 @@ write("magic_patch4", 0x00a0)
 # pll config for 12bit, 4 lane hispi
 # vco_hispi_4lanes_12bit_clk = 588000000 # 588 MHz
 vco_hispi_4lanes_12bit_clk = 588000000 # 588 MHz
-# vco_hispi_4lanes_12bit_clk = 384000000 # 588 MHz
+# vco_hispi_4lanes_12bit_clk = 400000000 # 588 MHz
+#vco_hispi_4lanes_12bit_clk = 384000000 # 588 MHz
 pll_config = optimal_pll_config(extclk, vco_hispi_4lanes_12bit_clk)
 pre_pll_clk_div = pll_config["pre_pll_clk_div"] 
 pll_multiplier = pll_config["pll_multiplier"] 
@@ -127,7 +128,7 @@ write("data_format_bits", 0x0c0c)
 ## select hivcm (1V8)
 write("datapath_select", 1 << 9);
 ## lol ????
-write("mipi_config_status", 0xc00d);
+# write("mipi_config_status", 0xc00d);
 
 ## 0x0202 - 2 lane mipi
 ## 0x0304 - 4 lane hispi
@@ -188,27 +189,42 @@ height = 1296
 # write("test_data_greenb", 0b101010101010)
 # write("test_data_greenr", 0b101010101010)
 
-write("test_data_red",    0b101010101010)
-write("test_data_blue",   0b101010101010)
-write("test_data_greenb", 0b101010101010)
-write("test_data_greenr", 0b101010101010)
+#write("test_data_red",    0b111100001111)
+#write("test_data_blue",   0b111100001111)
+#write("test_data_greenb", 0b111100001111)
+#write("test_data_greenr", 0b111100001111)
 
+# write("test_data_red",    0b111111111111)
+# write("test_data_blue",   0b111111111111)
+# write("test_data_greenb", 0b111111111111)
+# write("test_data_greenr", 0b111111111111)
+
+#write("test_data_red",    0b000000000000)
+#write("test_data_blue",   0b000000000000)
+#write("test_data_greenb", 0b000000000000)
+#write("test_data_greenr", 0b000000000000)
+
+write("test_data_red",    0b000011111111)
+write("test_data_blue",   0b000011111111)
+write("test_data_greenb", 0b000011111111)
+write("test_data_greenr", 0b000011111111)
+# 
 # test pattern mode
 ## 0   - no test pattern
 ## 1   - solid color
 ## 2   - solid color bars
 ## 3   - fade to gray color bars
 ## 256 - walking 1s
-write("test_pattern_mode", 1)
+write("test_pattern_mode", 0)
 
 print("reset", "%d" % read("reset"))
 write("reset", 0b10000)
 print("reset", "%d" % read("reset"))
 
-write("test_raw_mode", 2)
+# write("test_raw_mode", 2)
 
 print("data_pedestal", "%d" % read("data_pedestal"))
-write("data_pedestal", 0)
+# write("data_pedestal", 0)
 print("data_pedestal", "%d" % read("data_pedestal"))
 
 # write("dark_control", 0)
@@ -218,12 +234,12 @@ print("test_data_blue", "%d" % read("test_data_blue"))
 print("test_data_greenb", "%d" % read("test_data_greenb"))
 print("test_data_greenr", "%d" % read("test_data_greenr"))
 
-write("analog_gain", 0x0010)
-write("global_gain", 0b0000000010000000)
+write("analog_gain", 0x003f)
+write("global_gain", 0b0000011110000000)
+write("coarse_integration_time", 1100)
+write("fine_integration_time", 0)
 print("coarse_integration_time", "%d" % read("coarse_integration_time"))
 print("fine_integration_time", "%d" % read("fine_integration_time"))
-write("coarse_integration_time", 200)
-write("fine_integration_time", 0)
 
 
 

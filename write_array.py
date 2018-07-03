@@ -3,7 +3,7 @@ from subprocess import check_output
 from time import sleep
 from sys import argv
 
-i2c_bus = "1"
+i2c_bus = "0"
 address = 0x18
 ar0330_gpio_addr = 0x41200000
 

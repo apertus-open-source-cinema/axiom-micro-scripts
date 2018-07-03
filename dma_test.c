@@ -105,8 +105,8 @@ int main() {
 //    int dest_base = 0x07800000;
     int dh = open("/dev/mem", O_RDWR | O_SYNC); // Open /dev/mem which represents the whole physical memory
     int outfile = open("dump.ram", O_RDWR | O_CREAT);
-//    size_t size = 1 << 27;
-    size_t size = 1 << 24;
+    size_t size = 1 << 27;
+//    size_t size = 1 << 24;
     lseek(outfile, size - 1, SEEK_SET);
     write(outfile, "", 1);
     unsigned int * out_map = mmap(NULL, size, PROT_READ | PROT_WRITE, MAP_SHARED, outfile, 0);

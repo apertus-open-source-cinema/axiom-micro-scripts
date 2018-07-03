@@ -46,6 +46,8 @@ uint12_t get_shifted(uint32_t * in, int offset, int lane = 0) {
         out.data |= ((in[2] >> (lane + 4 * i++)) & 1) << bitpos++;
     } 
 
+    out.data = ~out.data;
+
     return out;
 }
 

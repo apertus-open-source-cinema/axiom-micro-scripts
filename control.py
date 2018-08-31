@@ -3,12 +3,13 @@ from subprocess import check_output
 from yaml import load
 from time import sleep
 from pll import optimal_pll_config
+import sys
 
 ar0330 = load(open("ar0330.yml"))
 
 # extclk = 10000000
 extclk = 24000000
-i2c_bus = "1"
+i2c_bus = "0"
 address = 16
 ar0330_gpio_addr = 0x41200000
 
@@ -168,7 +169,7 @@ height = 1296
 # write("frame_length_lines", height + 12)
 
 # walking one's
-write("test_pattern_mode", 3)
+# write("test_pattern_mode", 3)
 # solid color
 
 # write("test_data_red", 0b111111111111)
@@ -176,11 +177,23 @@ write("test_pattern_mode", 3)
 # write("test_data_greenb", 0b000000000000)
 # write("test_data_greenr", 0b101010101010)
 
-#write("test_data_red", 0b000111111000)
-#write("test_data_blue", 0b001111110000)
-#write("test_data_greenb", 0b011111100000)
-#write("test_data_greenr", 0b111111000000)
-#write("test_pattern_mode", 1)
+# write("test_data_red", 0b010101101010)
+# write("test_data_blue", 0b010101101010)
+# write("test_data_greenb", 0b010101101010)
+# write("test_data_greenr", 0b010101101010)
+
+if len(sys.argv) == 5:
+    write("test_data_red", int(sys.argv[1], 0))
+    write("test_data_blue", int(sys.argv[2], 0))
+    write("test_data_greenb", int(sys.argv[3], 0))
+    write("test_data_greenr", int(sys.argv[4], 0))
+    write("test_pattern_mode", 1)
+else:
+    write("test_data_red", 0b111000011111)
+    write("test_data_blue", 0b110001000111)
+    write("test_data_greenb", 0b110100001111)
+    write("test_data_greenr", 0b110100011111)
+    write("test_pattern_mode", 1)
 
 # enable streaming 
 # write("reset", int("0000 0000 0000 0100".replace(' ', ''), 2))

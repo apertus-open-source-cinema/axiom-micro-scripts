@@ -1,0 +1,557 @@
+set test_data_red to 0
+         46861 function calls (46345 primitive calls) in 0.773 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.773    0.773 software/sensor_control/__main__.py:14(main)
+        1    0.000    0.000    0.484    0.484 /usr/lib/python3.6/site-packages/fire/core.py:73(Fire)
+     18/2    0.002    0.000    0.290    0.145 <frozen importlib._bootstrap>:966(_find_and_load)
+     17/1    0.001    0.000    0.288    0.288 <frozen importlib._bootstrap>:936(_find_and_load_unlocked)
+     19/2    0.000    0.000    0.284    0.142 <frozen importlib._bootstrap>:211(_call_with_frames_removed)
+     17/2    0.002    0.000    0.284    0.142 <frozen importlib._bootstrap>:651(_load_unlocked)
+     13/1    0.001    0.000    0.283    0.283 <frozen importlib._bootstrap_external>:672(exec_module)
+     15/1    0.009    0.001    0.281    0.281 {built-in method builtins.exec}
+        1    0.000    0.000    0.281    0.281 /root/scratch/software/sensor_control/ar0330/ar0330.py:1(<module>)
+        8    0.001    0.000    0.248    0.031 /usr/lib/python3.6/inspect.py:760(findsource)
+        1    0.000    0.000    0.247    0.247 /usr/lib/python3.6/inspect.py:1492(stack)
+        1    0.000    0.000    0.247    0.247 /usr/lib/python3.6/inspect.py:1464(getouterframes)
+        5    0.000    0.000    0.246    0.049 /usr/lib/python3.6/inspect.py:1425(getframeinfo)
+        1    0.001    0.001    0.237    0.237 /usr/lib/python3.6/site-packages/fire/core.py:271(_Fire)
+        8    0.008    0.001    0.224    0.028 /usr/lib/python3.6/inspect.py:714(getmodule)
+        2    0.000    0.000    0.204    0.102 /usr/lib/python3.6/site-packages/fire/core.py:527(_CallCallable)
+        1    0.000    0.000    0.191    0.191 /root/scratch/software/sensor_control/pll.py:1(<module>)
+        1    0.000    0.000    0.186    0.186 /usr/lib/python3.6/fractions.py:4(<module>)
+        1    0.000    0.000    0.162    0.162 software/sensor_control/__main__.py:6(get_wrapper)
+        1    0.000    0.000    0.161    0.161 /root/scratch/software/sensor_control/wrappers.py:11(__init__)
+        1    0.001    0.001    0.159    0.159 /root/scratch/software/sensor_control/ar0330/ar0330.py:16(__init__)
+        1    0.001    0.001    0.158    0.158 /usr/lib/python3.6/site-packages/yaml/__init__.py:65(load)
+        1    0.000    0.000    0.157    0.157 /usr/lib/python3.6/site-packages/yaml/constructor.py:33(get_single_data)
+       28    0.000    0.000    0.152    0.005 /usr/lib/python3.6/re.py:231(compile)
+       28    0.002    0.000    0.152    0.005 /usr/lib/python3.6/re.py:286(_compile)
+        9    0.001    0.000    0.149    0.017 /usr/lib/python3.6/sre_compile.py:557(compile)
+      147    0.004    0.000    0.142    0.001 /usr/lib/python3.6/posixpath.py:384(realpath)
+        1    0.000    0.000    0.130    0.130 /usr/lib/python3.6/decimal.py:2(<module>)
+        1    0.001    0.001    0.113    0.113 /usr/lib/python3.6/_pydecimal.py:113(<module>)
+      147    0.021    0.000    0.112    0.001 /usr/lib/python3.6/posixpath.py:393(_joinrealpath)
+        1    0.039    0.039    0.079    0.079 {method 'get_single_node' of '_yaml.CParser' objects}
+        1    0.001    0.001    0.078    0.078 /usr/lib/python3.6/site-packages/yaml/constructor.py:40(construct_document)
+   140/71    0.002    0.000    0.077    0.001 /usr/lib/python3.6/site-packages/yaml/constructor.py:395(construct_yaml_map)
+       70    0.002    0.000    0.075    0.001 /usr/lib/python3.6/site-packages/yaml/constructor.py:201(construct_mapping)
+        9    0.000    0.000    0.075    0.008 /usr/lib/python3.6/sre_compile.py:542(_code)
+        9    0.001    0.000    0.072    0.008 /usr/lib/python3.6/sre_parse.py:844(parse)
+    112/9    0.015    0.000    0.071    0.008 /usr/lib/python3.6/sre_compile.py:64(_compile)
+      150    0.004    0.000    0.069    0.000 /usr/lib/python3.6/inspect.py:702(getabsfile)
+        1    0.000    0.000    0.069    0.069 /root/scratch/software/sensor_control/i2c.py:1(<module>)
+       70    0.008    0.000    0.069    0.001 /usr/lib/python3.6/site-packages/yaml/constructor.py:118(construct_mapping)
+     49/9    0.003    0.000    0.067    0.007 /usr/lib/python3.6/sre_parse.py:407(_parse_sub)
+    60/13    0.018    0.000    0.066    0.005 /usr/lib/python3.6/sre_parse.py:470(_parse)
+        1    0.000    0.000    0.063    0.063 /usr/lib/python3.6/subprocess.py:42(<module>)
+      298    0.006    0.000    0.052    0.000 /usr/lib/python3.6/posixpath.py:369(abspath)
+     1013    0.012    0.000    0.051    0.000 /usr/lib/python3.6/enum.py:265(__call__)
+      529    0.018    0.000    0.051    0.000 /usr/lib/python3.6/site-packages/yaml/constructor.py:53(construct_object)
+      703    0.027    0.000    0.046    0.000 /usr/lib/python3.6/posixpath.py:75(join)
+      461    0.015    0.000    0.043    0.000 /usr/lib/python3.6/enum.py:801(__and__)
+       94    0.001    0.000    0.041    0.000 {built-in method builtins.setattr}
+      163    0.012    0.000    0.041    0.000 /usr/lib/python3.6/inspect.py:680(getsourcefile)
+        1    0.000    0.000    0.038    0.038 /root/scratch/software/sensor_control/wrappers.py:52(get_set)
+        1    0.000    0.000    0.038    0.038 /root/scratch/software/sensor_control/ar0330/ar0330.py:34(test_data_red)
+        1    0.000    0.000    0.038    0.038 /root/scratch/software/sensor_control/ar0330/ar0330.py:288(_write)
+        1    0.000    0.000    0.038    0.038 /root/scratch/software/sensor_control/i2c.py:8(transfer)
+        1    0.000    0.000    0.038    0.038 /usr/lib/python3.6/subprocess.py:295(check_output)
+        1    0.000    0.000    0.038    0.038 /usr/lib/python3.6/subprocess.py:372(run)
+      691    0.010    0.000    0.038    0.000 /usr/lib/python3.6/posixpath.py:168(islink)
+5491/5490    0.031    0.000    0.038    0.000 {built-in method builtins.isinstance}
+      298    0.021    0.000    0.035    0.000 /usr/lib/python3.6/posixpath.py:331(normpath)
+        1    0.000    0.000    0.030    0.030 /usr/lib/python3.6/subprocess.py:803(communicate)
+        1    0.029    0.029    0.029    0.029 {method 'read' of '_io.BufferedReader' objects}
+        1    0.001    0.001    0.029    0.029 /usr/lib/python3.6/signal.py:1(<module>)
+       13    0.002    0.000    0.028    0.002 <frozen importlib._bootstrap_external>:743(get_code)
+      529    0.017    0.000    0.027    0.000 /usr/lib/python3.6/site-packages/yaml/resolver.py:143(resolve)
+        3    0.000    0.000    0.027    0.009 /usr/lib/python3.6/enum.py:602(_convert)
+       17    0.002    0.000    0.026    0.002 <frozen importlib._bootstrap>:870(_find_spec)
+       42    0.009    0.000    0.025    0.001 {built-in method builtins.__build_class__}
+      691    0.025    0.000    0.025    0.000 {built-in method posix.lstat}
+     1298    0.012    0.000    0.024    0.000 /usr/lib/python3.6/sre_parse.py:253(get)
+        3    0.001    0.000    0.023    0.008 /usr/lib/python3.6/enum.py:364(_create_)
+       17    0.000    0.000    0.022    0.001 <frozen importlib._bootstrap_external>:1149(find_spec)
+        1    0.000    0.000    0.021    0.021 /usr/lib/python3.6/site-packages/fire/parser.py:25(CreateParser)
+       17    0.001    0.000    0.021    0.001 <frozen importlib._bootstrap_external>:1117(_get_spec)
+       30    0.005    0.000    0.018    0.001 <frozen importlib._bootstrap_external>:1233(find_spec)
+      195    0.008    0.000    0.017    0.000 /usr/lib/python3.6/site-packages/yaml/constructor.py:223(construct_yaml_int)
+       13    0.001    0.000    0.017    0.001 <frozen importlib._bootstrap_external>:485(_compile_bytecode)
+     1010    0.014    0.000    0.016    0.000 /usr/lib/python3.6/enum.py:515(__new__)
+       13    0.016    0.001    0.016    0.001 {built-in method marshal.loads}
+      459    0.009    0.000    0.016    0.000 /usr/lib/python3.6/site-packages/yaml/constructor.py:159(construct_scalar)
+      345    0.005    0.000    0.015    0.000 {built-in method builtins.any}
+      445    0.006    0.000    0.015    0.000 /usr/lib/python3.6/posixpath.py:64(isabs)
+        3    0.007    0.002    0.015    0.005 /usr/lib/python3.6/enum.py:124(__new__)
+     1536    0.015    0.000    0.015    0.000 /usr/lib/python3.6/sre_parse.py:232(__next)
+        1    0.002    0.002    0.014    0.014 /usr/lib/python3.6/selectors.py:5(<module>)
+       14    0.003    0.000    0.014    0.001 /usr/lib/python3.6/abc.py:132(__new__)
+     1153    0.007    0.000    0.013    0.000 /usr/lib/python3.6/posixpath.py:41(_get_sep)
+        2    0.001    0.000    0.013    0.006 /usr/lib/python3.6/collections/__init__.py:357(namedtuple)
+     2279    0.012    0.000    0.012    0.000 {method 'startswith' of 'str' objects}
+       17    0.001    0.000    0.012    0.001 <frozen importlib._bootstrap>:564(module_from_spec)
+      264    0.002    0.000    0.011    0.000 /usr/lib/python3.6/site-packages/yaml/constructor.py:387(construct_yaml_str)
+        6    0.001    0.000    0.011    0.002 /usr/lib/python3.6/argparse.py:1303(add_argument)
+      225    0.011    0.000    0.011    0.000 {built-in method posix.stat}
+       35    0.002    0.000    0.010    0.000 /usr/lib/python3.6/sre_compile.py:223(_compile_charset)
+        1    0.000    0.000    0.010    0.010 /usr/lib/python3.6/argparse.py:1600(__init__)
+      457    0.005    0.000    0.009    0.000 /usr/lib/python3.6/sre_parse.py:163(__getitem__)
+      151    0.002    0.000    0.009    0.000 /usr/lib/python3.6/genericpath.py:16(exists)
+       16    0.001    0.000    0.008    0.000 <frozen importlib._bootstrap>:504(_init_module_attrs)
+        1    0.000    0.000    0.008    0.008 /usr/lib/python3.6/numbers.py:6(<module>)
+     1515    0.008    0.000    0.008    0.000 {method 'endswith' of 'str' objects}
+     2089    0.008    0.000    0.008    0.000 {built-in method posix.fspath}
+      157    0.003    0.000    0.007    0.000 <frozen importlib._bootstrap_external>:57(_path_join)
+     2875    0.007    0.000    0.007    0.000 {method 'append' of 'list' objects}
+      711    0.007    0.000    0.007    0.000 {built-in method builtins.getattr}
+        1    0.000    0.000    0.007    0.007 /usr/lib/python3.6/subprocess.py:588(__init__)
+      459    0.007    0.000    0.007    0.000 /usr/lib/python3.6/site-packages/yaml/nodes.py:27(__init__)
+        8    0.000    0.000    0.007    0.001 /usr/lib/python3.6/linecache.py:37(getlines)
+      436    0.007    0.000    0.007    0.000 {method 'match' of '_sre.SRE_Pattern' objects}
+        6    0.000    0.000    0.007    0.001 /usr/lib/python3.6/argparse.py:2348(_get_formatter)
+        1    0.001    0.001    0.007    0.007 /usr/lib/python3.6/subprocess.py:1208(_execute_child)
+        4    0.001    0.000    0.006    0.002 /usr/lib/python3.6/linecache.py:82(updatecache)
+        6    0.001    0.000    0.006    0.001 /usr/lib/python3.6/argparse.py:157(__init__)
+      264    0.004    0.000    0.006    0.000 /usr/lib/python3.6/abc.py:180(__instancecheck__)
+      643    0.006    0.000    0.006    0.000 {built-in method builtins.hasattr}
+      183    0.002    0.000    0.006    0.000 /usr/lib/python3.6/inspect.py:643(getfile)
+   177/83    0.005    0.000    0.006    0.000 /usr/lib/python3.6/sre_parse.py:173(getwidth)
+       44    0.002    0.000    0.006    0.000 /usr/lib/python3.6/enum.py:795(__or__)
+       46    0.002    0.000    0.006    0.000 /usr/lib/python3.6/enum.py:70(__setitem__)
+        3    0.000    0.000    0.006    0.002 /usr/lib/python3.6/site-packages/fire/inspectutils.py:114(GetFileAndLine)
+        3    0.001    0.000    0.006    0.002 /usr/lib/python3.6/argparse.py:1222(__init__)
+      612    0.003    0.000    0.005    0.000 /usr/lib/python3.6/inspect.py:690(<genexpr>)
+       78    0.005    0.000    0.005    0.000 {built-in method __new__ of type object at 0xb6ec2610}
+     1236    0.005    0.000    0.005    0.000 {method 'get' of 'dict' objects}
+       28    0.000    0.000    0.005    0.000 <frozen importlib._bootstrap>:403(cached)
+      489    0.003    0.000    0.005    0.000 /usr/lib/python3.6/inspect.py:687(<genexpr>)
+      372    0.003    0.000    0.005    0.000 /usr/lib/python3.6/inspect.py:64(ismodule)
+       15    0.002    0.000    0.005    0.000 <frozen importlib._bootstrap_external>:361(_get_cached)
+      459    0.003    0.000    0.005    0.000 /usr/lib/python3.6/site-packages/yaml/constructor.py:103(construct_scalar)
+       26    0.002    0.000    0.004    0.000 <frozen importlib._bootstrap_external>:263(cache_from_source)
+       66    0.001    0.000    0.004    0.000 <frozen importlib._bootstrap_external>:75(_path_stat)
+       70    0.003    0.000    0.004    0.000 /usr/lib/python3.6/site-packages/yaml/constructor.py:166(flatten_mapping)
+        2    0.000    0.000    0.004    0.002 /usr/lib/python3.6/gettext.py:611(gettext)
+      157    0.002    0.000    0.004    0.000 <frozen importlib._bootstrap_external>:59(<listcomp>)
+        2    0.000    0.000    0.004    0.002 /usr/lib/python3.6/gettext.py:572(dgettext)
+        2    0.000    0.000    0.004    0.002 /usr/lib/python3.6/gettext.py:506(translation)
+        2    0.001    0.000    0.004    0.002 /usr/lib/python3.6/gettext.py:466(find)
+       13    0.002    0.000    0.004    0.000 <frozen importlib._bootstrap_external>:830(get_data)
+1279/1225    0.003    0.000    0.004    0.000 {built-in method builtins.len}
+        9    0.000    0.000    0.004    0.000 /usr/lib/python3.6/sre_compile.py:482(_compile_info)
+       29    0.000    0.000    0.004    0.000 /usr/lib/python3.6/sre_parse.py:96(closegroup)
+      691    0.004    0.000    0.004    0.000 {method 'partition' of 'str' objects}
+       14    0.001    0.000    0.003    0.000 /usr/lib/python3.6/abc.py:135(<setcomp>)
+       35    0.002    0.000    0.003    0.000 /usr/lib/python3.6/sre_compile.py:250(_optimize_charset)
+      494    0.003    0.000    0.003    0.000 {method 'join' of 'str' objects}
+      150    0.002    0.000    0.003    0.000 /usr/lib/python3.6/posixpath.py:52(normcase)
+      303    0.003    0.000    0.003    0.000 {method 'split' of 'str' objects}
+        1    0.003    0.003    0.003    0.003 {built-in method posix.read}
+       18    0.000    0.000    0.003    0.000 <frozen importlib._bootstrap>:147(__enter__)
+        1    0.000    0.000    0.003    0.003 {built-in method builtins.__import__}
+        4    0.002    0.001    0.003    0.001 {method 'readlines' of '_io._IOBase' objects}
+       61    0.003    0.000    0.003    0.000 /usr/lib/python3.6/enum.py:351(__setattr__)
+        2    0.000    0.000    0.003    0.001 /usr/lib/python3.6/site-packages/fire/core.py:546(_MakeParseFn)
+        3    0.001    0.000    0.003    0.001 /usr/lib/python3.6/enum.py:623(<listcomp>)
+        3    0.000    0.000    0.003    0.001 <frozen importlib._bootstrap_external>:919(create_module)
+    78/71    0.001    0.000    0.003    0.000 {built-in method builtins.issubclass}
+      276    0.003    0.000    0.003    0.000 /usr/lib/python3.6/_weakrefset.py:70(__contains__)
+      234    0.002    0.000    0.003    0.000 /usr/lib/python3.6/sre_parse.py:248(match)
+        3    0.003    0.001    0.003    0.001 {built-in method _imp.create_dynamic}
+        1    0.000    0.000    0.003    0.003 /usr/lib/python3.6/site-packages/fire/core.py:497(_GetMember)
+        2    0.000    0.000    0.003    0.001 /usr/lib/python3.6/site-packages/fire/inspectutils.py:84(GetFullArgSpec)
+        4    0.000    0.000    0.003    0.001 /usr/lib/python3.6/abc.py:151(register)
+      9/5    0.001    0.000    0.003    0.001 /usr/lib/python3.6/abc.py:196(__subclasscheck__)
+        1    0.001    0.001    0.002    0.002 /usr/lib/python3.6/inspect.py:317(getmembers)
+       20    0.001    0.000    0.002    0.000 /usr/lib/python3.6/sre_parse.py:266(getuntil)
+        9    0.000    0.000    0.002    0.000 /usr/lib/python3.6/sre_parse.py:828(fix_flags)
+        3    0.001    0.000    0.002    0.001 /usr/lib/python3.6/_pydecimal.py:3925(__init__)
+      529    0.002    0.000    0.002    0.000 /usr/lib/python3.6/site-packages/yaml/resolver.py:114(ascend_resolver)
+        4    0.001    0.000    0.002    0.001 /usr/lib/python3.6/tokenize.py:448(open)
+       13    0.002    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:430(_validate_bytecode_header)
+      529    0.002    0.000    0.002    0.000 /usr/lib/python3.6/site-packages/yaml/resolver.py:91(descend_resolver)
+        2    0.000    0.000    0.002    0.001 /usr/lib/python3.6/inspect.py:1082(getfullargspec)
+      691    0.002    0.000    0.002    0.000 {built-in method _stat.S_ISLNK}
+       19    0.001    0.000    0.002    0.000 <frozen importlib._bootstrap>:157(_get_module_lock)
+       40    0.000    0.000    0.002    0.000 /usr/lib/python3.6/enum.py:20(_is_descriptor)
+      112    0.002    0.000    0.002    0.000 /usr/lib/python3.6/sre_parse.py:111(__init__)
+       44    0.001    0.000    0.002    0.000 /usr/lib/python3.6/sre_compile.py:388(_simple)
+        2    0.000    0.000    0.002    0.001 /usr/lib/python3.6/enum.py:758(_missing_)
+        2    0.000    0.000    0.002    0.001 /usr/lib/python3.6/enum.py:765(_create_pseudo_member_)
+        1    0.002    0.002    0.002    0.002 {built-in method _posixsubprocess.fork_exec}
+       48    0.002    0.000    0.002    0.000 /usr/lib/python3.6/_weakrefset.py:36(__init__)
+       21    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:94(_path_isfile)
+      342    0.002    0.000    0.002    0.000 {method 'rstrip' of 'str' objects}
+        2    0.000    0.000    0.002    0.001 /usr/lib/python3.6/enum.py:837(_decompose)
+       23    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:85(_path_is_mode_type)
+       16    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:1228(_get_spec)
+      239    0.002    0.000    0.002    0.000 {built-in method builtins.min}
+      154    0.001    0.000    0.002    0.000 /usr/lib/python3.6/sre_parse.py:171(append)
+      140    0.001    0.000    0.002    0.000 /usr/lib/python3.6/sre_parse.py:285(tell)
+       29    0.001    0.000    0.002    0.000 /usr/lib/python3.6/sre_parse.py:84(opengroup)
+      3/2    0.000    0.000    0.001    0.001 /usr/lib/python3.6/inspect.py:2176(_signature_from_callable)
+       13    0.001    0.000    0.001    0.000 {method 'read' of '_io.FileIO' objects}
+       73    0.001    0.000    0.001    0.000 /usr/lib/python3.6/signal.py:10(<lambda>)
+      163    0.001    0.000    0.001    0.000 /usr/lib/python3.6/sre_parse.py:159(__len__)
+       16    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap>:318(__exit__)
+       33    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:997(_handle_fromlist)
+        1    0.000    0.000    0.001    0.001 /root/scratch/software/sensor_control/sensor.py:1(<module>)
+        2    0.000    0.000    0.001    0.001 /usr/lib/python3.6/site-packages/fire/core.py:566(_ParseFn)
+        2    0.000    0.000    0.001    0.001 /usr/lib/python3.6/enum.py:855(<listcomp>)
+      172    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap>:222(_verbose_message)
+       70    0.000    0.000    0.001    0.000 {built-in method builtins.next}
+       18    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:151(__exit__)
+      212    0.001    0.000    0.001    0.000 {method 'replace' of 'str' objects}
+        6    0.001    0.000    0.001    0.000 {built-in method io.open}
+        4    0.000    0.000    0.001    0.000 /usr/lib/python3.6/gettext.py:205(_expand_lang)
+        6    0.000    0.000    0.001    0.000 /usr/lib/python3.6/argparse.py:1709(_add_action)
+        2    0.000    0.000    0.001    0.001 /usr/lib/python3.6/inspect.py:2095(_signature_from_function)
+        2    0.001    0.000    0.001    0.001 /root/scratch/software/sensor_control/wrappers.py:17(_wrap_properties)
+       13    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:840(path_stats)
+        5    0.000    0.000    0.001    0.000 /usr/lib/python3.6/functools.py:44(update_wrapper)
+       16    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:524(spec_from_file_location)
+        2    0.000    0.000    0.001    0.001 /usr/lib/python3.6/site-packages/fire/core.py:606(_ParseArgs)
+       14    0.001    0.000    0.001    0.000 /usr/lib/python3.6/os.py:664(__getitem__)
+        6    0.000    0.000    0.001    0.000 /usr/lib/python3.6/argparse.py:1551(_add_action)
+     10/8    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:993(__iter__)
+        6    0.001    0.000    0.001    0.000 {method 'sort' of 'list' objects}
+       27    0.000    0.000    0.001    0.000 /usr/lib/python3.6/_pydecimal.py:3986(__setattr__)
+       19    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap>:103(release)
+        2    0.000    0.000    0.001    0.000 /usr/lib/python3.6/argparse.py:1350(add_argument_group)
+        9    0.001    0.000    0.001    0.000 /usr/lib/python3.6/enum.py:417(_get_mixins_)
+        4    0.000    0.000    0.001    0.000 /usr/lib/python3.6/tokenize.py:355(detect_encoding)
+       43    0.001    0.000    0.001    0.000 /usr/lib/python3.6/sre_parse.py:342(_escape)
+       16    0.000    0.000    0.001    0.000 /usr/lib/python3.6/codecs.py:318(decode)
+       16    0.001    0.000    0.001    0.000 {method 'format' of 'str' objects}
+        6    0.001    0.000    0.001    0.000 /usr/lib/python3.6/argparse.py:1440(_get_optional_kwargs)
+       19    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap>:78(acquire)
+     13/9    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:980(_recalculate)
+       70    0.001    0.000    0.001    0.000 /usr/lib/python3.6/site-packages/yaml/nodes.py:36(__init__)
+        2    0.000    0.000    0.001    0.000 /usr/lib/python3.6/argparse.py:1529(__init__)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.6/site-packages/fire/core.py:754(_ParseValue)
+       11    0.000    0.000    0.001    0.000 /usr/lib/python3.6/_weakrefset.py:58(__iter__)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.6/site-packages/fire/parser.py:57(DefaultParseValue)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.6/argparse.py:1736(parse_known_args)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.6/site-packages/fire/parser.py:77(_LiteralEval)
+        6    0.000    0.000    0.001    0.000 /usr/lib/python3.6/argparse.py:576(_format_args)
+        6    0.000    0.000    0.001    0.000 /usr/lib/python3.6/argparse.py:1360(_add_action)
+       80    0.001    0.000    0.001    0.000 {method 'update' of 'dict' objects}
+        3    0.000    0.000    0.001    0.000 /usr/lib/python3.6/enum.py:114(__prepare__)
+       40    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1080(_path_importer_cache)
+        1    0.000    0.000    0.001    0.001 <string>:1(<module>)
+        1    0.000    0.000    0.001    0.001 /usr/lib/python3.6/importlib/__init__.py:108(import_module)
+      135    0.001    0.000    0.001    0.000 {method 'rpartition' of 'str' objects}
+       26    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:63(_path_split)
+       19    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:176(cb)
+        6    0.000    0.000    0.001    0.000 /usr/lib/python3.6/_pydecimal.py:564(__new__)
+        8    0.000    0.000    0.001    0.000 /usr/lib/python3.6/_collections_abc.py:657(get)
+       77    0.000    0.000    0.001    0.000 /usr/lib/python3.6/sre_parse.py:81(groups)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:982(_gcd_import)
+        4    0.000    0.000    0.001    0.000 /usr/lib/python3.6/locale.py:379(normalize)
+       19    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:58(__init__)
+        3    0.000    0.000    0.001    0.000 /usr/lib/python3.6/enum.py:462(_find_new_)
+       51    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:847(__exit__)
+       46    0.001    0.000    0.001    0.000 /usr/lib/python3.6/enum.py:28(_is_dunder)
+        1    0.000    0.000    0.001    0.001 /root/scratch/software/sensor_control/profile_manager.py:10(__init__)
+       61    0.001    0.000    0.001    0.000 {method 'get' of 'mappingproxy' objects}
+        5    0.000    0.000    0.001    0.000 /usr/lib/python3.6/inspect.py:286(isroutine)
+       14    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:976(_get_parent_path)
+       51    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:843(__enter__)
+       63    0.001    0.000    0.001    0.000 {method 'find' of 'bytearray' objects}
+        1    0.000    0.000    0.001    0.001 /root/scratch/software/sensor_control/util.py:8(open)
+        1    0.000    0.000    0.001    0.001 /root/scratch/software/sensor_control/sensor.py:4(Sensor)
+       41    0.000    0.000    0.000    0.000 /usr/lib/python3.6/types.py:135(__get__)
+       38    0.000    0.000    0.000    0.000 /usr/lib/python3.6/inspect.py:73(isclass)
+       16    0.000    0.000    0.000    0.000 {built-in method _codecs.utf_8_decode}
+       34    0.000    0.000    0.000    0.000 /usr/lib/python3.6/argparse.py:1274(register)
+       26    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:52(_r_long)
+       14    0.000    0.000    0.000    0.000 /usr/lib/python3.6/os.py:742(encode)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/subprocess.py:1414(wait)
+        1    0.000    0.000    0.000    0.000 /root/scratch/software/sensor_control/gpio.py:1(<module>)
+       36    0.000    0.000    0.000    0.000 /usr/lib/python3.6/inspect.py:159(isfunction)
+        9    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_parse.py:223(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.dir}
+       46    0.000    0.000    0.000    0.000 /usr/lib/python3.6/enum.py:36(_is_sunder)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/argparse.py:1771(_parse_known_args)
+        9    0.000    0.000    0.000    0.000 /usr/lib/python3.6/collections/__init__.py:422(<genexpr>)
+       32    0.000    0.000    0.000    0.000 /usr/lib/python3.6/inspect.py:81(ismethod)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/locale.py:345(_replace_encoding)
+       89    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+      137    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.6/posixpath.py:154(dirname)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.6/argparse.py:889(__init__)
+       21    0.000    0.000    0.000    0.000 /usr/lib/python3.6/enum.py:872(_power_of_two)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_compile.py:376(_mk_bitmap)
+        8    0.000    0.000    0.000    0.000 /usr/lib/python3.6/linecache.py:53(checkcache)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/inspect.py:2714(__init__)
+        1    0.000    0.000    0.000    0.000 /root/scratch/software/sensor_control/ar0330/ar0330.py:15(Ar0330)
+       29    0.000    0.000    0.000    0.000 /usr/lib/python3.6/inspect.py:229(istraceback)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1067(_path_hooks)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_pydecimal.py:555(Decimal)
+       29    0.000    0.000    0.000    0.000 /usr/lib/python3.6/inspect.py:239(isframe)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/fractions.py:60(Fraction)
+       64    0.000    0.000    0.000    0.000 /usr/lib/python3.6/abc.py:9(abstractmethod)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.6/enum.py:160(<setcomp>)
+       15    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_pydecimal.py:3961(_set_integer_check)
+       13    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:393(_check_name_wrapper)
+       89    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_pydecimal.py:3975(_set_signal_dict)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.6/tokenize.py:379(read_or_stop)
+        2    0.000    0.000    0.000    0.000 /root/scratch/software/sensor_control/util.py:5(__init__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.6/ast.py:215(walk)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/site-packages/fire/core.py:202(_PrintResult)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1281(_fill_cache)
+       38    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_pydecimal.py:3950(<genexpr>)
+       17    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:707(find_spec)
+       24    0.000    0.000    0.000    0.000 /usr/lib/python3.6/inspect.py:253(iscode)
+       16    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:416(parent)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1322(path_hook_for_FileFinder)
+       17    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:780(find_spec)
+        8    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_weakrefset.py:26(__exit__)
+        5    0.000    0.000    0.000    0.000 {method 'readline' of '_io.BufferedReader' objects}
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:369(__init__)
+       14    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:35(_new_module)
+       73    0.000    0.000    0.000    0.000 {method 'isupper' of 'str' objects}
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.6/tokenize.py:385(find_cookie)
+       16    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:311(__enter__)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.6/argparse.py:866(__init__)
+       44    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_parse.py:167(__setitem__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:960(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/numbers.py:32(Complex)
+       18    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_compile.py:539(isstring)
+        9    0.000    0.000    0.000    0.000 /usr/lib/python3.6/collections/__init__.py:420(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/ast.py:30(parse)
+        9    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/numbers.py:147(Real)
+       75    0.000    0.000    0.000    0.000 /usr/lib/python3.6/signal.py:22(<lambda>)
+       13    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_weakrefset.py:81(add)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.6/argparse.py:1476(_pop_action_class)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/encodings/__init__.py:43(normalize_encoding)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_pydecimal.py:3906(Context)
+       14    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:966(_find_parent_path_names)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.6/argparse.py:569(format)
+       26    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/site-packages/fire/trace.py:96(AddCalledRoutine)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/inspect.py:91(ismethoddescriptor)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:999(__len__)
+       74    0.000    0.000    0.000    0.000 /usr/lib/python3.6/signal.py:17(<lambda>)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.6/inspect.py:2435(__init__)
+       30    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_pydecimal.py:3957(<genexpr>)
+       23    0.000    0.000    0.000    0.000 {method 'setter' of 'property' objects}
+       40    0.000    0.000    0.000    0.000 {method 'items' of 'collections.OrderedDict' objects}
+       27    0.000    0.000    0.000    0.000 {built-in method _sre.getlower}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.compile}
+       64    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:321(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/numbers.py:294(Integral)
+       26    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+       74    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+       39    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        8    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_compile.py:102(fixup)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:194(_lock_unlock_module)
+       13    0.000    0.000    0.000    0.000 /usr/lib/python3.6/argparse.py:1278(_registry_get)
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:143(__init__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/site-packages/fire/inspectutils.py:51(_GetArgSpecInfo)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.6/enum.py:135(<dictcomp>)
+       16    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:307(__init__)
+       15    0.000    0.000    0.000    0.000 {method 'encode' of 'str' objects}
+       17    0.000    0.000    0.000    0.000 /usr/lib/python3.6/enum.py:820(_high_bit)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/site-packages/yaml/cyaml.py:30(__init__)
+        2    0.000    0.000    0.000    0.000 {method 'close' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/subprocess.py:1401(_try_wait)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.6/argparse.py:789(__init__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_compile.py:378(<listcomp>)
+       42    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+       38    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:99(_path_isdir)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1196(__init__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.6/enum.py:310(__getattr__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/posixpath.py:144(basename)
+       40    0.000    0.000    0.000    0.000 /usr/lib/python3.6/enum.py:628(<lambda>)
+        1    0.000    0.000    0.000    0.000 {built-in method posix.listdir}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/subprocess.py:1348(_handle_exitstatus)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.6/codecs.py:308(__init__)
+        8    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_weakrefset.py:20(__enter__)
+       13    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:800(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:927(exec_module)
+       33    0.000    0.000    0.000    0.000 {method 'isidentifier' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 {built-in method posix.close}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.pow}
+        2    0.000    0.000    0.000    0.000 {method 'extend' of 'collections.deque' objects}
+       51    0.000    0.000    0.000    0.000 /usr/lib/python3.6/inspect.py:358(<lambda>)
+       39    0.000    0.000    0.000    0.000 /usr/lib/python3.6/enum.py:592(name)
+       13    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+        1    0.000    0.000    0.000    0.000 <string>:5(SelectorKey)
+       10    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        8    0.000    0.000    0.000    0.000 /usr/lib/python3.6/inspect.py:277(isbuiltin)
+        9    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_parse.py:76(__init__)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.6/argparse.py:1489(_check_conflict)
+       15    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/site-packages/fire/decorators.py:87(GetMetadata)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/subprocess.py:542(Popen)
+        1    0.000    0.000    0.000    0.000 {built-in method posix.waitpid}
+       16    0.000    0.000    0.000    0.000 /root/scratch/software/sensor_control/wrappers.py:45(_get_set_for_property)
+       17    0.000    0.000    0.000    0.000 {built-in method _imp.is_frozen}
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.6/fractions.py:294(_operator_fallbacks)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.6/ast.py:178(iter_child_nodes)
+       18    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+       28    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.6/inspect.py:2759(<genexpr>)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.6/site-packages/fire/trace.py:245(__init__)
+        1    0.000    0.000    0.000    0.000 <string>:5(DecimalTuple)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/site-packages/fire/inspectutils.py:29(__init__)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.6/argparse.py:1480(_get_handler)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/site-packages/fire/trace.py:64(GetResult)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.6/enum.py:65(__init__)
+        8    0.000    0.000    0.000    0.000 {method 'decode' of 'bytes' objects}
+        7    0.000    0.000    0.000    0.000 {method 'lstrip' of 'str' objects}
+       30    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:41(_relax_case)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/selectors.py:79(BaseSelector)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.6/argparse.py:202(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/argparse.py:831(__init__)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_compile.py:414(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/subprocess.py:1154(_get_handles)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_compile.py:441(_get_charset_prefix)
+        8    0.000    0.000    0.000    0.000 /usr/lib/python3.6/ast.py:166(iter_fields)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/site-packages/fire/trace.py:50(__init__)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.6/functools.py:74(wraps)
+        8    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_weakrefset.py:16(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/argparse.py:1916(consume_positionals)
+        5    0.000    0.000    0.000    0.000 <string>:12(__new__)
+        9    0.000    0.000    0.000    0.000 /usr/lib/python3.6/enum.py:179(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/subprocess.py:746(__exit__)
+        6    0.000    0.000    0.000    0.000 /usr/lib/python3.6/argparse.py:560(_metavar_formatter)
+        4    0.000    0.000    0.000    0.000 {method 'seek' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/site-packages/fire/trace.py:85(AddAccessedProperty)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_compile.py:393(_generate_overlap_table)
+        3    0.000    0.000    0.000    0.000 {built-in method posix.getcwd}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_bootlocale.py:23(getpreferredencoding)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/ast.py:40(literal_eval)
+       12    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        2    0.000    0.000    0.000    0.000 {built-in method posix.pipe}
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.6/enum.py:335(__members__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/site-packages/fire/trace.py:68(GetLastHealthyElement)
+       16    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:424(has_location)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/numbers.py:267(Rational)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/subprocess.py:60(CalledProcessError)
+       16    0.000    0.000    0.000    0.000 {built-in method builtins.callable}
+        8    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_weakrefset.py:52(_commit_removals)
+       13    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:825(get_filename)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/subprocess.py:852(poll)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/site-packages/fire/core.py:665(_ParseKeywordArgs)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.repr}
+       11    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        4    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+       10    0.000    0.000    0.000    0.000 {method 'group' of '_sre.SRE_Match' objects}
+        3    0.000    0.000    0.000    0.000 {method 'mro' of 'type' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/os.py:794(fsencode)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.6/codecs.py:259(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/argparse.py:2282(_get_value)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:908(__init__)
+       17    0.000    0.000    0.000    0.000 {method 'bit_length' of 'int' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/subprocess.py:97(TimeoutExpired)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/inspect.py:172(isgeneratorfunction)
+        4    0.000    0.000    0.000    0.000 {method 'startswith' of 'bytes' objects}
+        1    0.000    0.000    0.000    0.000 /root/scratch/software/sensor_control/ar0330/analog_gain.py:4(<module>)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/selectors.py:59(_SelectorMapping)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/os.py:746(decode)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_collections_abc.py:92(__subclasshook__)
+        2    0.000    0.000    0.000    0.000 {method 'values' of 'mappingproxy' objects}
+        8    0.000    0.000    0.000    0.000 {method '__subclasses__' of 'type' objects}
+       10    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+        8    0.000    0.000    0.000    0.000 /usr/lib/python3.6/inspect.py:2484(name)
+        1    0.000    0.000    0.000    0.000 {built-in method posix.WIFSIGNALED}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/selectors.py:290(SelectSelector)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/site-packages/yaml/constructor.py:18(__init__)
+       13    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:669(create_module)
+        2    0.000    0.000    0.000    0.000 {method 'translate' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.vars}
+        7    0.000    0.000    0.000    0.000 /usr/lib/python3.6/inspect.py:2488(default)
+        9    0.000    0.000    0.000    0.000 {method '__contains__' of 'frozenset' objects}
+       10    0.000    0.000    0.000    0.000 {method 'isalnum' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/selectors.py:205(_BaseSelectorImpl)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/site-packages/fire/trace.py:81(HasError)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/argparse.py:1721(_get_positional_actions)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/ast.py:51(_convert)
+        8    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+        8    0.000    0.000    0.000    0.000 {method '__subclasshook__' of 'object' objects}
+        3    0.000    0.000    0.000    0.000 {built-in method sys._getframe}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/subprocess.py:350(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/argparse.py:2067(_match_arguments_partial)
+        2    0.000    0.000    0.000    0.000 {method 'items' of 'mappingproxy' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/subprocess.py:758(__del__)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1202(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/selectors.py:394(EpollSelector)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.6/argparse.py:591(<listcomp>)
+        1    0.000    0.000    0.000    0.000 {built-in method _locale.nl_langinfo}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_collections_abc.py:72(_check_methods)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/site-packages/fire/trace.py:157(AddSeparator)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.6/sre_parse.py:161(__delitem__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/site-packages/yaml/resolver.py:21(__init__)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.6/inspect.py:2496(kind)
+        2    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/selectors.py:343(PollSelector)
+        5    0.000    0.000    0.000    0.000 /usr/lib/python3.6/enum.py:866(<lambda>)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/subprocess.py:1366(_internal_poll)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.6/codecs.py:330(getstate)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:917(_sanity_check)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/subprocess.py:339(CompletedProcess)
+        2    0.000    0.000    0.000    0.000 {built-in method _imp.exec_dynamic}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_pydecimal.py:5651(_WorkRep)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_pydecimal.py:3891(_ContextManager)
+        4    0.000    0.000    0.000    0.000 /usr/lib/python3.6/inspect.py:2492(annotation)
+        3    0.000    0.000    0.000    0.000 /usr/lib/python3.6/site-packages/fire/trace.py:276(HasError)
+        1    0.000    0.000    0.000    0.000 {method 'rfind' of 'bytes' objects}
+        2    0.000    0.000    0.000    0.000 {method 'index' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /root/scratch/software/sensor_control/gpio.py:3(GPIO)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/subprocess.py:203(_cleanup)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/inspect.py:2793(return_annotation)
+        3    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_pydecimal.py:5889(_Log10Memoize)
+        1    0.000    0.000    0.000    0.000 /root/scratch/software/sensor_control/i2c.py:4(I2c)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/argparse.py:1722(<listcomp>)
+        1    0.000    0.000    0.000    0.000 {built-in method posix.WIFEXITED}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_pydecimal.py:5893(__init__)
+        4    0.000    0.000    0.000    0.000 {method 'reverse' of 'list' objects}
+        3    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method posix.WEXITSTATUS}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_pydecimal.py:188(DecimalException)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_pydecimal.py:223(InvalidOperation)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_pydecimal.py:252(ConversionSyntax)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_pydecimal.py:262(DivisionByZero)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_pydecimal.py:278(DivisionImpossible)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_pydecimal.py:312(InvalidContext)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_pydecimal.py:349(Overflow)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/site-packages/fire/parser.py:37(SeparateFlagArgs)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/inspect.py:2789(parameters)
+        1    0.000    0.000    0.000    0.000 {method 'index' of 'list' objects}
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.globals}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/numbers.py:12(Number)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_pydecimal.py:289(DivisionUndefined)
+        1    0.000    0.000    0.000    0.000 /root/scratch/software/sensor_control/gpio.py:4(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'count' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 /root/scratch/software/sensor_control/i2c.py:5(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/argparse.py:1207(__init__)
+        2    0.000    0.000    0.000    0.000 /usr/lib/python3.6/enum.py:597(value)
+        1    0.000    0.000    0.000    0.000 {method 'rstrip' of 'bytes' objects}
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_pydecimal.py:211(Clamped)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_pydecimal.py:300(Inexact)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_pydecimal.py:326(Rounded)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_pydecimal.py:387(Underflow)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_pydecimal.py:402(FloatOperation)
+        2    0.000    0.000    0.000    0.000 {method 'popleft' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/_pydecimal.py:338(Subnormal)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/subprocess.py:743(__enter__)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/subprocess.py:57(SubprocessError)
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/site-packages/fire/trace.py:285(AddSeparator)
+        1    0.000    0.000    0.000    0.000 {method 'dispose' of '_yaml.CParser' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 /usr/lib/python3.6/argparse.py:1638(identity)
+
+
+

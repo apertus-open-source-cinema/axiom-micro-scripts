@@ -393,10 +393,19 @@ int main(int argc, char** argv) {
 
     bool good_values[4][32] = { { 0 } };
 
-    delay.set(0, 12);
-    delay.set(1, 12);
-    delay.set(2, 12);
-    delay.set(3, 12);
+    if(argc == 5) {
+        for(int i = 0; i < 4; i++) {
+            delay.set(i, atoi(argv[i + 1]));
+        }
+        return 0;
+    }
+
+    /*
+    delay.set(0, 5);
+    delay.set(1, 5);
+    delay.set(2, 5);
+    delay.set(3, 5);
+    */
     
     auto raw_data = dma.transfer(data_size); 
     if(argc == 2) {

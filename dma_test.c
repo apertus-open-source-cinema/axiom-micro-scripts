@@ -56,7 +56,7 @@ int dma_s2mm_sync(unsigned int* dma_virtual_address) {
     unsigned int s2mm_status = dma_get(dma_virtual_address, S2MM_STATUS_REGISTER);
     while(!(s2mm_status & 0x2) && !(s2mm_status & 0x1)) {
 	// printf("%d\n", s2mm_status & 0x2);
-//        dma_s2mm_status(dma_virtual_address);
+        dma_s2mm_status(dma_virtual_address);
 
 //	memdump(dest, 32);
 
@@ -105,7 +105,7 @@ int main() {
 //    int dest_base = 0x07800000;
     int dh = open("/dev/mem", O_RDWR | O_SYNC); // Open /dev/mem which represents the whole physical memory
     int outfile = open("dump.ram", O_RDWR | O_CREAT);
-    size_t size = 1 << 27;
+    size_t size = 1 << 25;
 //    size_t size = 1 << 24;
     lseek(outfile, size - 1, SEEK_SET);
     write(outfile, "", 1);
@@ -118,16 +118,16 @@ int main() {
 
 //    printf("0x%x\n", tlast_gen);
 
-    size_t blksize = 1 << 22;
+    size_t blksize = 1 << 25;
 //    size_t blksize = 1 << 6;
 
 
     dma_set(virtual_address, S2MM_CONTROL_REGISTER, 4);
 
     // memset(out_map, 0, size); // Clear destination file
-    memset(virtual_destination_address, 1, size); // Clear destination block
+    memset(virtual_destination_address, 0xff, size); // Clear destination block
 //    memdump(virtual_destination_address, size);
-    tlast_gen[2] = blksize / 4;
+    tlast_gen[2] = blksize / 8;
     sleep(1);
 
 

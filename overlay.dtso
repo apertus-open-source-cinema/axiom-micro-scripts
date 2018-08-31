@@ -1,0 +1,23 @@
+//Device Tree Example: Full Reconfiguration without Bridges
+// HSI Generated overlay/pl.dtsi file.
+// Enable the axi-gpio interface
+/dts-v1/;
+/plugin/;
+ 
+/ {
+ 
+    fragment@0 {
+ 
+        target = <&fpga_full>;
+        #address-cells = <1>;
+        #size-cells = <1>;
+ 
+        __overlay__ {
+            #address-cells = <1>;
+            #size-cells = <1>;
+ 
+            firmware-name = "stream.bit.bin";
+        };
+    };
+};
+

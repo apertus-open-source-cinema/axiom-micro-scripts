@@ -61,12 +61,14 @@ uint12_t get_shifted(volatile uint32_t * in, int offset, int lane = 0) {
     12 - 8 - (8 - offset) in the last; 
     */
 
+    /*
     uint32_t tmp = 0;
     tmp |= ((in[0] >> (lane * 8)) & 0xff);
     tmp |= ((in[1] >> (lane * 8)) & 0xff) << 8;
     tmp |= ((in[2] >> (lane * 8)) & 0xff) << 16;
 
     out.data = (tmp >> offset) & 0xfff;
+    */
     
 /*
     offset = 0;
@@ -85,7 +87,6 @@ uint12_t get_shifted(volatile uint32_t * in, int offset, int lane = 0) {
 
 //    out.data |= 
 
-   /* 
     for(int i = offset; i < 8; i++) {
         out.data |= ((in[0] >> (lane + 4 * i)) & 1) << bitpos++;
     }
@@ -100,7 +101,6 @@ uint12_t get_shifted(volatile uint32_t * in, int offset, int lane = 0) {
         out.data |= ((in[2] >> (lane + 4 * i++)) & 1) << bitpos++;
     } 
 
-    */
     // we swapped the p / n differential pairs to make routing easier / better
     out.data = ~out.data;
 
